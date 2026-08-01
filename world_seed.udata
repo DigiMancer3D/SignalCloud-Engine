@@ -1,0 +1,15 @@
+@udata 1
+
+[header]
+data_type: {"name":"signalcloud_world_seed"};
+seed_format: {"value":"uint64_hex"};
+
+[body]
+global_seed: {"value":"000000000A11D0A1"};
+region_id: {"value":"pivot_room_000"};
+chunk_coord: {"x":0,"y":0,"z":0};
+room_family: {"value":"mono_yellow_office"};
+point_count: {"value":100000};
+
+[footer]
+deterministic: {"value":true};

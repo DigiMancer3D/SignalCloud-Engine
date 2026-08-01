@@ -1,0 +1,15 @@
+@jmap 1
+name office_carpet
+character bumpy
+preset office_carpet
+cluster_radius 0.22
+signal_distance 0.55
+jitter_amp 0.10
+cluster_count 28
+layer HD_Texture
+visibility 0.28
+opacity 1.0
+# x y z  r g b  radius  cluster
+DOT 0.120 0.000 0.340  0.42 0.38 0.31  0.018  3
+DOT ...
+END

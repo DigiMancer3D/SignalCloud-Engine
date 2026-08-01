@@ -1,0 +1,18 @@
+@udata 1
+
+[abi]
+schema_name: "signalcloud.content-abi";
+schema_major: 1;
+schema_minor: 0;
+manifest_compatibility: "content/manifest.csv";
+extended_manifest: "content/manifest_v2.json";
+asset_envelope_suffix: ".asset.udata";
+content_roots: ["core","starter","mods","user","quarantine"];
+normal_save_hot_reload: false;
+authoring_preview_hot_reload: true;
+quarantine_policy: "explicit-user-mod-only";
+
+[formats]
+authoring: [".pcp3",".pcp3cloud",".scui",".slight",".sclight",".jmap",".texgraph",".playbook",".scanim",".scphysics",".tupd",".udata"];
+unknown_fields: "preserve-by-default";
+commands: "allowlist-only";

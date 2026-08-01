@@ -1,0 +1,21 @@
+@udata 1
+
+[asset]
+schema_name: "signalcloud.asset";
+schema_major: 1;
+schema_minor: 0;
+asset_id: "user.example.asset";
+asset_type: "example";
+family: "general";
+pack: "user";
+license_id: "LicenseRef-User-Provided";
+dependencies: [];
+hot_reload: "authoring-only";
+source_path: "content/user/example/example.udata";
+source_sha256: "replace-with-64-character-sha256";
+data_only: true;
+runtime_sidecar: "";
+unknown_fields_policy: "preserve";
+
+[extensions]
+notes: "Unknown fields and sections are retained by authoring tools that rewrite this envelope.";
