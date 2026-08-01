@@ -1,0 +1,70 @@
+{
+  "base_item_id": "weapon.service-pistol",
+  "connections": [],
+  "consumed_inputs": [
+    "part.office-bracket",
+    "consumable.tupd-tape"
+  ],
+  "cost_xar": 0,
+  "forced_connections": [
+    "part.office-bracket>weapon.service-pistol@body"
+  ],
+  "inputs": [
+    "weapon.service-pistol",
+    "part.office-bracket",
+    "consumable.tupd-tape"
+  ],
+  "label": "Forced Office Bracket Modification",
+  "malfunction_policy": "low-condition-stumble-preview",
+  "mode": "forced_modification",
+  "optional_interfaces": [],
+  "point_budget": 2100,
+  "preview_color": "#f0a34a",
+  "preview_shape": "weapon",
+  "receipt_policy": "deterministic",
+  "recipe_id": "starter.forced-office-bracket",
+  "recipe_revision": 1,
+  "repair_percent": 0.0,
+  "required_interfaces": [
+    "weapon.base",
+    "object.office",
+    "socket.body",
+    "tupd.tape",
+    "safe-room",
+    "sandbox"
+  ],
+  "result_id": "weapon.service-pistol.office-bracket",
+  "result_interfaces": [
+    "weapon.modified",
+    "improvised.forced"
+  ],
+  "result_kind": "weapon-modification",
+  "result_name": "Service Pistol + Forced Office Bracket",
+  "result_sockets": [
+    "body",
+    "forced-mount"
+  ],
+  "result_tags": [
+    "weapon",
+    "modified",
+    "forced",
+    "improvised"
+  ],
+  "schema": "signalcloud.tupd-recipe",
+  "schema_major": 1,
+  "schema_minor": 1,
+  "stability_penalty": 28.0,
+  "test_actions": [
+    "inspect",
+    "handle",
+    "primary",
+    "collision",
+    "break"
+  ],
+  "validation_rules": [
+    "allow_forced_connection",
+    "safe_room",
+    "sandbox_only"
+  ],
+  "weight_penalty": 0.45
+}

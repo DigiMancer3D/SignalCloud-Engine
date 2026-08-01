@@ -1,0 +1,41 @@
+{
+  "break_threshold": 410.0,
+  "collision_half_x": 2.2,
+  "collision_half_y": 1.4,
+  "collision_half_z": 0.15,
+  "collision_radius": 2.6119915773217954,
+  "drag": 0.04,
+  "extensions": {},
+  "friction": 0.88,
+  "gravity_scale": 1.0,
+  "hold_points": [],
+  "impact_multiplier": 1.0,
+  "mass": 48.0,
+  "profile_id": "showcase.modular_office_wall_panel",
+  "restitution": 0.05,
+  "schema": "signalcloud.physics-profile",
+  "schema_major": 1,
+  "schema_minor": 1,
+  "shape": "box",
+  "sleep_policy": "after_settle",
+  "sockets": [
+    {
+      "id": "wall_left",
+      "kind": "architecture",
+      "position": [
+        -2.2,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wall_right",
+      "kind": "architecture",
+      "position": [
+        2.2,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+@udata 1
+
+[header]
+data_type: {"name":"threshold_pursuit_config"};
+version: {"value":"0.13.0-a3"};
+
+[body]
+pursuit_window_seconds: {"value":3.0};
+maximum_pursuers_per_threshold: {"value":2};
+instant_cross_room_transport: {"value":false};
+source_threshold_recovery: {"value":"creature_sized_nearest_valid_position"};
+requires_active_pursuit_memory: {"value":true};
+requires_connected_threshold: {"value":true};
+preview_signature_enabled: {"value":true};
+preview_signature_style: {"value":"translucent_full_creature"};
+preview_signature_point_cap: {"value":10000};
+preview_destination_offset: {"value":1.55};
+cancel_if_player_returns: {"value":true};
+expire_if_route_blocked: {"value":true};
+expire_if_window_elapses: {"value":true};
+protected_zone_entry: {"value":false};
+
+[footer]
+notes: {"value":"Pivot 13 a3 makes room pursuit physical and suspenseful: a chasing threat must reach a collision-valid source-side threshold within three seconds, appears first as an adjacent-room preview signature, and emerges only after completing the route."};

@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.office-barrier.source";
+asset_type: "udata";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["starter.tupd.office-barrier"];
+hot_reload: "disabled";
+source_sha256: "ec90991c436e763ad7486d8ccb220b6fd2a844f8a7cdfdf54c7c9def932a4ca2";
+data_only: true;
+unknown_fields_policy: "preserve";

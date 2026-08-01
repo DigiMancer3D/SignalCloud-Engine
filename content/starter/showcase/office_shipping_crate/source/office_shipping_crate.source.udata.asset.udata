@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.office_shipping_crate";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.office_shipping_crate"];
+hot_reload: "disabled";
+source_sha256: "24d3831bafa07c579d5ccfde3af296d2819106f7b80d457d5e3f5dbd8438b1c5";
+data_only: true;
+unknown_fields_policy: "preserve";

@@ -1,0 +1,168 @@
+{
+  "active_layer_id": 6,
+  "asset_id": "tutorial_raid_starter",
+  "author": {
+    "asset_type": "raid",
+    "creator_name": "SignalCloud Documentation",
+    "description": "Assemble an arena, entry portal, boss slots, wave triggers, friendlies, completion conditions, and reward telemetry.",
+    "tags": [
+      "pcp3",
+      "tutorial",
+      "raid",
+      "branch12"
+    ],
+    "title": "Raid Tutorial Starter"
+  },
+  "certificate_file": "raid_starter.pcpcert.json",
+  "cloud_file": "raid_starter.pcp3cloud",
+  "cloud_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "display_name": "Raid Tutorial Starter",
+  "environment_type": "raid",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Arena",
+      "id": 1,
+      "locked": false,
+      "name": "Arena Floor",
+      "opacity": 1.0,
+      "semantic": "floor",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Arena",
+      "id": 2,
+      "locked": false,
+      "name": "Arena Boundary",
+      "opacity": 1.0,
+      "semantic": "wall",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Gameplay",
+      "id": 3,
+      "locked": false,
+      "name": "Player Entry",
+      "opacity": 1.0,
+      "semantic": "portal",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Gameplay",
+      "id": 4,
+      "locked": false,
+      "name": "Boss Slots",
+      "opacity": 1.0,
+      "semantic": "trigger",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Gameplay",
+      "id": 5,
+      "locked": false,
+      "name": "Wave Triggers",
+      "opacity": 1.0,
+      "semantic": "trigger",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Effects",
+      "id": 6,
+      "locked": false,
+      "name": "Arena Lighting",
+      "opacity": 1.0,
+      "semantic": "light",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "authoring_help_schema": "pcp3_authoring_help_v1",
+    "editor_branch": "ISL_plus_branch12",
+    "future_mode_data": {},
+    "mode_profile": "raid",
+    "mode_profile_version": 1,
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 6000000,
+    "runtime_policy": "disabled_until_user_authoring",
+    "tool_profile": "encounter_layout",
+    "tutorial_mode": "raid",
+    "tutorial_starter": true,
+    "tutorial_workflow_file": "docs/tutorials/PCP3_MODE_RAID_WORKFLOW.md"
+  },
+  "point_count": 0,
+  "point_record_size": 64,
+  "project_id": "47bdadb0-ff30-442c-88d8-dd1f6955f265",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": false,
+    "preview_position": [
+      2.0,
+      1.0,
+      -3.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 140.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 48.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 140.0
+  },
+  "unknown_fields_policy": "preserve"
+}

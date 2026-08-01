@@ -1,0 +1,30 @@
+@format: udata;
+@schema: "pcp3_streaming_runtime_v1";
+
+[streaming]
+enabled: true;
+game_enabled: false;
+stress_enabled: true;
+profile: "adaptive_8m";
+lod_policy: "distance_semantic";
+chunk_edge: 6.000000;
+chunk_point_target: 65536;
+max_resident_chunks: 64;
+background_loading: true;
+preload_adjacent: true;
+near_distance: 18.000000;
+mid_distance: 50.000000;
+far_distance: 120.000000;
+near_ratio: 1.000000;
+mid_ratio: 0.550000;
+far_ratio: 0.220000;
+very_far_ratio: 0.060000;
+minimum_points: 768;
+maximum_points: 250000;
+frame_upload_budget_points: 100000;
+preserve_semantic_points: true;
+semantic_reserve_ratio: 0.180000;
+stability_hysteresis: 0.120000;
+show_debug: true;
+source_point_count: 36556;
+chunk_count: 95;

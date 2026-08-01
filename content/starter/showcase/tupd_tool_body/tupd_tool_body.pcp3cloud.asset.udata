@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.tupd_tool_body";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.tupd_tool_body"];
+hot_reload: "disabled";
+source_sha256: "54c04d845827ab9fb0364537161083bc75c6fd2924f98fe1a38ce0fe25d46934";
+data_only: true;
+unknown_fields_policy: "preserve";

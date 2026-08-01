@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.portable_signal_beacon";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.portable_signal_beacon"];
+hot_reload: "disabled";
+source_sha256: "60df8fbd8c53eeceb66a3858a61faa887d20a791002835a46374745e439111f6";
+data_only: true;
+unknown_fields_policy: "preserve";

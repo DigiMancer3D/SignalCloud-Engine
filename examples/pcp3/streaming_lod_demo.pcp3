@@ -1,0 +1,149 @@
+{
+  "active_layer_id": 1,
+  "asset_id": "streaming_lod_demo",
+  "author": {
+    "asset_type": "room",
+    "creator_name": "SignalCloud Branch 11",
+    "description": "A multi-semantic room used to inspect deterministic chunk manifests and distance LOD.",
+    "tags": [],
+    "title": "Streaming LOD Demo Room"
+  },
+  "certificate_file": "streaming_lod_demo.pcpcert.json",
+  "cloud_file": "streaming_lod_demo.pcp3cloud",
+  "cloud_sha256": "ec48d78ae8822cdb8ec4321fdf4082078d557af24f96d0e0781a964b794ca60c",
+  "display_name": "Streaming LOD Demo Room",
+  "environment_type": "room",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 1,
+      "locked": false,
+      "name": "Walls",
+      "opacity": 1.0,
+      "semantic": "wall",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 2,
+      "locked": false,
+      "name": "Floor",
+      "opacity": 1.0,
+      "semantic": "floor",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 3,
+      "locked": false,
+      "name": "Ceiling",
+      "opacity": 1.0,
+      "semantic": "ceiling",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 4,
+      "locked": false,
+      "name": "Lights",
+      "opacity": 1.0,
+      "semantic": "light",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 5,
+      "locked": false,
+      "name": "Detail",
+      "opacity": 1.0,
+      "semantic": "generic",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "editor_branch": "ISL_plus_branch2",
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 4000000,
+    "streaming_chunks_file": "streaming_lod_demo.pcp3chunks.json",
+    "streaming_json_file": "streaming_lod_demo.pcp3stream.json",
+    "streaming_runtime": {
+      "background_loading": true,
+      "chunk_edge": 6.0,
+      "chunk_point_target": 65536,
+      "enabled": true,
+      "far_distance": 120.0,
+      "far_ratio": 0.22,
+      "frame_upload_budget_points": 100000,
+      "future_attributes": {},
+      "game_enabled": false,
+      "lod_policy": "distance_semantic",
+      "max_resident_chunks": 64,
+      "maximum_points": 250000,
+      "mid_distance": 50.0,
+      "mid_ratio": 0.55,
+      "minimum_points": 768,
+      "near_distance": 18.0,
+      "near_ratio": 1.0,
+      "preload_adjacent": true,
+      "preserve_semantic_points": true,
+      "profile": "adaptive_8m",
+      "semantic_reserve_ratio": 0.18,
+      "show_debug": true,
+      "stability_hysteresis": 0.12,
+      "stress_enabled": true,
+      "very_far_ratio": 0.06
+    },
+    "streaming_udata_file": "streaming_lod_demo.pcp3stream.udata",
+    "tool_profile": "room_builder"
+  },
+  "point_count": 36556,
+  "point_record_size": 64,
+  "project_id": "95cf756e-ddee-49b1-bbcb-7af71f9710a3",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": true,
+    "preview_position": [
+      2.0,
+      1.0,
+      -3.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 48.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 12.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 36.0
+  },
+  "unknown_fields_policy": "preserve"
+}

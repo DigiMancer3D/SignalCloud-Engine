@@ -1,0 +1,2101 @@
+{
+  "asset_id": "streaming_lod_demo",
+  "chunk_count": 95,
+  "chunk_edge": 6.0,
+  "chunks": [
+    {
+      "center": [
+        -12.125,
+        2.691667,
+        -9.191304
+      ],
+      "grid": [
+        -3,
+        0,
+        -2
+      ],
+      "id": "chunk_00000",
+      "important_points": 360,
+      "lod_counts": {
+        "far": 80,
+        "mid": 199,
+        "near": 360,
+        "very_far": 22
+      },
+      "point_count": 360,
+      "radius": 4.299721
+    },
+    {
+      "center": [
+        -12.125,
+        2.684211,
+        -2.956522
+      ],
+      "grid": [
+        -3,
+        0,
+        -1
+      ],
+      "id": "chunk_00001",
+      "important_points": 323,
+      "lod_counts": {
+        "far": 72,
+        "mid": 178,
+        "near": 323,
+        "very_far": 20
+      },
+      "point_count": 323,
+      "radius": 4.078965
+    },
+    {
+      "center": [
+        -12.125,
+        2.684211,
+        2.956522
+      ],
+      "grid": [
+        -3,
+        0,
+        0
+      ],
+      "id": "chunk_00002",
+      "important_points": 323,
+      "lod_counts": {
+        "far": 72,
+        "mid": 178,
+        "near": 323,
+        "very_far": 20
+      },
+      "point_count": 323,
+      "radius": 4.078965
+    },
+    {
+      "center": [
+        -12.125,
+        2.684211,
+        8.869565
+      ],
+      "grid": [
+        -3,
+        0,
+        1
+      ],
+      "id": "chunk_00003",
+      "important_points": 323,
+      "lod_counts": {
+        "far": 72,
+        "mid": 178,
+        "near": 323,
+        "very_far": 20
+      },
+      "point_count": 323,
+      "radius": 4.078965
+    },
+    {
+      "center": [
+        -12.125,
+        2.756757,
+        12.0
+      ],
+      "grid": [
+        -3,
+        0,
+        2
+      ],
+      "id": "chunk_00004",
+      "important_points": 37,
+      "lod_counts": {
+        "far": 9,
+        "mid": 21,
+        "near": 37,
+        "very_far": 3
+      },
+      "point_count": 37,
+      "radius": 2.90991
+    },
+    {
+      "center": [
+        -12.125,
+        6.0,
+        -9.123384
+      ],
+      "grid": [
+        -3,
+        1,
+        -2
+      ],
+      "id": "chunk_00005",
+      "important_points": 37,
+      "lod_counts": {
+        "far": 9,
+        "mid": 21,
+        "near": 37,
+        "very_far": 3
+      },
+      "point_count": 37,
+      "radius": 3.036428
+    },
+    {
+      "center": [
+        -12.125,
+        6.0,
+        -2.956522
+      ],
+      "grid": [
+        -3,
+        1,
+        -1
+      ],
+      "id": "chunk_00006",
+      "important_points": 34,
+      "lod_counts": {
+        "far": 8,
+        "mid": 19,
+        "near": 34,
+        "very_far": 3
+      },
+      "point_count": 34,
+      "radius": 2.782609
+    },
+    {
+      "center": [
+        -12.125,
+        6.0,
+        2.956522
+      ],
+      "grid": [
+        -3,
+        1,
+        0
+      ],
+      "id": "chunk_00007",
+      "important_points": 34,
+      "lod_counts": {
+        "far": 8,
+        "mid": 19,
+        "near": 34,
+        "very_far": 3
+      },
+      "point_count": 34,
+      "radius": 2.782609
+    },
+    {
+      "center": [
+        -12.125,
+        6.0,
+        8.869565
+      ],
+      "grid": [
+        -3,
+        1,
+        1
+      ],
+      "id": "chunk_00008",
+      "important_points": 34,
+      "lod_counts": {
+        "far": 8,
+        "mid": 19,
+        "near": 34,
+        "very_far": 3
+      },
+      "point_count": 34,
+      "radius": 2.782609
+    },
+    {
+      "center": [
+        -12.125,
+        6.0,
+        12.0
+      ],
+      "grid": [
+        -3,
+        1,
+        2
+      ],
+      "id": "chunk_00009",
+      "important_points": 3,
+      "lod_counts": {
+        "far": 1,
+        "mid": 2,
+        "near": 3,
+        "very_far": 1
+      },
+      "point_count": 3,
+      "radius": 0.0
+    },
+    {
+      "center": [
+        -9.364706,
+        -0.09,
+        -9.364706
+      ],
+      "grid": [
+        -2,
+        -1,
+        -2
+      ],
+      "id": "chunk_00010",
+      "important_points": 255,
+      "lod_counts": {
+        "far": 57,
+        "mid": 141,
+        "near": 255,
+        "very_far": 16
+      },
+      "point_count": 255,
+      "radius": 4.192727
+    },
+    {
+      "center": [
+        -9.375,
+        -0.09,
+        -3.2
+      ],
+      "grid": [
+        -2,
+        -1,
+        -1
+      ],
+      "id": "chunk_00011",
+      "important_points": 240,
+      "lod_counts": {
+        "far": 53,
+        "mid": 132,
+        "near": 240,
+        "very_far": 15
+      },
+      "point_count": 240,
+      "radius": 4.085416
+    },
+    {
+      "center": [
+        -9.375,
+        -0.09,
+        2.8
+      ],
+      "grid": [
+        -2,
+        -1,
+        0
+      ],
+      "id": "chunk_00012",
+      "important_points": 240,
+      "lod_counts": {
+        "far": 53,
+        "mid": 132,
+        "near": 240,
+        "very_far": 15
+      },
+      "point_count": 240,
+      "radius": 4.085416
+    },
+    {
+      "center": [
+        -9.375,
+        -0.09,
+        8.8
+      ],
+      "grid": [
+        -2,
+        -1,
+        1
+      ],
+      "id": "chunk_00013",
+      "important_points": 240,
+      "lod_counts": {
+        "far": 53,
+        "mid": 132,
+        "near": 240,
+        "very_far": 15
+      },
+      "point_count": 240,
+      "radius": 4.085416
+    },
+    {
+      "center": [
+        -9.290323,
+        -0.09,
+        12.0
+      ],
+      "grid": [
+        -2,
+        -1,
+        2
+      ],
+      "id": "chunk_00014",
+      "important_points": 31,
+      "lod_counts": {
+        "far": 7,
+        "mid": 18,
+        "near": 31,
+        "very_far": 2
+      },
+      "point_count": 31,
+      "radius": 2.890323
+    },
+    {
+      "center": [
+        -9.191304,
+        2.691667,
+        -12.125
+      ],
+      "grid": [
+        -2,
+        0,
+        -3
+      ],
+      "id": "chunk_00015",
+      "important_points": 360,
+      "lod_counts": {
+        "far": 80,
+        "mid": 199,
+        "near": 360,
+        "very_far": 22
+      },
+      "point_count": 360,
+      "radius": 4.299721
+    },
+    {
+      "center": [
+        -9.671258,
+        2.36996,
+        -9.671258
+      ],
+      "grid": [
+        -2,
+        0,
+        -2
+      ],
+      "id": "chunk_00016",
+      "important_points": 1230,
+      "lod_counts": {
+        "far": 334,
+        "mid": 835,
+        "near": 1518,
+        "very_far": 92
+      },
+      "point_count": 1518,
+      "radius": 5.825301
+    },
+    {
+      "center": [
+        -9.359399,
+        2.679691,
+        -2.920273
+      ],
+      "grid": [
+        -2,
+        0,
+        -1
+      ],
+      "id": "chunk_00017",
+      "important_points": 1039,
+      "lod_counts": {
+        "far": 314,
+        "mid": 783,
+        "near": 1423,
+        "very_far": 86
+      },
+      "point_count": 1423,
+      "radius": 5.355152
+    },
+    {
+      "center": [
+        -9.359399,
+        2.679691,
+        2.785347
+      ],
+      "grid": [
+        -2,
+        0,
+        0
+      ],
+      "id": "chunk_00018",
+      "important_points": 1039,
+      "lod_counts": {
+        "far": 314,
+        "mid": 783,
+        "near": 1423,
+        "very_far": 86
+      },
+      "point_count": 1423,
+      "radius": 5.274982
+    },
+    {
+      "center": [
+        -9.624807,
+        2.347071,
+        9.431406
+      ],
+      "grid": [
+        -2,
+        0,
+        1
+      ],
+      "id": "chunk_00019",
+      "important_points": 1163,
+      "lod_counts": {
+        "far": 320,
+        "mid": 799,
+        "near": 1451,
+        "very_far": 88
+      },
+      "point_count": 1451,
+      "radius": 5.904946
+    },
+    {
+      "center": [
+        -9.421012,
+        2.738562,
+        12.098039
+      ],
+      "grid": [
+        -2,
+        0,
+        2
+      ],
+      "id": "chunk_00020",
+      "important_points": 459,
+      "lod_counts": {
+        "far": 101,
+        "mid": 253,
+        "near": 459,
+        "very_far": 28
+      },
+      "point_count": 459,
+      "radius": 4.437392
+    },
+    {
+      "center": [
+        -9.123384,
+        6.0,
+        -12.125
+      ],
+      "grid": [
+        -2,
+        1,
+        -3
+      ],
+      "id": "chunk_00021",
+      "important_points": 37,
+      "lod_counts": {
+        "far": 9,
+        "mid": 21,
+        "near": 37,
+        "very_far": 3
+      },
+      "point_count": 37,
+      "radius": 3.036428
+    },
+    {
+      "center": [
+        -9.619879,
+        6.069757,
+        -9.619879
+      ],
+      "grid": [
+        -2,
+        1,
+        -2
+      ],
+      "id": "chunk_00022",
+      "important_points": 329,
+      "lod_counts": {
+        "far": 73,
+        "mid": 181,
+        "near": 329,
+        "very_far": 20
+      },
+      "point_count": 329,
+      "radius": 4.553642
+    },
+    {
+      "center": [
+        -9.685219,
+        6.078832,
+        -3.169787
+      ],
+      "grid": [
+        -2,
+        1,
+        -1
+      ],
+      "id": "chunk_00023",
+      "important_points": 274,
+      "lod_counts": {
+        "far": 61,
+        "mid": 151,
+        "near": 274,
+        "very_far": 17
+      },
+      "point_count": 274,
+      "radius": 4.33623
+    },
+    {
+      "center": [
+        -9.685219,
+        6.078832,
+        2.819422
+      ],
+      "grid": [
+        -2,
+        1,
+        0
+      ],
+      "id": "chunk_00024",
+      "important_points": 274,
+      "lod_counts": {
+        "far": 61,
+        "mid": 151,
+        "near": 274,
+        "very_far": 17
+      },
+      "point_count": 274,
+      "radius": 4.329195
+    },
+    {
+      "center": [
+        -9.618377,
+        6.069453,
+        9.173441
+      ],
+      "grid": [
+        -2,
+        1,
+        1
+      ],
+      "id": "chunk_00025",
+      "important_points": 311,
+      "lod_counts": {
+        "far": 69,
+        "mid": 172,
+        "near": 311,
+        "very_far": 19
+      },
+      "point_count": 311,
+      "radius": 4.519856
+    },
+    {
+      "center": [
+        -9.312538,
+        6.039296,
+        12.065141
+      ],
+      "grid": [
+        -2,
+        1,
+        2
+      ],
+      "id": "chunk_00026",
+      "important_points": 71,
+      "lod_counts": {
+        "far": 16,
+        "mid": 40,
+        "near": 71,
+        "very_far": 5
+      },
+      "point_count": 71,
+      "radius": 3.226376
+    },
+    {
+      "center": [
+        -3.2,
+        -0.09,
+        -9.375
+      ],
+      "grid": [
+        -1,
+        -1,
+        -2
+      ],
+      "id": "chunk_00027",
+      "important_points": 240,
+      "lod_counts": {
+        "far": 53,
+        "mid": 132,
+        "near": 240,
+        "very_far": 15
+      },
+      "point_count": 240,
+      "radius": 4.085416
+    },
+    {
+      "center": [
+        -3.2,
+        -0.09,
+        -3.2
+      ],
+      "grid": [
+        -1,
+        -1,
+        -1
+      ],
+      "id": "chunk_00028",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        -3.2,
+        -0.09,
+        2.8
+      ],
+      "grid": [
+        -1,
+        -1,
+        0
+      ],
+      "id": "chunk_00029",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        -3.2,
+        -0.09,
+        8.8
+      ],
+      "grid": [
+        -1,
+        -1,
+        1
+      ],
+      "id": "chunk_00030",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        -3.2,
+        -0.09,
+        12.0
+      ],
+      "grid": [
+        -1,
+        -1,
+        2
+      ],
+      "id": "chunk_00031",
+      "important_points": 30,
+      "lod_counts": {
+        "far": 7,
+        "mid": 17,
+        "near": 30,
+        "very_far": 2
+      },
+      "point_count": 30,
+      "radius": 2.8
+    },
+    {
+      "center": [
+        -2.956522,
+        2.684211,
+        -12.125
+      ],
+      "grid": [
+        -1,
+        0,
+        -3
+      ],
+      "id": "chunk_00032",
+      "important_points": 323,
+      "lod_counts": {
+        "far": 72,
+        "mid": 178,
+        "near": 323,
+        "very_far": 20
+      },
+      "point_count": 323,
+      "radius": 4.078965
+    },
+    {
+      "center": [
+        -3.069045,
+        2.089132,
+        -9.629676
+      ],
+      "grid": [
+        -1,
+        0,
+        -2
+      ],
+      "id": "chunk_00033",
+      "important_points": 803,
+      "lod_counts": {
+        "far": 262,
+        "mid": 653,
+        "near": 1187,
+        "very_far": 72
+      },
+      "point_count": 1187,
+      "radius": 5.798304
+    },
+    {
+      "center": [
+        -3.025456,
+        2.720745,
+        -2.84566
+      ],
+      "grid": [
+        -1,
+        0,
+        -1
+      ],
+      "id": "chunk_00034",
+      "important_points": 804,
+      "lod_counts": {
+        "far": 290,
+        "mid": 724,
+        "near": 1316,
+        "very_far": 79
+      },
+      "point_count": 1316,
+      "radius": 5.382297
+    },
+    {
+      "center": [
+        -3.025456,
+        2.720745,
+        2.708882
+      ],
+      "grid": [
+        -1,
+        0,
+        0
+      ],
+      "id": "chunk_00035",
+      "important_points": 804,
+      "lod_counts": {
+        "far": 290,
+        "mid": 724,
+        "near": 1316,
+        "very_far": 79
+      },
+      "point_count": 1316,
+      "radius": 5.232382
+    },
+    {
+      "center": [
+        -3.06565,
+        2.065514,
+        9.41264
+      ],
+      "grid": [
+        -1,
+        0,
+        1
+      ],
+      "id": "chunk_00036",
+      "important_points": 773,
+      "lod_counts": {
+        "far": 255,
+        "mid": 637,
+        "near": 1157,
+        "very_far": 70
+      },
+      "point_count": 1157,
+      "radius": 5.919172
+    },
+    {
+      "center": [
+        -2.994665,
+        2.733681,
+        12.105418
+      ],
+      "grid": [
+        -1,
+        0,
+        2
+      ],
+      "id": "chunk_00037",
+      "important_points": 383,
+      "lod_counts": {
+        "far": 85,
+        "mid": 211,
+        "near": 383,
+        "very_far": 23
+      },
+      "point_count": 383,
+      "radius": 4.374032
+    },
+    {
+      "center": [
+        -2.956522,
+        6.0,
+        -12.125
+      ],
+      "grid": [
+        -1,
+        1,
+        -3
+      ],
+      "id": "chunk_00038",
+      "important_points": 34,
+      "lod_counts": {
+        "far": 8,
+        "mid": 19,
+        "near": 34,
+        "very_far": 3
+      },
+      "point_count": 34,
+      "radius": 2.782609
+    },
+    {
+      "center": [
+        -3.169787,
+        6.078832,
+        -9.685219
+      ],
+      "grid": [
+        -1,
+        1,
+        -2
+      ],
+      "id": "chunk_00039",
+      "important_points": 274,
+      "lod_counts": {
+        "far": 61,
+        "mid": 151,
+        "near": 274,
+        "very_far": 17
+      },
+      "point_count": 274,
+      "radius": 4.33623
+    },
+    {
+      "center": [
+        -3.2,
+        6.09,
+        -3.2
+      ],
+      "grid": [
+        -1,
+        1,
+        -1
+      ],
+      "id": "chunk_00040",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        -3.2,
+        6.09,
+        2.8
+      ],
+      "grid": [
+        -1,
+        1,
+        0
+      ],
+      "id": "chunk_00041",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        -3.168038,
+        6.078185,
+        9.203668
+      ],
+      "grid": [
+        -1,
+        1,
+        1
+      ],
+      "id": "chunk_00042",
+      "important_points": 259,
+      "lod_counts": {
+        "far": 57,
+        "mid": 143,
+        "near": 259,
+        "very_far": 16
+      },
+      "point_count": 259,
+      "radius": 4.275937
+    },
+    {
+      "center": [
+        -3.070652,
+        6.042187,
+        12.066406
+      ],
+      "grid": [
+        -1,
+        1,
+        2
+      ],
+      "id": "chunk_00043",
+      "important_points": 64,
+      "lod_counts": {
+        "far": 15,
+        "mid": 36,
+        "near": 64,
+        "very_far": 4
+      },
+      "point_count": 64,
+      "radius": 2.93049
+    },
+    {
+      "center": [
+        2.8,
+        -0.09,
+        -9.375
+      ],
+      "grid": [
+        0,
+        -1,
+        -2
+      ],
+      "id": "chunk_00044",
+      "important_points": 240,
+      "lod_counts": {
+        "far": 53,
+        "mid": 132,
+        "near": 240,
+        "very_far": 15
+      },
+      "point_count": 240,
+      "radius": 4.085416
+    },
+    {
+      "center": [
+        2.8,
+        -0.09,
+        -3.2
+      ],
+      "grid": [
+        0,
+        -1,
+        -1
+      ],
+      "id": "chunk_00045",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        2.8,
+        -0.09,
+        2.8
+      ],
+      "grid": [
+        0,
+        -1,
+        0
+      ],
+      "id": "chunk_00046",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        2.8,
+        -0.09,
+        8.8
+      ],
+      "grid": [
+        0,
+        -1,
+        1
+      ],
+      "id": "chunk_00047",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        2.8,
+        -0.09,
+        12.0
+      ],
+      "grid": [
+        0,
+        -1,
+        2
+      ],
+      "id": "chunk_00048",
+      "important_points": 30,
+      "lod_counts": {
+        "far": 7,
+        "mid": 17,
+        "near": 30,
+        "very_far": 2
+      },
+      "point_count": 30,
+      "radius": 2.8
+    },
+    {
+      "center": [
+        2.956522,
+        2.684211,
+        -12.125
+      ],
+      "grid": [
+        0,
+        0,
+        -3
+      ],
+      "id": "chunk_00049",
+      "important_points": 323,
+      "lod_counts": {
+        "far": 72,
+        "mid": 178,
+        "near": 323,
+        "very_far": 20
+      },
+      "point_count": 323,
+      "radius": 4.078965
+    },
+    {
+      "center": [
+        2.907293,
+        2.089132,
+        -9.629676
+      ],
+      "grid": [
+        0,
+        0,
+        -2
+      ],
+      "id": "chunk_00050",
+      "important_points": 803,
+      "lod_counts": {
+        "far": 262,
+        "mid": 653,
+        "near": 1187,
+        "very_far": 72
+      },
+      "point_count": 1187,
+      "radius": 5.786379
+    },
+    {
+      "center": [
+        2.888678,
+        2.720745,
+        -2.84566
+      ],
+      "grid": [
+        0,
+        0,
+        -1
+      ],
+      "id": "chunk_00051",
+      "important_points": 804,
+      "lod_counts": {
+        "far": 290,
+        "mid": 724,
+        "near": 1316,
+        "very_far": 79
+      },
+      "point_count": 1316,
+      "radius": 5.335323
+    },
+    {
+      "center": [
+        2.888678,
+        2.720745,
+        2.708882
+      ],
+      "grid": [
+        0,
+        0,
+        0
+      ],
+      "id": "chunk_00052",
+      "important_points": 804,
+      "lod_counts": {
+        "far": 290,
+        "mid": 724,
+        "near": 1316,
+        "very_far": 79
+      },
+      "point_count": 1316,
+      "radius": 5.192795
+    },
+    {
+      "center": [
+        2.910075,
+        2.065514,
+        9.41264
+      ],
+      "grid": [
+        0,
+        0,
+        1
+      ],
+      "id": "chunk_00053",
+      "important_points": 773,
+      "lod_counts": {
+        "far": 255,
+        "mid": 637,
+        "near": 1157,
+        "very_far": 70
+      },
+      "point_count": 1157,
+      "radius": 5.907175
+    },
+    {
+      "center": [
+        2.932001,
+        2.733681,
+        12.105418
+      ],
+      "grid": [
+        0,
+        0,
+        2
+      ],
+      "id": "chunk_00054",
+      "important_points": 383,
+      "lod_counts": {
+        "far": 85,
+        "mid": 211,
+        "near": 383,
+        "very_far": 23
+      },
+      "point_count": 383,
+      "radius": 4.323973
+    },
+    {
+      "center": [
+        2.956522,
+        6.0,
+        -12.125
+      ],
+      "grid": [
+        0,
+        1,
+        -3
+      ],
+      "id": "chunk_00055",
+      "important_points": 34,
+      "lod_counts": {
+        "far": 8,
+        "mid": 19,
+        "near": 34,
+        "very_far": 3
+      },
+      "point_count": 34,
+      "radius": 2.782609
+    },
+    {
+      "center": [
+        2.819422,
+        6.078832,
+        -9.685219
+      ],
+      "grid": [
+        0,
+        1,
+        -2
+      ],
+      "id": "chunk_00056",
+      "important_points": 274,
+      "lod_counts": {
+        "far": 61,
+        "mid": 151,
+        "near": 274,
+        "very_far": 17
+      },
+      "point_count": 274,
+      "radius": 4.329195
+    },
+    {
+      "center": [
+        2.8,
+        6.09,
+        -3.2
+      ],
+      "grid": [
+        0,
+        1,
+        -1
+      ],
+      "id": "chunk_00057",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        2.8,
+        6.09,
+        2.8
+      ],
+      "grid": [
+        0,
+        1,
+        0
+      ],
+      "id": "chunk_00058",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        2.820547,
+        6.078185,
+        9.203668
+      ],
+      "grid": [
+        0,
+        1,
+        1
+      ],
+      "id": "chunk_00059",
+      "important_points": 259,
+      "lod_counts": {
+        "far": 57,
+        "mid": 143,
+        "near": 259,
+        "very_far": 16
+      },
+      "point_count": 259,
+      "radius": 4.268385
+    },
+    {
+      "center": [
+        2.883152,
+        6.042187,
+        12.066406
+      ],
+      "grid": [
+        0,
+        1,
+        2
+      ],
+      "id": "chunk_00060",
+      "important_points": 64,
+      "lod_counts": {
+        "far": 15,
+        "mid": 36,
+        "near": 64,
+        "very_far": 4
+      },
+      "point_count": 64,
+      "radius": 2.884313
+    },
+    {
+      "center": [
+        8.8,
+        -0.09,
+        -9.375
+      ],
+      "grid": [
+        1,
+        -1,
+        -2
+      ],
+      "id": "chunk_00061",
+      "important_points": 240,
+      "lod_counts": {
+        "far": 53,
+        "mid": 132,
+        "near": 240,
+        "very_far": 15
+      },
+      "point_count": 240,
+      "radius": 4.085416
+    },
+    {
+      "center": [
+        8.8,
+        -0.09,
+        -3.2
+      ],
+      "grid": [
+        1,
+        -1,
+        -1
+      ],
+      "id": "chunk_00062",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        8.8,
+        -0.09,
+        2.8
+      ],
+      "grid": [
+        1,
+        -1,
+        0
+      ],
+      "id": "chunk_00063",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        8.8,
+        -0.09,
+        8.8
+      ],
+      "grid": [
+        1,
+        -1,
+        1
+      ],
+      "id": "chunk_00064",
+      "important_points": 225,
+      "lod_counts": {
+        "far": 50,
+        "mid": 124,
+        "near": 225,
+        "very_far": 14
+      },
+      "point_count": 225,
+      "radius": 3.959798
+    },
+    {
+      "center": [
+        8.8,
+        -0.09,
+        12.0
+      ],
+      "grid": [
+        1,
+        -1,
+        2
+      ],
+      "id": "chunk_00065",
+      "important_points": 30,
+      "lod_counts": {
+        "far": 7,
+        "mid": 17,
+        "near": 30,
+        "very_far": 2
+      },
+      "point_count": 30,
+      "radius": 2.8
+    },
+    {
+      "center": [
+        8.869565,
+        2.684211,
+        -12.125
+      ],
+      "grid": [
+        1,
+        0,
+        -3
+      ],
+      "id": "chunk_00066",
+      "important_points": 323,
+      "lod_counts": {
+        "far": 72,
+        "mid": 178,
+        "near": 323,
+        "very_far": 20
+      },
+      "point_count": 323,
+      "radius": 4.078965
+    },
+    {
+      "center": [
+        9.431406,
+        2.347071,
+        -9.624807
+      ],
+      "grid": [
+        1,
+        0,
+        -2
+      ],
+      "id": "chunk_00067",
+      "important_points": 1163,
+      "lod_counts": {
+        "far": 320,
+        "mid": 799,
+        "near": 1451,
+        "very_far": 88
+      },
+      "point_count": 1451,
+      "radius": 5.904946
+    },
+    {
+      "center": [
+        9.173313,
+        2.672793,
+        -2.914249
+      ],
+      "grid": [
+        1,
+        0,
+        -1
+      ],
+      "id": "chunk_00068",
+      "important_points": 1009,
+      "lod_counts": {
+        "far": 307,
+        "mid": 767,
+        "near": 1393,
+        "very_far": 84
+      },
+      "point_count": 1393,
+      "radius": 5.483729
+    },
+    {
+      "center": [
+        9.173313,
+        2.672793,
+        2.785032
+      ],
+      "grid": [
+        1,
+        0,
+        0
+      ],
+      "id": "chunk_00069",
+      "important_points": 1009,
+      "lod_counts": {
+        "far": 307,
+        "mid": 767,
+        "near": 1393,
+        "very_far": 84
+      },
+      "point_count": 1393,
+      "radius": 5.336054
+    },
+    {
+      "center": [
+        9.379765,
+        2.321965,
+        9.379765
+      ],
+      "grid": [
+        1,
+        0,
+        1
+      ],
+      "id": "chunk_00070",
+      "important_points": 1096,
+      "lod_counts": {
+        "far": 305,
+        "mid": 762,
+        "near": 1384,
+        "very_far": 84
+      },
+      "point_count": 1384,
+      "radius": 5.976589
+    },
+    {
+      "center": [
+        9.124392,
+        2.735714,
+        12.096131
+      ],
+      "grid": [
+        1,
+        0,
+        2
+      ],
+      "id": "chunk_00071",
+      "important_points": 420,
+      "lod_counts": {
+        "far": 93,
+        "mid": 232,
+        "near": 420,
+        "very_far": 26
+      },
+      "point_count": 420,
+      "radius": 4.455015
+    },
+    {
+      "center": [
+        8.869565,
+        6.0,
+        -12.125
+      ],
+      "grid": [
+        1,
+        1,
+        -3
+      ],
+      "id": "chunk_00072",
+      "important_points": 34,
+      "lod_counts": {
+        "far": 8,
+        "mid": 19,
+        "near": 34,
+        "very_far": 3
+      },
+      "point_count": 34,
+      "radius": 2.782609
+    },
+    {
+      "center": [
+        9.173441,
+        6.069453,
+        -9.618377
+      ],
+      "grid": [
+        1,
+        1,
+        -2
+      ],
+      "id": "chunk_00073",
+      "important_points": 311,
+      "lod_counts": {
+        "far": 69,
+        "mid": 172,
+        "near": 311,
+        "very_far": 19
+      },
+      "point_count": 311,
+      "radius": 4.519856
+    },
+    {
+      "center": [
+        9.203668,
+        6.078185,
+        -3.168038
+      ],
+      "grid": [
+        1,
+        1,
+        -1
+      ],
+      "id": "chunk_00074",
+      "important_points": 259,
+      "lod_counts": {
+        "far": 57,
+        "mid": 143,
+        "near": 259,
+        "very_far": 16
+      },
+      "point_count": 259,
+      "radius": 4.275937
+    },
+    {
+      "center": [
+        9.203668,
+        6.078185,
+        2.820547
+      ],
+      "grid": [
+        1,
+        1,
+        0
+      ],
+      "id": "chunk_00075",
+      "important_points": 259,
+      "lod_counts": {
+        "far": 57,
+        "mid": 143,
+        "near": 259,
+        "very_far": 16
+      },
+      "point_count": 259,
+      "radius": 4.268385
+    },
+    {
+      "center": [
+        9.164898,
+        6.069113,
+        9.164898
+      ],
+      "grid": [
+        1,
+        1,
+        1
+      ],
+      "id": "chunk_00076",
+      "important_points": 293,
+      "lod_counts": {
+        "far": 65,
+        "mid": 162,
+        "near": 293,
+        "very_far": 18
+      },
+      "point_count": 293,
+      "radius": 4.475891
+    },
+    {
+      "center": [
+        8.972988,
+        6.040299,
+        12.063433
+      ],
+      "grid": [
+        1,
+        1,
+        2
+      ],
+      "id": "chunk_00077",
+      "important_points": 67,
+      "lod_counts": {
+        "far": 15,
+        "mid": 37,
+        "near": 67,
+        "very_far": 5
+      },
+      "point_count": 67,
+      "radius": 2.97408
+    },
+    {
+      "center": [
+        12.0,
+        -0.09,
+        -9.290323
+      ],
+      "grid": [
+        2,
+        -1,
+        -2
+      ],
+      "id": "chunk_00078",
+      "important_points": 31,
+      "lod_counts": {
+        "far": 7,
+        "mid": 18,
+        "near": 31,
+        "very_far": 2
+      },
+      "point_count": 31,
+      "radius": 2.890323
+    },
+    {
+      "center": [
+        12.0,
+        -0.09,
+        -3.2
+      ],
+      "grid": [
+        2,
+        -1,
+        -1
+      ],
+      "id": "chunk_00079",
+      "important_points": 30,
+      "lod_counts": {
+        "far": 7,
+        "mid": 17,
+        "near": 30,
+        "very_far": 2
+      },
+      "point_count": 30,
+      "radius": 2.8
+    },
+    {
+      "center": [
+        12.0,
+        -0.09,
+        2.8
+      ],
+      "grid": [
+        2,
+        -1,
+        0
+      ],
+      "id": "chunk_00080",
+      "important_points": 30,
+      "lod_counts": {
+        "far": 7,
+        "mid": 17,
+        "near": 30,
+        "very_far": 2
+      },
+      "point_count": 30,
+      "radius": 2.8
+    },
+    {
+      "center": [
+        12.0,
+        -0.09,
+        8.8
+      ],
+      "grid": [
+        2,
+        -1,
+        1
+      ],
+      "id": "chunk_00081",
+      "important_points": 30,
+      "lod_counts": {
+        "far": 7,
+        "mid": 17,
+        "near": 30,
+        "very_far": 2
+      },
+      "point_count": 30,
+      "radius": 2.8
+    },
+    {
+      "center": [
+        12.0,
+        -0.09,
+        12.0
+      ],
+      "grid": [
+        2,
+        -1,
+        2
+      ],
+      "id": "chunk_00082",
+      "important_points": 3,
+      "lod_counts": {
+        "far": 1,
+        "mid": 2,
+        "near": 3,
+        "very_far": 1
+      },
+      "point_count": 3,
+      "radius": 0.0
+    },
+    {
+      "center": [
+        12.0,
+        2.756757,
+        -12.125
+      ],
+      "grid": [
+        2,
+        0,
+        -3
+      ],
+      "id": "chunk_00083",
+      "important_points": 37,
+      "lod_counts": {
+        "far": 9,
+        "mid": 21,
+        "near": 37,
+        "very_far": 3
+      },
+      "point_count": 37,
+      "radius": 2.90991
+    },
+    {
+      "center": [
+        12.098039,
+        2.738562,
+        -9.421012
+      ],
+      "grid": [
+        2,
+        0,
+        -2
+      ],
+      "id": "chunk_00084",
+      "important_points": 459,
+      "lod_counts": {
+        "far": 101,
+        "mid": 253,
+        "near": 459,
+        "very_far": 28
+      },
+      "point_count": 459,
+      "radius": 4.437392
+    },
+    {
+      "center": [
+        12.105418,
+        2.733681,
+        -2.994665
+      ],
+      "grid": [
+        2,
+        0,
+        -1
+      ],
+      "id": "chunk_00085",
+      "important_points": 383,
+      "lod_counts": {
+        "far": 85,
+        "mid": 211,
+        "near": 383,
+        "very_far": 23
+      },
+      "point_count": 383,
+      "radius": 4.374032
+    },
+    {
+      "center": [
+        12.105418,
+        2.733681,
+        2.932001
+      ],
+      "grid": [
+        2,
+        0,
+        0
+      ],
+      "id": "chunk_00086",
+      "important_points": 383,
+      "lod_counts": {
+        "far": 85,
+        "mid": 211,
+        "near": 383,
+        "very_far": 23
+      },
+      "point_count": 383,
+      "radius": 4.323973
+    },
+    {
+      "center": [
+        12.096131,
+        2.735714,
+        9.124392
+      ],
+      "grid": [
+        2,
+        0,
+        1
+      ],
+      "id": "chunk_00087",
+      "important_points": 420,
+      "lod_counts": {
+        "far": 93,
+        "mid": 232,
+        "near": 420,
+        "very_far": 26
+      },
+      "point_count": 420,
+      "radius": 4.455015
+    },
+    {
+      "center": [
+        12.057813,
+        2.775,
+        12.057813
+      ],
+      "grid": [
+        2,
+        0,
+        2
+      ],
+      "id": "chunk_00088",
+      "important_points": 80,
+      "lod_counts": {
+        "far": 18,
+        "mid": 44,
+        "near": 80,
+        "very_far": 5
+      },
+      "point_count": 80,
+      "radius": 3.136066
+    },
+    {
+      "center": [
+        12.0,
+        6.0,
+        -12.125
+      ],
+      "grid": [
+        2,
+        1,
+        -3
+      ],
+      "id": "chunk_00089",
+      "important_points": 3,
+      "lod_counts": {
+        "far": 1,
+        "mid": 2,
+        "near": 3,
+        "very_far": 1
+      },
+      "point_count": 3,
+      "radius": 0.0
+    },
+    {
+      "center": [
+        12.065141,
+        6.039296,
+        -9.312538
+      ],
+      "grid": [
+        2,
+        1,
+        -2
+      ],
+      "id": "chunk_00090",
+      "important_points": 71,
+      "lod_counts": {
+        "far": 16,
+        "mid": 40,
+        "near": 71,
+        "very_far": 5
+      },
+      "point_count": 71,
+      "radius": 3.226376
+    },
+    {
+      "center": [
+        12.066406,
+        6.042187,
+        -3.070652
+      ],
+      "grid": [
+        2,
+        1,
+        -1
+      ],
+      "id": "chunk_00091",
+      "important_points": 64,
+      "lod_counts": {
+        "far": 15,
+        "mid": 36,
+        "near": 64,
+        "very_far": 4
+      },
+      "point_count": 64,
+      "radius": 2.93049
+    },
+    {
+      "center": [
+        12.066406,
+        6.042187,
+        2.883152
+      ],
+      "grid": [
+        2,
+        1,
+        0
+      ],
+      "id": "chunk_00092",
+      "important_points": 64,
+      "lod_counts": {
+        "far": 15,
+        "mid": 36,
+        "near": 64,
+        "very_far": 4
+      },
+      "point_count": 64,
+      "radius": 2.884313
+    },
+    {
+      "center": [
+        12.063433,
+        6.040299,
+        8.972988
+      ],
+      "grid": [
+        2,
+        1,
+        1
+      ],
+      "id": "chunk_00093",
+      "important_points": 67,
+      "lod_counts": {
+        "far": 15,
+        "mid": 37,
+        "near": 67,
+        "very_far": 5
+      },
+      "point_count": 67,
+      "radius": 2.97408
+    },
+    {
+      "center": [
+        12.041667,
+        6.03,
+        12.041667
+      ],
+      "grid": [
+        2,
+        1,
+        2
+      ],
+      "id": "chunk_00094",
+      "important_points": 9,
+      "lod_counts": {
+        "far": 2,
+        "mid": 5,
+        "near": 9,
+        "very_far": 1
+      },
+      "point_count": 9,
+      "radius": 0.09788
+    }
+  ],
+  "important_point_count": 30284,
+  "project_id": "95cf756e-ddee-49b1-bbcb-7af71f9710a3",
+  "schema": "pcp3_stream_chunk_manifest_v1",
+  "source_point_count": 36556
+}

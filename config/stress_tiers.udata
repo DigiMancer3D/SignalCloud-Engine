@@ -1,0 +1,26 @@
+@udata 1
+
+[quick]
+label: "Quick Profile";
+produces_candidate: true;
+may_promote_when_requested: true;
+minimum_mode_coverage: ["traditional","cloud","game","hybrid"];
+intended_use: "first-run protected recommendation";
+
+[standard]
+label: "Standard Profile";
+produces_candidate: true;
+may_promote_when_requested: true;
+intended_use: "normal machine recommendation and content-change refresh";
+
+[official]
+label: "Official Ruleset Run";
+produces_candidate: true;
+may_promote_when_requested: true;
+intended_use: "comparable benchmark result for one stable ruleset";
+
+[developer]
+label: "Developer Diagnostic";
+produces_candidate: false;
+may_promote_when_requested: false;
+intended_use: "route, renderer, and workload debugging";

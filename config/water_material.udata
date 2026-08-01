@@ -1,0 +1,22 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":0};
+data_type: {"name":"signalcloud_water_material"};
+profile_id: {"value":"pivot8_submerged_boundary_layers"};
+
+[body]
+water_surface_share: {"value":0.05};
+water_volume_share: {"value":0.02};
+submerged_floor_share: {"value":0.04};
+submerged_wall_share: {"value":0.04};
+submerged_density_min: {"value":-1.05};
+submerged_floor_enabled: {"value":true};
+submerged_wall_enabled: {"value":true};
+wall_sampling_source: {"value":"authored_structural_segments"};
+aperture_preservation: {"value":true};
+wet_frame_normalization: {"value":true};
+quick_access_key: {"value":"M"};
+
+[footer]
+notes: {"value":"The second layer marks water-contact floors and real submerged walls. It never builds a rectangular shell across an authored doorway, hole, or corridor opening."};

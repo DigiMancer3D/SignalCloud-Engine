@@ -1,0 +1,363 @@
+{
+  "active_layer_id": 5,
+  "asset_id": "encounter_runtime_demo",
+  "author": {
+    "asset_type": "raid",
+    "creator_name": "Point Cloud Paint++ Branch 10",
+    "description": "A guarded two-wave encounter, boss-phase telemetry, persistent friendly reference, and reward-hook example.",
+    "tags": [],
+    "title": "Encounter Runtime Demo Room"
+  },
+  "certificate_file": "encounter_runtime_demo.pcpcert.json",
+  "cloud_file": "encounter_runtime_demo.pcp3cloud",
+  "cloud_sha256": "eb8a7d60847cf9e4878ed9b0e08329b4665c774099cbcc4636bd8a5efca1fc92",
+  "display_name": "Encounter Runtime Demo Room",
+  "environment_type": "raid",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 1,
+      "locked": false,
+      "name": "Floor",
+      "opacity": 1.0,
+      "semantic": "floor",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 2,
+      "locked": false,
+      "name": "Walls",
+      "opacity": 1.0,
+      "semantic": "wall",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 3,
+      "locked": false,
+      "name": "Ceiling",
+      "opacity": 1.0,
+      "semantic": "ceiling",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 4,
+      "locked": false,
+      "name": "Water Surface",
+      "opacity": 1.0,
+      "semantic": "water_surface",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 5,
+      "locked": false,
+      "name": "Portal Frame",
+      "opacity": 1.0,
+      "semantic": "portal",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "advanced_authoring": {
+      "flow": {
+        "nodes": [
+          {
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "future_attributes": {},
+            "id": "flow_1",
+            "position": [
+              0.0,
+              0.25,
+              0.0
+            ],
+            "strength": 1.5,
+            "viscosity": 0.7
+          }
+        ]
+      },
+      "future_attributes": {},
+      "placements": [
+        {
+          "asset_id": "signal_orb_demo",
+          "enabled": true,
+          "future_attributes": {},
+          "group": "support",
+          "id": "placement_1",
+          "kind": "friendly",
+          "position": [
+            2.4,
+            0.5,
+            1.2
+          ],
+          "rotation_degrees": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": 0.85
+        }
+      ],
+      "raid": {
+        "waves": [
+          {
+            "asset_ids": [
+              "entity_runtime_demo"
+            ],
+            "count": 2,
+            "delay": 0.5,
+            "future_attributes": {},
+            "id": "wave_1",
+            "index": 1
+          },
+          {
+            "asset_ids": [
+              "entity_runtime_demo"
+            ],
+            "count": 3,
+            "delay": 0.75,
+            "future_attributes": {},
+            "id": "wave_2",
+            "index": 2
+          }
+        ]
+      },
+      "rig": {
+        "anchors": [],
+        "bones": []
+      },
+      "schema": "pcp3_advanced_authoring_v1",
+      "theme": {
+        "slots": [
+          {
+            "brush": "Square Solid",
+            "color": "#C2B47A",
+            "future_attributes": {},
+            "id": "theme_1",
+            "preset": "plaster_wall",
+            "semantic": "wall"
+          },
+          {
+            "brush": "Square Solid",
+            "color": "#5A5140",
+            "future_attributes": {},
+            "id": "theme_2",
+            "preset": "flat_floor",
+            "semantic": "floor"
+          }
+        ]
+      },
+      "timelines": [
+        {
+          "duration": 1.0,
+          "events": [],
+          "fps": 30,
+          "keyframes": [],
+          "loop": true,
+          "name": "Default"
+        }
+      ],
+      "triggers": []
+    },
+    "editor_branch": "ISL_plus_branch2",
+    "encounter_runtime": {
+      "boss_phases": [
+        {
+          "clip": "Idle",
+          "effect_anchor": "effect",
+          "future_attributes": {},
+          "id": "opening_signal",
+          "movement_profile": "stationary",
+          "name": "Opening Signal",
+          "progress_threshold": 0.0,
+          "theme_target": "wall"
+        },
+        {
+          "clip": "Alert",
+          "effect_anchor": "attack",
+          "future_attributes": {},
+          "id": "pressure_rise",
+          "movement_profile": "face_viewer",
+          "name": "Pressure Rise",
+          "progress_threshold": 0.45,
+          "theme_target": "light"
+        },
+        {
+          "clip": "Attack",
+          "effect_anchor": "effect",
+          "future_attributes": {},
+          "id": "final_tape",
+          "movement_profile": "approach_viewer",
+          "name": "Final Tape",
+          "progress_threshold": 0.8,
+          "theme_target": "portal"
+        }
+      ],
+      "completion_delay": 1.0,
+      "completion_policy": "all_waves_cleared",
+      "completion_seconds": 30.0,
+      "console_events": true,
+      "enabled": true,
+      "encounter_id": "branch10_demo_encounter",
+      "entity_lifetime": 4.0,
+      "future_attributes": {},
+      "game_enabled": false,
+      "host_zone": "Reception Tape",
+      "inter_wave_delay": 1.3,
+      "max_active_entities": 12,
+      "max_boss_phases": 4,
+      "max_friendlies": 4,
+      "max_total_spawns": 32,
+      "max_waves": 8,
+      "reset_policy": "zone_exit",
+      "reward_policy": "combined_hook",
+      "reward_proofs": 2,
+      "reward_scrap": 3,
+      "reward_xar": 12,
+      "schema": "pcp3_encounter_runtime_v1",
+      "show_debug": true,
+      "start_condition": "world_enter",
+      "start_delay": 0.75,
+      "start_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "start_radius": 8.0,
+      "stress_enabled": true,
+      "wave_overrides": {}
+    },
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 4000000,
+    "tool_profile": "room_builder",
+    "world_assembly": {
+      "apply_theme": true,
+      "enabled": true,
+      "execute_portals": false,
+      "flow_scale": 1.0,
+      "future_attributes": {},
+      "game_enabled": false,
+      "host_zone": "Reception Tape",
+      "liquid_color": "#2F6F8F",
+      "liquid_opacity": 0.72,
+      "liquid_runtime": true,
+      "liquid_type": "water",
+      "logical_level": 0,
+      "max_liquid_points": 150000,
+      "max_placements": 64,
+      "max_portals": 32,
+      "portal_cooldown": 0.8,
+      "portal_interaction_required": true,
+      "portals": [
+        {
+          "arrival_offset": [
+            0.0,
+            0.0,
+            1.4
+          ],
+          "arrival_yaw_degrees": 0.0,
+          "destination_asset_id": "",
+          "destination_portal_id": "",
+          "enabled": true,
+          "future_attributes": {},
+          "id": "encounter_exit_evidence",
+          "interaction_required": true,
+          "kind": "door",
+          "one_way": false,
+          "position": [
+            0.0,
+            1.2,
+            -3.82
+          ],
+          "size": [
+            1.8,
+            2.4,
+            0.5
+          ]
+        }
+      ],
+      "reset_policy": "zone_exit",
+      "room_id": "encounter_runtime_demo",
+      "room_name": "Encounter Runtime Demo Room",
+      "safe_room": false,
+      "schema": "pcp3_world_assembly_v1",
+      "show_bounds_debug": true,
+      "show_portal_debug": true,
+      "spawn_points": [
+        {
+          "enabled": true,
+          "future_attributes": {},
+          "id": "default_spawn",
+          "position": [
+            0.0,
+            0.2,
+            2.5
+          ],
+          "role": "default",
+          "yaw_degrees": 180.0
+        }
+      ],
+      "stress_enabled": true,
+      "theme_asset_id": "",
+      "wave_amplitude": 0.08,
+      "wave_frequency": 0.7,
+      "world_id": "branch10_demo_world"
+    }
+  },
+  "point_count": 4340,
+  "point_record_size": 64,
+  "project_id": "ea0751bc-e6e7-4925-84a1-8dcd4afd3958",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": true,
+    "preview_position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_encounter_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 48.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 12.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 36.0
+  },
+  "unknown_fields_policy": "preserve"
+}

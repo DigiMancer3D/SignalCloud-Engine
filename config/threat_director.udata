@@ -1,0 +1,26 @@
+@udata 1
+
+[header]
+data_type: {"name":"world_threat_director_config"};
+version: {"value":"0.13.0-a3"};
+
+[body]
+protected_zones: {"values":["Reception Tape","Scavenger Exchange","*Safe*","*Save*","*Exchange*"]};
+entry_grace_seconds: {"value":4.2};
+scanner_entry_grace_seconds: {"value":2.6};
+maximum_world_threats: {"value":12};
+maximum_active_room_threats: {"value":2};
+spawn_cooldown_seconds: {"value":9.5};
+inactive_retire_seconds: {"value":24.0};
+threshold_pursuit_window_seconds: {"value":3.0};
+maximum_threshold_pursuers: {"value":2};
+instant_connected_room_migration: {"value":false};
+adjacent_room_creature_preview: {"value":true};
+recovery_room_grace_seconds: {"value":6.5};
+formed_creature: {"value":"hash_dog"};
+formless_creature: {"value":"formless_shadow"};
+scanner_reveals_adjacent_threat_signature: {"value":true};
+map_enemy_memory: {"value":"current_room_only"};
+
+[footer]
+notes: {"value":"Pivot 13 a3 preserves ordinary-room threats while replacing instant connected-room migration with a three-second physical threshold pursuit and preview-signature contract."};

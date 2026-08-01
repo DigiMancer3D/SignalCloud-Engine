@@ -1,0 +1,50 @@
+{
+  "break_threshold": 540.0,
+  "collision_half_x": 0.745,
+  "collision_half_y": 0.6974999999999999,
+  "collision_half_z": 0.34,
+  "collision_radius": 0.745,
+  "drag": 0.04,
+  "extensions": {},
+  "friction": 0.78,
+  "gravity_scale": 1.0,
+  "hold_points": [],
+  "impact_multiplier": 1.0,
+  "mass": 72.0,
+  "profile_id": "showcase.training_actor_block",
+  "restitution": 0.05,
+  "schema": "signalcloud.physics-profile",
+  "schema_major": 1,
+  "schema_minor": 1,
+  "shape": "capsule",
+  "sleep_policy": "after_settle",
+  "sockets": [
+    {
+      "id": "hand_left",
+      "kind": "hand",
+      "position": [
+        -0.72,
+        0.45,
+        0.0
+      ]
+    },
+    {
+      "id": "hand_right",
+      "kind": "hand",
+      "position": [
+        0.72,
+        0.45,
+        0.0
+      ]
+    },
+    {
+      "id": "head",
+      "kind": "actor",
+      "position": [
+        0.0,
+        1.65,
+        0.0
+      ]
+    }
+  ]
+}

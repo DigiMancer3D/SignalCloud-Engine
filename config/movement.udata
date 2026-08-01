@@ -1,0 +1,50 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":4};
+data_type: {"name":"signalcloud_first_person_movement"};
+profile_id: {"value":"pivot6_save_jump_depth"};
+
+[pre-body]
+representation: {"value":"eye_position_plus_horizontal_capsule"};
+collision_source: {"value":"procedural_room_analytical_geometry_with_height_and_depenetration"};
+
+[body]
+walk_speed: {"value":3.7};
+sprint_speed: {"value":6.3};
+crouch_speed_scale: {"value":0.52};
+jump_velocity: {"value":6.70};
+normal_jump_velocity: {"value":6.70};
+save_jump_velocity: {"value":6.45};
+gravity: {"value":16.8};
+coyote_window_seconds: {"value":0.085};
+save_jump_boost_speed: {"value":2.45};
+save_jump_boost_seconds: {"value":0.22};
+air_dive_acceleration: {"value":11.0};
+standing_eye_height: {"value":1.72};
+crouched_eye_height: {"value":1.18};
+collision_radius: {"value":0.48};
+collision_skin: {"value":0.018};
+movement_substep: {"value":0.11};
+depenetration_iterations: {"value":8};
+step_height: {"value":0.60};
+platform_landing: {"value":true};
+edge_fall_recovery: {"value":true};
+water_wading: {"value":true};
+water_swimming: {"value":true};
+shallow_water_forces_wading: {"value":true};
+swim_up: {"value":"SPACE"};
+crouch_or_dive: {"value":"LEFT CTRL"};
+interact: {"value":"F"};
+wall_slide: {"value":true};
+portal_velocity_reset: {"value":true};
+free_fly: {"value":false};
+reset_key: {"value":"F11"};
+new_tape_key: {"value":"N"};
+traversal_lab_key: {"value":"L"};
+depth_lab_key: {"value":"K"};
+swim_dive_follows_camera_look: {"value":true};
+water_exit_low_platform_mantle: {"value":true};
+
+[footer]
+notes: {"value":"Pivot 6 formalizes the discovered edge-save jump, slightly lengthens normal airtime, and preserves Pivot 5 a2 collision recovery."};

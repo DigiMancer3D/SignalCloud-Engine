@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.compatible-signal-grip.source";
+asset_type: "udata";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["starter.tupd.compatible-signal-grip"];
+hot_reload: "disabled";
+source_sha256: "f8bcfb3ac8bdd801f5cab9774191e74bea90981bbc055c81cbcf2832edd9822b";
+data_only: true;
+unknown_fields_policy: "preserve";

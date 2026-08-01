@@ -1,0 +1,27 @@
+@udata 1
+
+[header]
+data_type: {"name":"system_point_pool_profiles"};
+version: {"value":"0.10.0-a1"};
+
+[body]
+tier_04m: {"name":"Lowest","total":4000000};
+tier_06m: {"name":"Low","total":6000000};
+tier_08m: {"name":"Medium","total":8000000};
+tier_10m: {"name":"Upper-Medium","total":10000000};
+tier_12m: {"name":"Reduced+","total":12000000};
+tier_14m: {"name":"Reduced","total":14000000};
+tier_16m: {"name":"Normal","total":16000000};
+tier_18m: {"name":"Large","total":18000000};
+tier_20m: {"name":"Full","total":20000000};
+tier_24m: {"name":"Ultra Full","total":24000000};
+tier_26m: {"name":"Fancy Full","total":26000000};
+tier_32m: {"name":"Uber Fancy","total":32000000};
+resident_not_equal_submitted: {"value":true};
+intel_mesa_tested_environment_ceiling: {"value":8000000};
+intel_mesa_initial_total_profile: {"value":"20M Full, capability gated"};
+active_submitted_soft_cap_20m: {"value":3800000};
+async_chunk_generation_required_above_8m: {"value":true};
+
+[footer]
+notes: {"value":"These are total resident pool caps for environment, hostiles, player viewmodel, friendlies/NPCs, and object/effect pools. They are not promises to submit every resident point each frame."};

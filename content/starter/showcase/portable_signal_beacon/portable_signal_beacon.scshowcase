@@ -1,0 +1,15 @@
+{
+  "actor_preview": false,
+  "animation_rate": 1.0,
+  "collision_outline": true,
+  "extensions": {},
+  "lod_fraction": 1.0,
+  "playbook_id": "",
+  "point_scale": 1.05,
+  "schema": "signalcloud.showcase-visualization",
+  "schema_major": 1,
+  "schema_minor": 0,
+  "snapshot_height": 720,
+  "snapshot_width": 1280,
+  "view_mode": "light"
+}

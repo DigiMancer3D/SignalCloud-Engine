@@ -1,0 +1,319 @@
+{
+  "active_layer_id": 1,
+  "asset_id": "guarded_interaction_demo",
+  "author": {
+    "asset_type": "enemy",
+    "creator_name": "PCP3 Branch 4 Example",
+    "description": "Example asset demonstrating rig, timeline, and gameplay metadata.",
+    "tags": [
+      "example",
+      "rig",
+      "timeline",
+      "trigger"
+    ],
+    "title": "Guarded Interaction Demo"
+  },
+  "certificate_file": "guarded_interaction_demo.pcpcert.json",
+  "cloud_file": "guarded_interaction_demo.pcp3cloud",
+  "cloud_sha256": "434181efcad8508431ac5b1eed4203d16876e58c2b744ac2a486f9cf991bea13",
+  "display_name": "Guarded Interaction Demo",
+  "environment_type": "enemy",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Entity",
+      "id": 1,
+      "locked": false,
+      "name": "Body",
+      "opacity": 1.0,
+      "semantic": "enemy_body",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "advanced_authoring": {
+      "flow": {
+        "nodes": []
+      },
+      "future_attributes": {},
+      "placements": [],
+      "raid": {
+        "waves": []
+      },
+      "rig": {
+        "anchors": [
+          {
+            "future_attributes": {},
+            "id": "anchor_1",
+            "name": "attack_origin",
+            "position": [
+              0.45,
+              1.3,
+              0.0
+            ],
+            "role": "attack"
+          }
+        ],
+        "bones": [
+          {
+            "end": [
+              0.0,
+              1.4,
+              0.0
+            ],
+            "future_attributes": {},
+            "id": "bone_1",
+            "name": "root",
+            "parent": "",
+            "start": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "weight_channel": 0
+          },
+          {
+            "end": [
+              0.0,
+              2.0,
+              0.0
+            ],
+            "future_attributes": {},
+            "id": "bone_2",
+            "name": "head",
+            "parent": "root",
+            "start": [
+              0.0,
+              1.4,
+              0.0
+            ],
+            "weight_channel": 0
+          }
+        ]
+      },
+      "schema": "pcp3_advanced_authoring_v1",
+      "theme": {
+        "slots": []
+      },
+      "timelines": [
+        {
+          "duration": 2.0,
+          "events": [
+            {
+              "action": "alert_bark",
+              "id": "event_1",
+              "payload": {},
+              "time": 1.0,
+              "type": "sound"
+            }
+          ],
+          "fps": 30,
+          "keyframes": [
+            {
+              "future_attributes": {},
+              "id": "key_1",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_2",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.05,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                8.0,
+                0.0
+              ],
+              "scale": [
+                1.02,
+                0.98,
+                1.02
+              ],
+              "target": "root",
+              "time": 1.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_3",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 2.0
+            }
+          ],
+          "loop": true,
+          "name": "Idle Alert"
+        }
+      ],
+      "triggers": [
+        {
+          "action": "reveal",
+          "conditions": [],
+          "delay": 0.0,
+          "future_attributes": {},
+          "id": "trigger_1",
+          "position": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "radius": 4.0,
+          "repeat": false,
+          "target": "",
+          "type": "scanner"
+        },
+        {
+          "action": "pulse_light",
+          "conditions": [],
+          "cooldown": 1.3,
+          "delay": 0.0,
+          "future_attributes": {},
+          "id": "trigger_2",
+          "position": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "radius": 3.0,
+          "repeat": true,
+          "target": "",
+          "type": "interaction"
+        },
+        {
+          "action": "alert",
+          "conditions": [],
+          "delay": 2.0,
+          "future_attributes": {},
+          "id": "trigger_3",
+          "position": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "radius": 1.0,
+          "repeat": false,
+          "target": "",
+          "type": "timer"
+        }
+      ]
+    },
+    "authoring_sidecar_file": "advanced_enemy_demo.pcp3authoring.json",
+    "cloud_sha256": "434181efcad8508431ac5b1eed4203d16876e58c2b744ac2a486f9cf991bea13",
+    "editor_branch": "ISL_plus_branch2",
+    "factory_json_file": "guarded_interaction_demo.pcp3factory.json",
+    "factory_udata_file": "guarded_interaction_demo.pcp3factory.udata",
+    "interaction_json_file": "guarded_interaction_demo.pcp3interaction.json",
+    "interaction_udata_file": "guarded_interaction_demo.pcp3interaction.udata",
+    "last_project_path": "examples/pcp3/advanced_enemy_demo.pcp3",
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 120000,
+    "runtime_factory": {
+      "enabled": true,
+      "event_policy": "telemetry_only",
+      "flow_debug": true,
+      "future_attributes": {},
+      "game_enabled": true,
+      "max_nested_points": 100000,
+      "nested_placements": true,
+      "proximity_gate": false,
+      "proximity_radius": 16.0,
+      "root_motion": true,
+      "scanner_gate": true,
+      "schema": "pcp3_runtime_factory_v1",
+      "selected_clip": "Default",
+      "stress_enabled": true,
+      "theme_runtime": true,
+      "trigger_debug": true
+    },
+    "runtime_interaction": {
+      "alert_duration": 3.0,
+      "console_event_log": true,
+      "default_cooldown": 1.3,
+      "enabled": true,
+      "future_attributes": {},
+      "game_enabled": true,
+      "max_active_proxies": 16,
+      "max_event_ledger": 256,
+      "max_state_entries": 256,
+      "proxy_lifetime": 5.0,
+      "pulse_duration": 1.25,
+      "reset_policy": "zone_exit",
+      "schema": "pcp3_guarded_interaction_v1",
+      "show_runtime_evidence": true,
+      "stress_enabled": true
+    },
+    "tool_profile": "formed_or_formless"
+  },
+  "point_count": 117,
+  "point_record_size": 64,
+  "project_id": "pcp3-guarded-interaction-demo",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": true,
+    "preview_position": [
+      2.0,
+      1.0,
+      -3.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 8.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 6.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 8.0
+  },
+  "unknown_fields_policy": "preserve"
+}

@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.physics.starter.universal_mount_bracket";
+asset_type: "physics_profile";
+family: "physics";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.universal_mount_bracket"];
+hot_reload: "authoring-only";
+source_sha256: "0a02ae91799d712d0c07b440a176f1f6e03ae35c45c459ae5044c5716a04f91e";
+data_only: true;
+unknown_fields_policy: "preserve";

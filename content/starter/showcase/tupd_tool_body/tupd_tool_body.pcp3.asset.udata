@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.tupd_tool_body";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "d9ffacfd75329b379c0f557d53920df3a14853028a945a37e3b9e18944a70534";
+data_only: true;
+unknown_fields_policy: "preserve";

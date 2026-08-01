@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Create a reusable semantic palette and room-part set for walls, floors, ceilings, portals, lights, and props.",
+    "tags": [
+      "branch12",
+      "environment_theme",
+      "pcp3",
+      "tutorial"
+    ],
+    "title": "Environment Theme Tutorial Starter",
+    "type": "environment_theme"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "75c3460101e537fdd3005658716b83c22f290a20f83db5462cf3971bfcc75138",
+  "initial_hash_proof": "bd04224b78ad4f4b8589eb0537fc393185f6465e2ffa091f57c29693bbf3f7d8",
+  "project_id": "c48ce659-07a4-4e81-addd-dacd10ada140",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Create a reusable semantic palette and room-part set for walls, floors, ceilings, portals, lights, and props.",
+        "tags": [
+          "branch12",
+          "environment_theme",
+          "pcp3",
+          "tutorial"
+        ],
+        "title": "Environment Theme Tutorial Starter",
+        "type": "environment_theme"
+      },
+      "checksum": "75c3460101e537fdd3005658716b83c22f290a20f83db5462cf3971bfcc75138",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "bd04224b78ad4f4b8589eb0537fc393185f6465e2ffa091f57c29693bbf3f7d8",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-BC4C4DF285F147DC97ED55F30105ED9A"
+}

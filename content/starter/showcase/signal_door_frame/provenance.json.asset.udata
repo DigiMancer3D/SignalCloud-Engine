@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.provenance.starter.signal_door_frame";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.signal_door_frame"];
+hot_reload: "disabled";
+source_sha256: "e7d88070203536ed3ab1fbc6b16e881790c01b2ea24582048d0244b1b930a725";
+data_only: true;
+unknown_fields_policy: "preserve";

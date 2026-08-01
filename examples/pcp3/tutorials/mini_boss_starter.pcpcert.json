@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Create an elite hostile between a normal enemy and boss, with limited phases and a smaller encounter footprint.",
+    "tags": [
+      "branch12",
+      "mini_boss",
+      "pcp3",
+      "tutorial"
+    ],
+    "title": "Mini-Boss Tutorial Starter",
+    "type": "mini_boss"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "2cf4af554cd83afcef312b5ed08a4137dd31bda60c4a451e148f9e88585743ae",
+  "initial_hash_proof": "ea3796f36ddc5c7446532da7253693515a003b06a1dbbe01940281fadb7eb1bb",
+  "project_id": "3647e609-574a-4033-b414-af1006931031",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Create an elite hostile between a normal enemy and boss, with limited phases and a smaller encounter footprint.",
+        "tags": [
+          "branch12",
+          "mini_boss",
+          "pcp3",
+          "tutorial"
+        ],
+        "title": "Mini-Boss Tutorial Starter",
+        "type": "mini_boss"
+      },
+      "checksum": "2cf4af554cd83afcef312b5ed08a4137dd31bda60c4a451e148f9e88585743ae",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "ea3796f36ddc5c7446532da7253693515a003b06a1dbbe01940281fadb7eb1bb",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-93B7ADAF267340208E22A5BE93EB0DE1"
+}

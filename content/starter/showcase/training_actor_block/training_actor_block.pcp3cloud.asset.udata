@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.training_actor_block";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.training_actor_block"];
+hot_reload: "disabled";
+source_sha256: "a7a596b70eb8a416eda80167c68e6a70cdb0309ef485d68847e0076aa2b9cd7d";
+data_only: true;
+unknown_fields_policy: "preserve";

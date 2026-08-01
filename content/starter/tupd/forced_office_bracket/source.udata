@@ -1,0 +1,9 @@
+@udata 1
+
+[source]
+recipe_id: "starter.forced-office-bracket";
+label: "Forced Office Bracket Modification";
+origin: "Original SignalCloud A8a1 starter recipe";
+license_id: "CC0-1.0";
+data_only: true;
+executable_content: false;

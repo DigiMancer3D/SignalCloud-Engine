@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.signal_door_frame";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.signal_door_frame"];
+hot_reload: "disabled";
+source_sha256: "ebcbb6f83a7866b7a5e9140e5374900f259b8394e6d5b646c9d688c2617beeca";
+data_only: true;
+unknown_fields_policy: "preserve";

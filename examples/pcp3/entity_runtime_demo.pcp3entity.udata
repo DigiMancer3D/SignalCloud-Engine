@@ -1,0 +1,260 @@
+@udata 1
+
+[entity]
+schema: {"value":"pcp3_entity_runtime_v1"};
+enabled: {"value":true};
+game_enabled: {"value":false};
+stress_enabled: {"value":true};
+entity_kind: {"value":"enemy"};
+movement_profile: {"value":"hover"};
+movement_speed: {"value":1.5};
+movement_radius: {"value":6.0};
+hover_height: {"value":0.2};
+hover_period: {"value":2.6};
+detection_radius: {"value":10.0};
+attack_radius: {"value":2.5};
+attack_cooldown: {"value":1.3};
+transition_seconds: {"value":0.18};
+bone_deformation: {"value":true};
+show_rig_debug: {"value":true};
+show_anchor_debug: {"value":true};
+show_state_debug: {"value":true};
+max_deformed_points: {"value":250000};
+attack_anchor: {"value":"attack_origin"};
+effect_anchor: {"value":"signal_effect"};
+
+[state.idle]
+clip: {"value":"Idle"};
+duration: {"value":1.3};
+loop: {"value":true};
+
+[state.move]
+clip: {"value":"Move"};
+duration: {"value":1.3};
+loop: {"value":true};
+
+[state.alert]
+clip: {"value":"Alert"};
+duration: {"value":1.3};
+loop: {"value":true};
+
+[state.attack]
+clip: {"value":"Attack"};
+duration: {"value":1.3};
+loop: {"value":true};
+
+[bone.0]
+name: {"value":"root"};
+parent_index: {"value":-1};
+start: {"value":[0.0,0.15,0.0]};
+end: {"value":[0.0,1.4,0.0]};
+weight_channel: {"value":0};
+
+[bone.1]
+name: {"value":"arm"};
+parent_index: {"value":0};
+start: {"value":[0.2,1.15,0.0]};
+end: {"value":[1.45,1.15,0.0]};
+weight_channel: {"value":1};
+
+[bone_keyframe.0]
+state: {"value":"idle"};
+bone_channel: {"value":1};
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,-2.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.1]
+state: {"value":"idle"};
+bone_channel: {"value":0};
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.2]
+state: {"value":"idle"};
+bone_channel: {"value":1};
+time: {"value":0.65};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,8.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.3]
+state: {"value":"idle"};
+bone_channel: {"value":0};
+time: {"value":0.65};
+position: {"value":[0.0,0.04,0.0]};
+rotation: {"value":[0.0,4.0,0.0]};
+scale: {"value":[1.02,0.98,1.02]};
+
+[bone_keyframe.4]
+state: {"value":"idle"};
+bone_channel: {"value":1};
+time: {"value":1.3};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,-2.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.5]
+state: {"value":"idle"};
+bone_channel: {"value":0};
+time: {"value":1.3};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.6]
+state: {"value":"move"};
+bone_channel: {"value":1};
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,-4.5]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.7]
+state: {"value":"move"};
+bone_channel: {"value":0};
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.8]
+state: {"value":"move"};
+bone_channel: {"value":1};
+time: {"value":0.65};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,18.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.9]
+state: {"value":"move"};
+bone_channel: {"value":0};
+time: {"value":0.65};
+position: {"value":[0.0,0.04,0.0]};
+rotation: {"value":[0.0,4.0,0.0]};
+scale: {"value":[1.02,0.98,1.02]};
+
+[bone_keyframe.10]
+state: {"value":"move"};
+bone_channel: {"value":1};
+time: {"value":1.3};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,-4.5]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.11]
+state: {"value":"move"};
+bone_channel: {"value":0};
+time: {"value":1.3};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.12]
+state: {"value":"alert"};
+bone_channel: {"value":1};
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,-8.75]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.13]
+state: {"value":"alert"};
+bone_channel: {"value":0};
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.14]
+state: {"value":"alert"};
+bone_channel: {"value":1};
+time: {"value":0.65};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,35.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.15]
+state: {"value":"alert"};
+bone_channel: {"value":0};
+time: {"value":0.65};
+position: {"value":[0.0,0.04,0.0]};
+rotation: {"value":[0.0,4.0,0.0]};
+scale: {"value":[1.02,0.98,1.02]};
+
+[bone_keyframe.16]
+state: {"value":"alert"};
+bone_channel: {"value":1};
+time: {"value":1.3};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,-8.75]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.17]
+state: {"value":"alert"};
+bone_channel: {"value":0};
+time: {"value":1.3};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.18]
+state: {"value":"attack"};
+bone_channel: {"value":1};
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,-18.75]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.19]
+state: {"value":"attack"};
+bone_channel: {"value":0};
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.20]
+state: {"value":"attack"};
+bone_channel: {"value":1};
+time: {"value":0.65};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,75.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.21]
+state: {"value":"attack"};
+bone_channel: {"value":0};
+time: {"value":0.65};
+position: {"value":[0.0,0.04,0.0]};
+rotation: {"value":[0.0,4.0,0.0]};
+scale: {"value":[1.02,0.98,1.02]};
+
+[bone_keyframe.22]
+state: {"value":"attack"};
+bone_channel: {"value":1};
+time: {"value":1.3};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,-18.75]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[bone_keyframe.23]
+state: {"value":"attack"};
+bone_channel: {"value":0};
+time: {"value":1.3};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[anchor.0]
+name: {"value":"attack_origin"};
+role: {"value":"attack"};
+position: {"value":[1.45,1.15,0.0]};
+
+[anchor.1]
+name: {"value":"signal_effect"};
+role: {"value":"effect"};
+position: {"value":[0.0,1.75,0.0]};

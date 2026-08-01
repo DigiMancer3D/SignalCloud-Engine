@@ -1,0 +1,21 @@
+{
+  "asset_id": "encounter_runtime_demo",
+  "flow_node_count": 1,
+  "host_zone": "Reception Tape",
+  "placement_count": 1,
+  "policy": "guarded_world_assembly_one_level_no_arbitrary_code",
+  "portal_count": 1,
+  "references": {
+    "known_asset_count": 0,
+    "missing_asset_ids": [
+      "signal_orb_demo"
+    ],
+    "referenced_asset_ids": [
+      "signal_orb_demo"
+    ],
+    "resolved_asset_ids": []
+  },
+  "room_id": "encounter_runtime_demo",
+  "schema": "pcp3_world_reference_audit_v1",
+  "theme_slot_count": 2
+}

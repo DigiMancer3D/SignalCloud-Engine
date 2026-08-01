@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.provenance.starter.training_actor_block";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.training_actor_block"];
+hot_reload: "disabled";
+source_sha256: "bbdc423bbd26da8717dec648538dbe0cc0ff265c53ab901d80cbdf0931e57a62";
+data_only: true;
+unknown_fields_policy: "preserve";

@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.physics.starter.modular_office_wall_panel";
+asset_type: "physics_profile";
+family: "physics";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.modular_office_wall_panel"];
+hot_reload: "authoring-only";
+source_sha256: "22e9f76cfac23815ecf47fe55e99fe1d5c2cc687791c8561c6849eaa6d04b48c";
+data_only: true;
+unknown_fields_policy: "preserve";

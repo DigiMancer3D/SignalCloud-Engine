@@ -1,0 +1,45 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "DigiMancer3D / SignalCloud Engine",
+    "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+    "tags": [
+      "showcase",
+      "starter",
+      "systems",
+      "tool",
+      "tupd-compatible",
+      "weapon-body"
+    ],
+    "title": "Tupd Tool Body",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15232460062",
+  "initial_checksum": "6ffca2f1a0d6cfe79c8d1e0169e7afc633dd4bef853e45aa8314b8b1c5283d94",
+  "initial_hash_proof": "850e4a84c1dc39f04b4f76282d8710f562c21aed6cd1bb84c7e01f03c493a28f",
+  "project_id": "3c7c5489-2ffb-468b-bf5a-33e987d09cb5",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "showcase",
+          "starter",
+          "systems",
+          "tool",
+          "tupd-compatible",
+          "weapon-body"
+        ],
+        "title": "Tupd Tool Body",
+        "type": "environment_object"
+      },
+      "checksum": "6ffca2f1a0d6cfe79c8d1e0169e7afc633dd4bef853e45aa8314b8b1c5283d94",
+      "epoch_octal": "0o15232460062",
+      "hash_proof": "850e4a84c1dc39f04b4f76282d8710f562c21aed6cd1bb84c7e01f03c493a28f",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-91D25B3E072442B3A816BBECBE5DE88B"
+}

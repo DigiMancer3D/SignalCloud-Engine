@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.training_actor_block";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.training_actor_block"];
+hot_reload: "disabled";
+source_sha256: "52d16d0a6564bfb3dd5e515f9677c0680156698f4712d04002fed4a2b45f7420";
+data_only: true;
+unknown_fields_policy: "preserve";

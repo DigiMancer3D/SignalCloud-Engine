@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "user.audio.hash_dog_bark";
+asset_type: "audio_interference_profile";
+family: "audio";
+pack: "user";
+license_id: "LicenseRef-SignalCloud-User-Authored";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "b157f7f6bc1240113bc06a4895c26e82b224e3a67de50a62f651e041a90186fb";
+data_only: true;
+unknown_fields_policy: "preserve";

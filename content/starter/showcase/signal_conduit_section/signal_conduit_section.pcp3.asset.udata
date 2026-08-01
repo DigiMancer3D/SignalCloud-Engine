@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.signal_conduit_section";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "1c98529c7b62122c848e775c7dcf14b126b3982056d2c0234818913c7ba72c67";
+data_only: true;
+unknown_fields_policy: "preserve";

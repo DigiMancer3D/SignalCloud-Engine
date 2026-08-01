@@ -1,0 +1,34 @@
+@udata 1
+
+[header]
+data_type: {"name":"ar_interface_config"};
+version: {"value":"0.12.0-a4"};
+
+[body]
+mode: {"value":"camera_anchored_point_ar"};
+default_title: {"value":"compact"};
+diagnostics_toggle: {"value":"F12"};
+health_warning_start: {"value":0.15};
+health_warning_stop: {"value":0.03};
+minimum_center_window_ratio: {"value":0.07};
+compact_vitals: {"health":true,"oxygen":true,"sabs":true,"carry":true};
+compact_values: {"xar":true,"ammo":true};
+bottom_vitals_y: {"value":-0.302};
+xar_tower: {"anchor":"top_left","orientation":"top_down","value_side":"right"};
+weapon_tower: {"anchor":"top_right","orientation":"top_down","value_side":"left"};
+feedback_vertical_anchor: {"value":0.106};
+scanner_signature_band: {"value":true};
+scanner_contacts: {"values":["room","formed","formless","exchange","loot"]};
+scanner_range_bonus_m: {"value":16.0};
+scanner_terminal_independence: {"value":true};
+interaction_prompt_extra_range_m: {"value":1.40};
+transaction_feedback_seconds: {"value":1.25};
+failure_feedback_seconds: {"value":0.85};
+vending_mouse_select: {"value":true};
+vending_keyboard_select: {"value":"arrow_keys"};
+vending_confirm: {"values":["left_click","J","Enter"]};
+vending_cancel: {"values":["right_click","K","Escape"]};
+safe_room_weapon_lock: {"value":true};
+
+[footer]
+notes: {"value":"Pivot 12 a3 lowers bottom vitals, moves XAR and weapon state into vertical corner towers, raises result feedback, shortens the title, and gives scanning visible adjacent-room and contact signatures."};

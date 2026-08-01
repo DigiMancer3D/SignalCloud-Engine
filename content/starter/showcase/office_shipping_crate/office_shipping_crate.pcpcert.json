@@ -1,0 +1,94 @@
+{
+  "amendments": [
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "architecture",
+          "backrooms",
+          "crate",
+          "office",
+          "showcase",
+          "starter"
+        ],
+        "title": "Office Shipping Crate",
+        "type": "environment_object"
+      },
+      "checksum": "70c27b91c919512722b2b123739daa1058ff3f24d316e218449046185575171e",
+      "edited_user_name": "SignalCloud Showcase A7a2",
+      "epoch_octal": "0o15232460062",
+      "hash_proof": "1c64bb780e91cb35c72da2fba79f7268e1ea22c66a7e68f543a12e4aa6ae38d5",
+      "kind": "author_form_update",
+      "previous_hash_proof": "98f27a7d34b997f7105bf619a8996793a12cf1d44f01ec70428127aff149f94a",
+      "version": 2
+    }
+  ],
+  "author": {
+    "creator_name": "DigiMancer3D / SignalCloud Engine",
+    "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+    "tags": [
+      "architecture",
+      "backrooms",
+      "crate",
+      "office",
+      "showcase",
+      "starter"
+    ],
+    "title": "Office Shipping Crate",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15232450453",
+  "initial_checksum": "30ea2316210c3d070e5943e831ffdb14d83efd880e0633fc99b8015f95c95e6d",
+  "initial_hash_proof": "98f27a7d34b997f7105bf619a8996793a12cf1d44f01ec70428127aff149f94a",
+  "latest_checksum": "70c27b91c919512722b2b123739daa1058ff3f24d316e218449046185575171e",
+  "latest_hash_proof": "1c64bb780e91cb35c72da2fba79f7268e1ea22c66a7e68f543a12e4aa6ae38d5",
+  "project_id": "53d3bf6c-2373-4161-8034-d4c19126d2d6",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "architecture",
+          "backrooms",
+          "office",
+          "showcase",
+          "starter"
+        ],
+        "title": "Office Shipping Crate",
+        "type": "environment_object"
+      },
+      "checksum": "30ea2316210c3d070e5943e831ffdb14d83efd880e0633fc99b8015f95c95e6d",
+      "epoch_octal": "0o15232450453",
+      "hash_proof": "98f27a7d34b997f7105bf619a8996793a12cf1d44f01ec70428127aff149f94a",
+      "kind": "initial_save"
+    },
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "architecture",
+          "backrooms",
+          "crate",
+          "office",
+          "showcase",
+          "starter"
+        ],
+        "title": "Office Shipping Crate",
+        "type": "environment_object"
+      },
+      "checksum": "70c27b91c919512722b2b123739daa1058ff3f24d316e218449046185575171e",
+      "edited_user_name": "SignalCloud Showcase A7a2",
+      "epoch_octal": "0o15232460062",
+      "hash_proof": "1c64bb780e91cb35c72da2fba79f7268e1ea22c66a7e68f543a12e4aa6ae38d5",
+      "kind": "author_form_update",
+      "previous_hash_proof": "98f27a7d34b997f7105bf619a8996793a12cf1d44f01ec70428127aff149f94a",
+      "version": 2
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-9E4FDF4E7B464C8789BA61C62222FACC",
+  "version": 2
+}

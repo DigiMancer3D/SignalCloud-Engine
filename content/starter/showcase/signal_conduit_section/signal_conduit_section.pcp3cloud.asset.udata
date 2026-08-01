@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.signal_conduit_section";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.signal_conduit_section"];
+hot_reload: "disabled";
+source_sha256: "bc265280efd85be48a69766a0830ae925451d6bc6bc74d53baade689145991bb";
+data_only: true;
+unknown_fields_policy: "preserve";

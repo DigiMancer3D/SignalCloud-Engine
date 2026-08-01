@@ -1,0 +1,52 @@
+{
+  "break_threshold": 125.0,
+  "collision_half_x": 0.42,
+  "collision_half_y": 0.9300000000000002,
+  "collision_half_z": 0.42,
+  "collision_radius": 0.42,
+  "drag": 0.04,
+  "extensions": {},
+  "friction": 0.48,
+  "gravity_scale": 1.0,
+  "hold_points": [
+    [
+      0.0,
+      -0.65,
+      0.0
+    ],
+    [
+      0.0,
+      0.65,
+      0.0
+    ]
+  ],
+  "impact_multiplier": 1.0,
+  "mass": 9.0,
+  "profile_id": "showcase.signal_conduit_section",
+  "restitution": 0.18,
+  "schema": "signalcloud.physics-profile",
+  "schema_major": 1,
+  "schema_minor": 1,
+  "shape": "capsule",
+  "sleep_policy": "after_settle",
+  "sockets": [
+    {
+      "id": "conduit_a",
+      "kind": "conduit",
+      "position": [
+        0.0,
+        -1.35,
+        0.0
+      ]
+    },
+    {
+      "id": "conduit_b",
+      "kind": "conduit",
+      "position": [
+        0.0,
+        1.35,
+        0.0
+      ]
+    }
+  ]
+}

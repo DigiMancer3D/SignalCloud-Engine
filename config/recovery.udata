@@ -1,0 +1,21 @@
+@udata 1
+
+[header]
+data_type: {"name":"death_recovery_config"};
+version: {"value":"0.13.0-a1"};
+
+[body]
+blackout_seconds: {"value":1.65};
+stabilizing_seconds: {"value":0.85};
+respawn_zone: {"value":"Reception Tape"};
+xar_loss_percent: {"value":15};
+xar_loss_cap: {"value":30};
+signal_scrap_loss_fraction: {"value":0.5};
+secured_death_proofs_preserved: {"value":true};
+map_memory_preserved: {"value":true};
+death_causes: {"values":["combat","drowning","pressure","fall","poison","treason"]};
+low_health_warning_start_percent: {"value":15};
+minimum_open_play_health_percent: {"value":3};
+
+[footer]
+notes: {"value":"The cause-aware AR mask stops advancing at 3 percent health, then death uses a short blackout/progress handshake before restoring the player at Reception Tape."};

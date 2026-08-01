@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.physics.starter.training_actor_block";
+asset_type: "physics_profile";
+family: "physics";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.training_actor_block"];
+hot_reload: "authoring-only";
+source_sha256: "2d202ed0c483ccbd28297bc8d46627980923d2c9ab175241d194055fc2702025";
+data_only: true;
+unknown_fields_policy: "preserve";

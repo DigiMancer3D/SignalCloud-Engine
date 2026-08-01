@@ -1,0 +1,80 @@
+{
+  "active_layer_id": 1,
+  "asset_id": "a3_preview_marker",
+  "author": {
+    "asset_type": "environment_object",
+    "creator_name": "SignalCloud Engine",
+    "description": "Persistent floating WELCOME sign for the Reception Tape safe-room integrity indicator.",
+    "tags": [
+      "alpha-a5",
+      "reception",
+      "welcome",
+      "hot-reload",
+      "preview-proof"
+    ],
+    "title": "Reception WELCOME Sign"
+  },
+  "certificate_file": "a3_preview_marker.pcpcert.json",
+  "cloud_file": "a3_preview_marker.pcp3cloud",
+  "cloud_sha256": "e90d3a70144cb253d5d7f538d488e5935130864a4b886102c68288f792a9edf0",
+  "display_name": "Reception WELCOME Sign",
+  "environment_type": "environment_object",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 1,
+      "locked": false,
+      "name": "Base Points",
+      "opacity": 1.0,
+      "semantic": "generic",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "cloud_sha256": "002b78a1fdb8ac3a116dd76c381c7ef387db8257f74a998b093817ce66dfbc3e",
+    "editor_branch": "ISL_plus_branch2",
+    "last_project_path": "content/pcp3_assets/environment_object/a3_preview_marker/a3_preview_marker.pcp3",
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 250000,
+    "tool_profile": "object",
+    "welcome_sign": "persistent_reception_integrity_indicator"
+  },
+  "point_count": 382,
+  "point_record_size": 64,
+  "project_id": "6339cf2d-3cef-4192-bcf1-591c2b7142f5",
+  "runtime": {
+    "auto_preview_in_game": true,
+    "enabled": true,
+    "preview_position": [
+      0.0,
+      1.82,
+      -4.5
+    ],
+    "preview_scale": 0.48,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "persistent_safe_room_indicator"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 12.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 12.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 12.0
+  },
+  "unknown_fields_policy": "preserve"
+}

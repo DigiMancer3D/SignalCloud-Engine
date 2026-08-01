@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.certificate.starter.modular_office_wall_panel";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.modular_office_wall_panel"];
+hot_reload: "disabled";
+source_sha256: "67a015402f06a289413d1a6058df3bb83cbd20571e69dee85d8e9400a0f07b05";
+data_only: true;
+unknown_fields_policy: "preserve";

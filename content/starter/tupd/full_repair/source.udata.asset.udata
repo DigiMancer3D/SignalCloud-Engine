@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.full-repair.source";
+asset_type: "udata";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["starter.tupd.full-repair"];
+hot_reload: "disabled";
+source_sha256: "2a1f40774fc962f6cc9999f2bf56da7208986a98f788ccc027dfa93a5df655b3";
+data_only: true;
+unknown_fields_policy: "preserve";

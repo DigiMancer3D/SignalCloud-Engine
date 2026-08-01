@@ -1,0 +1,77 @@
+@udata 1
+
+[world]
+schema: {"value":"pcp3_world_assembly_v1"};
+enabled: {"value":true};
+game_enabled: {"value":false};
+stress_enabled: {"value":true};
+world_id: {"value":"branch9_demo_world"};
+room_id: {"value":"world_assembly_demo"};
+room_name: {"value":"World Assembly Demo Room"};
+host_zone: {"value":"Reception Tape"};
+safe_room: {"value":false};
+logical_level: {"value":0};
+bounds_min: {"value":[-4.15,-0.3,-4.15]};
+bounds_max: {"value":[4.15,4.300000000000001,4.15]};
+reset_policy: {"value":"zone_exit"};
+execute_portals: {"value":false};
+portal_interaction_required: {"value":true};
+portal_cooldown: {"value":0.8};
+show_portal_debug: {"value":true};
+show_bounds_debug: {"value":true};
+max_portals: {"value":32};
+max_placements: {"value":64};
+max_liquid_points: {"value":150000};
+
+[liquid]
+enabled: {"value":true};
+type: {"value":"water"};
+color: {"value":"#2F6F8F"};
+opacity: {"value":0.72};
+wave_amplitude: {"value":0.08};
+wave_frequency: {"value":0.7};
+flow_scale: {"value":1.0};
+surface_points: {"value":330};
+volume_points: {"value":0};
+
+[theme]
+apply: {"value":true};
+theme_asset_id: {"value":""};
+
+[portal.0]
+id: {"value":"demo_door"};
+kind: {"value":"door"};
+position: {"value":[0.0,1.2,-3.82]};
+size: {"value":[1.8,2.4,0.5]};
+destination_asset_id: {"value":""};
+destination_portal_id: {"value":""};
+arrival_offset: {"value":[0.0,0.0,1.4]};
+arrival_yaw_degrees: {"value":0.0};
+interaction_required: {"value":true};
+one_way: {"value":false};
+enabled: {"value":true};
+
+[spawn.0]
+id: {"value":"default_spawn"};
+role: {"value":"default"};
+position: {"value":[0.0,0.2,2.5]};
+yaw_degrees: {"value":180.0};
+enabled: {"value":true};
+
+[world_theme.0]
+semantic: {"value":"wall"};
+color: {"value":"#C2B47A"};
+brush: {"value":"Square Solid"};
+preset: {"value":"plaster_wall"};
+
+[world_theme.1]
+semantic: {"value":"floor"};
+color: {"value":"#5A5140"};
+brush: {"value":"Square Solid"};
+preset: {"value":"flat_floor"};
+
+[world_flow.0]
+position: {"value":[0.0,0.25,0.0]};
+direction: {"value":[1.0,0.0,0.0]};
+strength: {"value":1.5};
+viscosity: {"value":0.7};

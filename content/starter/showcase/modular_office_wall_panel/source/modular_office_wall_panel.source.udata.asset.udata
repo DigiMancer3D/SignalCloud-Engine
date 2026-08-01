@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.modular_office_wall_panel";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.modular_office_wall_panel"];
+hot_reload: "disabled";
+source_sha256: "a4db61c2c842de3aa11cc017197d7578e9d85637625d2a962255445369ae5fdf";
+data_only: true;
+unknown_fields_policy: "preserve";

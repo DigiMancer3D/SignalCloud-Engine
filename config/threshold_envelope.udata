@@ -1,0 +1,20 @@
+@udata 1
+
+[header]
+data_type: {"name":"threshold_envelope_config"};
+version: {"value":"0.8.0-a2"};
+
+[body]
+auto_normalize_connections: {"value":true};
+derive_shared_boundary_span: {"value":true};
+derive_opening_floor_from_higher_side: {"value":true};
+preserve_lower_wall_to_deeper_floor: {"value":true};
+generate_side_panels: {"value":true};
+generate_sill_panels: {"value":true};
+generate_lintel_panels: {"value":true};
+share_panel_ownership: {"value":true};
+reserved_point_fraction: {"value":0.03};
+separate_duplicate_portal_frames: {"value":true};
+
+[footer]
+notes: {"value":"One connection aperture drives collision, wall envelope, frame, preview, and submerged coating."};

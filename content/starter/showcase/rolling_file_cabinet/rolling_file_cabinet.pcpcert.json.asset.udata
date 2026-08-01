@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.certificate.starter.rolling_file_cabinet";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.rolling_file_cabinet"];
+hot_reload: "disabled";
+source_sha256: "e349ed55f7b95da3e7476ae8127811bdba9ab7d83deae29d5f937814e3e20f2f";
+data_only: true;
+unknown_fields_policy: "preserve";

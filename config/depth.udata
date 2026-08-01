@@ -1,0 +1,27 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":0};
+data_type: {"name":"signalcloud_depth_survival"};
+profile_id: {"value":"pivot6_room_complex_depth_lab"};
+
+[body]
+maximum_oxygen_seconds: {"value":42.0};
+oxygen_warning_ratio: {"value":0.25};
+oxygen_damage_per_second: {"value":14.0};
+open_cavity_safe_depth: {"value":4.5};
+open_cavity_pressure_scale: {"value":2.55};
+corridor_pressure_safe: {"value":true};
+almond_tech_name: {"value":"Almo-Lung & Pressure Cuff"};
+almond_tech_interact_key: {"value":"F"};
+almond_tech_safe_depth: {"value":10.0};
+almond_tech_oxygen_drain_scale: {"value":0.58};
+thin_water_viscosity: {"value":0.82};
+thick_water_viscosity: {"value":1.48};
+depth_lab_quick_access_key: {"value":"K"};
+depth_trace: {"value":"reports/depth_trace.csv"};
+water_bomb_audio: {"value":"procedural_sdl_pcm"};
+water_bomb_ai_event: {"value":"reserved_audibility_hook"};
+
+[footer]
+notes: {"value":"Pressure is intentionally dangerous only in exposed open cavities. Deep constrained shafts and tunnels remain pressure-safe for liminal vertical traversal."};

@@ -1,0 +1,30 @@
+@udata 1
+
+[header]
+data_type: {"name":"combat_config"};
+version: {"value":"0.10.0-a1"};
+
+[body]
+combat_zone: {"value":"Live-Fire Signal Range"};
+primary_slot_1: {"value":"service_pistol"};
+primary_slot_2: {"value":"signal_prybar"};
+pistol_magazine: {"value":12};
+pistol_reserve: {"value":48};
+pistol_range_m: {"value":42.0};
+pistol_cooldown_s: {"value":0.18};
+prybar_range_m: {"value":2.65};
+prybar_cooldown_s: {"value":0.52};
+scanner_reveals_formless: {"value":true};
+right_click_evade_seconds: {"value":0.18};
+evade_defense_seconds: {"value":0.30};
+death_proof_claim_radius_m: {"value":2.6};
+ai_hearing_enabled: {"value":true};
+
+[pre-footer]
+formed_motion: {"value":"front vector + turn-first skeletal gait + hop dodge"};
+formless_motion: {"value":"surface flow + collapse/split dodge"};
+attack_visuals: {"value":"claw arc + sharp shadow lance"};
+viewmodel: {"value":"arms/hands + weapon sockets + ammo strip"};
+
+[footer]
+notes: {"value":"Pivot 10 extends the isolated live-fire slice with motion readability and a first-person point viewmodel. XAR exchange is represented only by proof claiming; claimed proofs now enter the Pivot 11 local inventory and may be exchanged for prototype XAR."};

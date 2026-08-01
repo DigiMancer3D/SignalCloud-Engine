@@ -1,0 +1,33 @@
+{
+  "asset_id": "user.audio.hash_dog_bark",
+  "event": {
+    "duration_seconds": 1.08,
+    "obstruction_path": 0.12,
+    "seed_salt": 2779096485,
+    "strength": 0.82
+  },
+  "extensions": {
+    "analytic_gameplay_truth": true,
+    "managed_from": "content/core/audio/hash_dog_bark.scaudio",
+    "resident_cloud_mutation": false
+  },
+  "frequency_band": "low",
+  "gameplay": {
+    "cooldown_seconds": 7.5,
+    "hearing_loudness": 0.86
+  },
+  "name": "Managed Hash Dog Low-Band Bark",
+  "runtime": {
+    "point_budget_cost": 224
+  },
+  "schema": "signalcloud_audio_interference_profile_v1",
+  "version": 1,
+  "visual": {
+    "color_mix": 0.34,
+    "displacement_scale": 0.82,
+    "radius_scale": 1.18,
+    "visibility_floor": 0.08,
+    "wave_count": 3,
+    "wave_sharpness": 0.72
+  }
+}

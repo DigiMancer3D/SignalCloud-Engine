@@ -1,0 +1,42 @@
+@udata 1
+
+[policy]
+ruleset_id: "signalcloud-alpha-a9-ruleset-1";
+schema_name: "signalcloud_machine_profile";
+schema_major: 1;
+first_run_behavior: "conservative-capability-fallback";
+active_profile: "user_data/machine_profiles/active.udata";
+candidate_profile: "user_data/machine_profiles/candidate.udata";
+previous_known_good: "user_data/machine_profiles/previous_known_good.udata";
+promotion_receipt: "user_data/machine_profiles/promotion_receipt.udata";
+
+[promotion]
+require_completed_run: true;
+require_route_pass: true;
+require_frame_pacing_pass: true;
+require_memory_guard_pass: true;
+require_content_hash_pass: true;
+atomic_active_write: true;
+preserve_previous_known_good: true;
+rejected_run_changes_active_profile: false;
+
+[staleness]
+check_ruleset: true;
+check_content_manifest: true;
+check_gpu_renderer_driver: true;
+check_resolution: true;
+stale_profile_behavior: "previous-known-good-then-conservative";
+
+[privacy]
+identity_storage: "hashed-capability-only";
+store_username: false;
+store_home_path: false;
+store_hostname: false;
+store_serial: false;
+store_save_data: false;
+
+[content_signature]
+format: "canonical-performance-manifest-v1";
+ignore_modified_ns: true;
+ignore_asset_types: ["rules"];
+legacy_raw_manifest_profile_behavior: "require-clean-official-revalidation";

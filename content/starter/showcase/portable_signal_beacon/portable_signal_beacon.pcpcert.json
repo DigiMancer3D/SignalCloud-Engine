@@ -1,0 +1,70 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "DigiMancer3D / SignalCloud Engine",
+    "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+    "tags": [
+      "beacon",
+      "gameplay",
+      "showcase",
+      "starter",
+      "systems",
+      "tupd-compatible"
+    ],
+    "title": "Portable Signal Beacon",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15232450453",
+  "initial_checksum": "3e9dd04a693fca03b5af3234debc9d8bd8d102013906852d07c6e9a6e91ba73a",
+  "initial_hash_proof": "a88e3db8a276de3c07c0f01fc288d70c58ad7caf5b20608aba87801c0b81cd4d",
+  "latest_checksum": "27aefb795952a5b5a4108a093cdb8e2eccc623e3297835c46b2b7d848b048ebf",
+  "latest_hash_proof": "245fd927ab1faa0f9f2fadb8d20ff21e402bd4c6411171ebd44ec76421a5b4e6",
+  "project_id": "77823ae2-0ea1-48a7-a59b-4326b47c6fb8",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "beacon",
+          "gameplay",
+          "showcase",
+          "starter",
+          "systems",
+          "tupd-compatible"
+        ],
+        "title": "Portable Signal Beacon",
+        "type": "environment_object"
+      },
+      "checksum": "3e9dd04a693fca03b5af3234debc9d8bd8d102013906852d07c6e9a6e91ba73a",
+      "epoch_octal": "0o15232450453",
+      "hash_proof": "a88e3db8a276de3c07c0f01fc288d70c58ad7caf5b20608aba87801c0b81cd4d",
+      "kind": "initial_save"
+    },
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "beacon",
+          "gameplay",
+          "showcase",
+          "starter",
+          "systems",
+          "tupd-compatible"
+        ],
+        "title": "Portable Signal Beacon",
+        "type": "environment_object"
+      },
+      "checksum": "27aefb795952a5b5a4108a093cdb8e2eccc623e3297835c46b2b7d848b048ebf",
+      "epoch_octal": "0o15232460062",
+      "hash_proof": "245fd927ab1faa0f9f2fadb8d20ff21e402bd4c6411171ebd44ec76421a5b4e6",
+      "kind": "asset_update",
+      "previous_hash_proof": "a88e3db8a276de3c07c0f01fc288d70c58ad7caf5b20608aba87801c0b81cd4d",
+      "version": 2
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-18BFC8646070474BA39FD2A090CD758E",
+  "version": 2
+}

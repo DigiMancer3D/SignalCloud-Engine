@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.portable_signal_beacon";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.portable_signal_beacon"];
+hot_reload: "disabled";
+source_sha256: "d770ee42ab7006aa7e0a46c5220041f2e6497f17fee3b71bd3779abe08774128";
+data_only: true;
+unknown_fields_policy: "preserve";

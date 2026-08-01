@@ -1,0 +1,37 @@
+@udata 1
+
+[header]
+data_type: {"name":"threat_navigation_config"};
+version: {"value":"0.13.0-a3"};
+
+[body]
+formed_radius: {"value":0.98};
+formed_body_height: {"value":1.28};
+formless_radius: {"value":1.12};
+formless_body_height: {"value":0.82};
+step_height: {"value":0.62};
+route_grid_spacing: {"value":0.90};
+motion_sample_spacing: {"value":0.28};
+route_repath_seconds: {"value":0.42};
+blocked_recovery_seconds: {"value":0.35};
+last_seen_memory_seconds: {"value":5.5};
+formed_separation_radius: {"value":1.20};
+formless_separation_radius: {"value":0.90};
+glass_blocks_movement: {"value":true};
+glass_blocks_sight: {"value":false};
+corner_cutting: {"value":false};
+nearest_valid_spawn_recovery: {"value":true};
+water_surface_offset: {"value":0.30};
+formed_water_speed_scale: {"value":0.64};
+underwater_bite_vertical_tolerance: {"value":0.85};
+maximum_pursuers_per_portal: {"value":2};
+elevated_downward_trigger_body_ratio: {"value":0.5};
+elevated_sight_scale: {"value":1.35};
+elevated_sight_max_scale: {"value":1.65};
+elevated_hearing_max_scale: {"value":2.0};
+elevated_hearing_min_loudness: {"value":0.30};
+elevated_hearing_max_loudness: {"value":1.25};
+elevated_perception_requires_line_of_sight: {"value":true};
+
+[footer]
+notes: {"value":"Pivot 13 a3 keeps collision-aware routing and adds elevation-aware downward sight plus loudness-scaled hearing out to at most double the ordinary range; visual detection still requires an unobstructed sensor line."};

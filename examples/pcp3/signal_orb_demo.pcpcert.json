@@ -1,0 +1,39 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "Point Cloud Paint++ Branch 1 Starter",
+    "description": "A small layered demonstration asset for testing the PCP3 editor and native SignalCloud preview.",
+    "tags": [
+      "pcp3",
+      "signal-orb",
+      "starter"
+    ],
+    "title": "Signal Orb Demo",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15230552375",
+  "initial_checksum": "3fe82967a1fbd146b966871749ecebff99e01a8db87681847a5d8c2c24ca1729",
+  "initial_hash_proof": "a11d44e57d4f6f3b5280d7326019f0828c0c390b6a5a580eb060775a136e9da2",
+  "project_id": "8ce3de45-ebf1-4dbf-bd09-53b6d90dac56",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "Point Cloud Paint++ Branch 1 Starter",
+        "description": "A small layered demonstration asset for testing the PCP3 editor and native SignalCloud preview.",
+        "tags": [
+          "pcp3",
+          "signal-orb",
+          "starter"
+        ],
+        "title": "Signal Orb Demo",
+        "type": "environment_object"
+      },
+      "checksum": "3fe82967a1fbd146b966871749ecebff99e01a8db87681847a5d8c2c24ca1729",
+      "epoch_octal": "0o15230552375",
+      "hash_proof": "a11d44e57d4f6f3b5280d7326019f0828c0c390b6a5a580eb060775a136e9da2",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-2A511CD0CA944E88BEE902190D5ED1B6"
+}

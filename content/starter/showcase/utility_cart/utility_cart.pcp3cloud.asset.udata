@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.utility_cart";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.utility_cart"];
+hot_reload: "disabled";
+source_sha256: "335125cc21507fda39ae22186c847656157dc7f27cac47d86ecb2cdf783bd014";
+data_only: true;
+unknown_fields_policy: "preserve";

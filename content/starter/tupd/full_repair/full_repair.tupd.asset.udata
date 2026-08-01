@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.full-repair";
+asset_type: "tupd_recipe";
+family: "items";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "29c75dd36d570afc0afc4659948d79a78a1b949ff6b5afeca021240bbeafb2ee";
+data_only: true;
+unknown_fields_policy: "preserve";

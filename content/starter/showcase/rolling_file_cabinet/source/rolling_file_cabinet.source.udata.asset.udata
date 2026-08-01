@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.rolling_file_cabinet";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.rolling_file_cabinet"];
+hot_reload: "disabled";
+source_sha256: "4074c97fac9dffce3e50ae55a7d69f104f1b61c2e9d1804e655770ac28d4e00e";
+data_only: true;
+unknown_fields_policy: "preserve";

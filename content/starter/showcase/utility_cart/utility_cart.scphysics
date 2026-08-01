@@ -1,0 +1,43 @@
+{
+  "break_threshold": 180.0,
+  "collision_half_x": 1.1,
+  "collision_half_y": 0.84,
+  "collision_half_z": 0.5,
+  "collision_radius": 1.4715977711317723,
+  "drag": 0.04,
+  "extensions": {},
+  "friction": 0.24,
+  "gravity_scale": 1.0,
+  "hold_points": [
+    [
+      -0.95,
+      1.35,
+      0.0
+    ],
+    [
+      0.95,
+      1.35,
+      0.0
+    ]
+  ],
+  "impact_multiplier": 1.0,
+  "mass": 23.0,
+  "profile_id": "showcase.utility_cart",
+  "restitution": 0.12,
+  "schema": "signalcloud.physics-profile",
+  "schema_major": 1,
+  "schema_minor": 1,
+  "shape": "compound",
+  "sleep_policy": "after_settle",
+  "sockets": [
+    {
+      "id": "cargo_top",
+      "kind": "flat",
+      "position": [
+        0.0,
+        0.38,
+        0.0
+      ]
+    }
+  ]
+}

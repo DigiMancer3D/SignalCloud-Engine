@@ -1,0 +1,88 @@
+{
+  "active_layer_id": 1,
+  "asset_id": "utility_cart",
+  "author": {
+    "asset_type": "environment_object",
+    "creator_name": "DigiMancer3D / SignalCloud Engine",
+    "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+    "tags": [
+      "starter",
+      "showcase",
+      "architecture",
+      "office",
+      "cart",
+      "furniture"
+    ],
+    "title": "Office Utility Cart"
+  },
+  "certificate_file": "utility_cart.pcpcert.json",
+  "cloud_file": "utility_cart.pcp3cloud",
+  "cloud_sha256": "85d2c36f7bba28880b084086622ef77c45239f54870940a614f4ea36cf46e391",
+  "display_name": "Office Utility Cart",
+  "environment_type": "environment_object",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 1,
+      "locked": false,
+      "name": "Base Points",
+      "opacity": 1.0,
+      "semantic": "generic",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "editor_branch": "ISL_plus_branch2",
+    "license_id": "CC0-1.0",
+    "physics_profile_file": "utility_cart.scphysics",
+    "preserve_unknown_fields": true,
+    "provenance": "SignalCloud A7a2 procedural generator",
+    "provenance_file": "provenance.json",
+    "recommended_point_budget": 250000,
+    "showcase_import_policy": "original_generated_data",
+    "showcase_managed_pack": "starter",
+    "showcase_source_kind": "procedural-signalcloud",
+    "showcase_source_path": "source/utility_cart.source.udata",
+    "showcase_visualization_file": "utility_cart.scshowcase",
+    "starter_catalog": "architecture",
+    "tool_profile": "object"
+  },
+  "point_count": 2458,
+  "point_record_size": 64,
+  "project_id": "3f386ec3-5958-4faf-9a47-c03d65946a89",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": true,
+    "preview_position": [
+      2.0,
+      1.0,
+      -3.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 12.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 12.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 12.0
+  },
+  "unknown_fields_policy": "preserve"
+}

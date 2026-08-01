@@ -1,0 +1,90 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# CMake/Ninja and native build products
+build/
+build-*/
+build_*/
+build-core/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# SignalCloud generated/runtime state
+.signalcloud_shared_deps/
+.signalcloud_envs/
+content/manifest_cache.json
+content/quarantine/
+exports/packs/
+release_build/
+reports/
+user_data/
+saves/
+profiles/
+cache/
+
+# Private development exports and archives
+prompt_history*
+Pasted text*
+conversation_export*
+chat_export*
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Machine profile / live run state
+LIVE_SNAPSHOT.json
+RUN_STATE.json
+WATCHDOG_HEARTBEAT.json
+active.udata
+candidate.udata
+previous_known_good.udata
+promotion_receipt.udata
+workload_registry.udata
+
+# Logs, crash output, and desktop noise
+*.log
+*.out
+*.trace
+core
+core.*
+.DS_Store
+Thumbs.db
+
+# Internal SignalCloud phase and development history
+/ALPHA_*_INSTALLED.txt
+/ALPHA_*_TEST_REPORT.md
+/ISL_PLUS_BRANCH.txt
+/new ideas.md
+/3D Showcase Tool.md
+/docs/alpha/
+/phase reports/
+/legacy/
+
+# Public release evidence belongs on the GitHub Release page
+/PUBLIC_SOURCE_AUDIT.json
+/PUBLIC_SOURCE_AUDIT.md
+/PUBLIC_SOURCE_MANIFEST.sha256
+/SignalCloud-Engine_*_VALIDATION_REPORT.md
+/RELEASE_NOTES_v*.md

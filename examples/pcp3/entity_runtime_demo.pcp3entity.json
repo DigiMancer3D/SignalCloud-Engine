@@ -1,0 +1,601 @@
+{
+  "anchors": [
+    {
+      "name": "attack_origin",
+      "position": [
+        1.45,
+        1.15,
+        0.0
+      ],
+      "role": "attack"
+    },
+    {
+      "name": "signal_effect",
+      "position": [
+        0.0,
+        1.75,
+        0.0
+      ],
+      "role": "effect"
+    }
+  ],
+  "asset_id": "entity_runtime_demo",
+  "attack_anchor": "attack_origin",
+  "bone_deformation": true,
+  "bone_keyframes": [
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        -2.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "idle",
+      "time": 0.0
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "idle",
+      "time": 0.0
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "idle",
+      "time": 0.65
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.04,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "scale": [
+        1.02,
+        0.98,
+        1.02
+      ],
+      "state": "idle",
+      "time": 0.65
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        -2.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "idle",
+      "time": 1.3
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "idle",
+      "time": 1.3
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        -4.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "move",
+      "time": 0.0
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "move",
+      "time": 0.0
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        18.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "move",
+      "time": 0.65
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.04,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "scale": [
+        1.02,
+        0.98,
+        1.02
+      ],
+      "state": "move",
+      "time": 0.65
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        -4.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "move",
+      "time": 1.3
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "move",
+      "time": 1.3
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        -8.75
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "alert",
+      "time": 0.0
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "alert",
+      "time": 0.0
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        35.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "alert",
+      "time": 0.65
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.04,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "scale": [
+        1.02,
+        0.98,
+        1.02
+      ],
+      "state": "alert",
+      "time": 0.65
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        -8.75
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "alert",
+      "time": 1.3
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "alert",
+      "time": 1.3
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        -18.75
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "attack",
+      "time": 0.0
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "attack",
+      "time": 0.0
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        75.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "attack",
+      "time": 0.65
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.04,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "scale": [
+        1.02,
+        0.98,
+        1.02
+      ],
+      "state": "attack",
+      "time": 0.65
+    },
+    {
+      "bone_channel": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        -18.75
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "attack",
+      "time": 1.3
+    },
+    {
+      "bone_channel": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "state": "attack",
+      "time": 1.3
+    }
+  ],
+  "bones": [
+    {
+      "end": [
+        0.0,
+        1.4,
+        0.0
+      ],
+      "name": "root",
+      "parent_index": -1,
+      "start": [
+        0.0,
+        0.15,
+        0.0
+      ],
+      "weight_channel": 0
+    },
+    {
+      "end": [
+        1.45,
+        1.15,
+        0.0
+      ],
+      "name": "arm",
+      "parent_index": 0,
+      "start": [
+        0.2,
+        1.15,
+        0.0
+      ],
+      "weight_channel": 1
+    }
+  ],
+  "debug": {
+    "anchors": true,
+    "rig": true,
+    "state": true
+  },
+  "effect_anchor": "signal_effect",
+  "enabled": true,
+  "entity_kind": "enemy",
+  "environment_type": "enemy",
+  "future_attributes": {},
+  "max_deformed_points": 250000,
+  "movement": {
+    "hover_height": 0.2,
+    "hover_period": 2.6,
+    "profile": "hover",
+    "radius": 6.0,
+    "speed": 1.5
+  },
+  "policy": "guarded_entity_visual_runtime_no_damage_or_save_mutation",
+  "schema": "pcp3_entity_runtime_v1",
+  "senses": {
+    "attack_cooldown": 1.3,
+    "attack_radius": 2.5,
+    "detection_radius": 10.0
+  },
+  "state_clips": {
+    "alert": {
+      "clip": "Alert",
+      "duration": 1.3,
+      "loop": true
+    },
+    "attack": {
+      "clip": "Attack",
+      "duration": 1.3,
+      "loop": true
+    },
+    "idle": {
+      "clip": "Idle",
+      "duration": 1.3,
+      "loop": true
+    },
+    "move": {
+      "clip": "Move",
+      "duration": 1.3,
+      "loop": true
+    }
+  },
+  "support": {
+    "animation_blending": "single_state_clip_with_guarded_transition",
+    "attack_effect_anchors": "debug_and_telemetry_only",
+    "bone_hierarchy": "bounded_parent_chain",
+    "damage": "blocked",
+    "distance_state_machine": "idle_move_alert_attack",
+    "per_bone_weighted_deformation": "one_weight_channel_per_point",
+    "root_movement_profiles": "game_and_stress",
+    "unrestricted_ai": "blocked"
+  },
+  "targets": {
+    "game": false,
+    "stress": true
+  },
+  "transition_seconds": 0.18
+}

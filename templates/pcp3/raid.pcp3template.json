@@ -1,0 +1,19 @@
+{
+  "canvas_extent": [
+    140.0,
+    48.0,
+    140.0
+  ],
+  "display_name": "Raid Starter",
+  "environment_type": "raid",
+  "future_fields_policy": "preserve_unknown",
+  "recommended_point_budget": 6000000,
+  "schema": "pcp3_template_v0",
+  "suggested_layers": [
+    "Arena Guides",
+    "Boss Placements",
+    "Mini-Boss Placements",
+    "Triggers"
+  ],
+  "tool_profile": "encounter_layout"
+}

@@ -1,0 +1,18 @@
+@udata 1
+
+[header]
+data_type: {"name":"accessibility_profile"};
+profile_id: {"value":"solo_paw"};
+
+[body]
+mouse_sensitivity: {"value":0.095};
+hold_to_sprint: {"keyboard":"LeftShift"};
+left_click_action: {"value":"primary"};
+right_click_action: {"value":"quick_action_scanner_test"};
+captured_mouse_toggle: {"keyboard":"F1"};
+raw_probe_toggle: {"keyboard":"F2"};
+tactical_map_toggle: {"keyboard":"F3"};
+quit: {"keyboard":"F10"};
+
+[footer]
+notes: {"value":"No rapid multi-button chord is required by Pivot 0."};

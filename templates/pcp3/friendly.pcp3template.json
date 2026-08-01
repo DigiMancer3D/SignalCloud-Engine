@@ -1,0 +1,19 @@
+{
+  "canvas_extent": [
+    8.0,
+    8.0,
+    8.0
+  ],
+  "display_name": "User Friendly Starter",
+  "environment_type": "friendly",
+  "future_fields_policy": "preserve_unknown",
+  "recommended_point_budget": 180000,
+  "schema": "pcp3_template_v0",
+  "suggested_layers": [
+    "Body",
+    "Bones / Motion Guides",
+    "Equipment",
+    "Interaction Markers"
+  ],
+  "tool_profile": "humanoid"
+}

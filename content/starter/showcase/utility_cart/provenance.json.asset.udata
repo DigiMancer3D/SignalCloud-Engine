@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.provenance.starter.utility_cart";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.utility_cart"];
+hot_reload: "disabled";
+source_sha256: "725c27c55da96683fdd860b36a61e03576adc1650e07edca65a8618b8326de68";
+data_only: true;
+unknown_fields_policy: "preserve";

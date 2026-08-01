@@ -1,0 +1,20 @@
+@udata 1
+
+[header]
+data_type: {"name":"adaptive_residency_config"};
+version: {"value":"0.13.0-a1"};
+
+[body]
+verified_intel_mesa_default_points: {"value":8000000};
+modern_discrete_default_points: {"value":8000000};
+protected_fallback_points: {"value":4000000};
+low_fps_threshold: {"value":38};
+gpu_frame_ms_threshold: {"value":24.5};
+sustained_pressure_seconds: {"value":8.0};
+fallback_only_in_protected_room: {"value":true};
+map_environment_ranges_while_open: {"value":0};
+room_transition_regeneration: {"value":false};
+submitted_point_governor_required: {"value":true};
+
+[footer]
+notes: {"value":"8M is the preferred resident baseline on the user's verified Intel/Mesa profile; a fallback is queued under sustained pressure and applied only after entering a protected room."};

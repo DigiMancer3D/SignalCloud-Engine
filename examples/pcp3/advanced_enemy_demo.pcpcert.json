@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "PCP3 Branch 4 Example",
+    "description": "Example asset demonstrating rig, timeline, and gameplay metadata.",
+    "tags": [
+      "example",
+      "rig",
+      "timeline",
+      "trigger"
+    ],
+    "title": "Advanced Enemy Demo",
+    "type": "enemy"
+  },
+  "created_epoch_octal": "0o15231001402",
+  "initial_checksum": "eaeb5758b1f9ff4313447cc8c36c0197bbed56628786c91a4d717fe61069d24a",
+  "initial_hash_proof": "ec66d59c484520fded14c36106ca4cd66e06a0f2ebeff57b48dd15fbeda4719f",
+  "project_id": "feae375c-90bf-4b9e-8f27-7c70da02624c",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "PCP3 Branch 4 Example",
+        "description": "Example asset demonstrating rig, timeline, and gameplay metadata.",
+        "tags": [
+          "example",
+          "rig",
+          "timeline",
+          "trigger"
+        ],
+        "title": "Advanced Enemy Demo",
+        "type": "enemy"
+      },
+      "checksum": "eaeb5758b1f9ff4313447cc8c36c0197bbed56628786c91a4d717fe61069d24a",
+      "epoch_octal": "0o15231001402",
+      "hash_proof": "ec66d59c484520fded14c36106ca4cd66e06a0f2ebeff57b48dd15fbeda4719f",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-B12C729A00A74E0E84CB16C5136DF8E2"
+}

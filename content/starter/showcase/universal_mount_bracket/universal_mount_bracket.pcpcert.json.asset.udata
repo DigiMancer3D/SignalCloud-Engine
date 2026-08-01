@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.certificate.starter.universal_mount_bracket";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.universal_mount_bracket"];
+hot_reload: "disabled";
+source_sha256: "06b58f72549bc0cd657cef80326e44b7cb97cd7425bcfb28405b1bda7f847ef1";
+data_only: true;
+unknown_fields_policy: "preserve";

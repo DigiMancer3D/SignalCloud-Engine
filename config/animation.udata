@@ -1,0 +1,29 @@
+@udata 1
+
+[header]
+data_type: {"name":"animation_config"};
+version: {"value":"0.10.0-a1"};
+
+[body]
+formed_front_vector: {"enabled":true};
+formed_sight_cone_degrees: {"value":130};
+formed_turn_before_move: {"enabled":true};
+formed_root_bone: {"value":"pelvis"};
+formed_spine_bones: {"value":3};
+formed_neck_head_chain: {"value":3};
+formed_leg_chains: {"value":4};
+formed_leg_bones_each: {"value":3};
+formed_tail_bones: {"value":2};
+formed_reaction_dodge: {"value":"side_or_back_hop"};
+formless_surface_flow: {"enabled":true};
+formless_trailing_wisps: {"enabled":true};
+formless_reaction_dodge: {"value":"collapse_split_flow_reform"};
+formless_attack_visual: {"value":"sharp_shadow_lance"};
+player_viewmodel: {"enabled":true};
+player_arm_chains: {"value":2};
+player_lower_body_when_looking_down: {"enabled":true};
+pistol_ammo_strip: {"value":"green_yellow_red"};
+prybar_directional_swing_ribbons: {"enabled":true};
+
+[footer]
+notes: {"value":"Pivot 10 uses hierarchical point clusters and procedural bone transforms. It does not CPU-rewrite millions of points per actor."};

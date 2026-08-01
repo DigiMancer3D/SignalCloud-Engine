@@ -1,0 +1,45 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "DigiMancer3D / SignalCloud Engine",
+    "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+    "tags": [
+      "architecture",
+      "cabinet",
+      "furniture",
+      "office",
+      "showcase",
+      "starter"
+    ],
+    "title": "Rolling File Cabinet",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15232460062",
+  "initial_checksum": "e1ba2c1c2ed427eaaa9ed6ef0c8ebd8ce1caaa50d27d90130497f39eb55f5794",
+  "initial_hash_proof": "81bda5a2c8fcc4d51a108098464ac954e04c9744300872e2b282e6fd5a5b41a9",
+  "project_id": "84620665-a247-4472-9ccb-29e58ec19580",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "architecture",
+          "cabinet",
+          "furniture",
+          "office",
+          "showcase",
+          "starter"
+        ],
+        "title": "Rolling File Cabinet",
+        "type": "environment_object"
+      },
+      "checksum": "e1ba2c1c2ed427eaaa9ed6ef0c8ebd8ce1caaa50d27d90130497f39eb55f5794",
+      "epoch_octal": "0o15232460062",
+      "hash_proof": "81bda5a2c8fcc4d51a108098464ac954e04c9744300872e2b282e6fd5a5b41a9",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-DEE51B78696F4840B1610CA84748826D"
+}

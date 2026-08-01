@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Assemble an arena, entry portal, boss slots, wave triggers, friendlies, completion conditions, and reward telemetry.",
+    "tags": [
+      "branch12",
+      "pcp3",
+      "raid",
+      "tutorial"
+    ],
+    "title": "Raid Tutorial Starter",
+    "type": "raid"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "3d85713f1db970207f275c8d51a21eef322725fe7cfb460ad8953fdae700a391",
+  "initial_hash_proof": "dec4e302947505e8ff77627cec39140073f0f4cb362e9bac78aa626e4f444004",
+  "project_id": "47bdadb0-ff30-442c-88d8-dd1f6955f265",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Assemble an arena, entry portal, boss slots, wave triggers, friendlies, completion conditions, and reward telemetry.",
+        "tags": [
+          "branch12",
+          "pcp3",
+          "raid",
+          "tutorial"
+        ],
+        "title": "Raid Tutorial Starter",
+        "type": "raid"
+      },
+      "checksum": "3d85713f1db970207f275c8d51a21eef322725fe7cfb460ad8953fdae700a391",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "dec4e302947505e8ff77627cec39140073f0f4cb362e9bac78aa626e4f444004",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-F39EBDD6FB09447B901255795E56ECA7"
+}

@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.visualization.starter.tupd_tool_body";
+asset_type: "showcase_visualization";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.tupd_tool_body", "showcase.physics.starter.tupd_tool_body"];
+hot_reload: "authoring-only";
+source_sha256: "47ce661031628bbf155ecb4b5e1767d45242e5630ca4d3e0564b3c9633368cc7";
+data_only: true;
+unknown_fields_policy: "preserve";

@@ -1,0 +1,49 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "Point Cloud Paint++ Branch 10",
+    "description": "A guarded two-wave encounter, boss-phase telemetry, persistent friendly reference, and reward-hook example.",
+    "tags": [],
+    "title": "Encounter Runtime Demo Room",
+    "type": "raid"
+  },
+  "created_epoch_octal": "0o15231431522",
+  "initial_checksum": "abd6e4fd4d080f4a67040ef4ef58a208025d4d10de6ef69de703d6961b59126c",
+  "initial_hash_proof": "2d9b96ff53992ca9066d128675d25ed23be6a43be13b83a6bcc22fc7c206a96d",
+  "latest_checksum": "216bf0eb7388021aa69f99f5890a61cd40908c3330f8725569d9886cd746572c",
+  "latest_hash_proof": "c443737923620426d25064fb1f2bee29f5910e172188f28631bc0c314223ab27",
+  "project_id": "ea0751bc-e6e7-4925-84a1-8dcd4afd3958",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "Point Cloud Paint++ Branch 10",
+        "description": "A guarded two-wave encounter, boss-phase telemetry, persistent friendly reference, and reward-hook example.",
+        "tags": [],
+        "title": "Encounter Runtime Demo Room",
+        "type": "raid"
+      },
+      "checksum": "abd6e4fd4d080f4a67040ef4ef58a208025d4d10de6ef69de703d6961b59126c",
+      "epoch_octal": "0o15231431522",
+      "hash_proof": "2d9b96ff53992ca9066d128675d25ed23be6a43be13b83a6bcc22fc7c206a96d",
+      "kind": "initial_save"
+    },
+    {
+      "author": {
+        "creator_name": "Point Cloud Paint++ Branch 10",
+        "description": "A guarded two-wave encounter, boss-phase telemetry, persistent friendly reference, and reward-hook example.",
+        "tags": [],
+        "title": "Encounter Runtime Demo Room",
+        "type": "raid"
+      },
+      "checksum": "216bf0eb7388021aa69f99f5890a61cd40908c3330f8725569d9886cd746572c",
+      "epoch_octal": "0o15231432245",
+      "hash_proof": "c443737923620426d25064fb1f2bee29f5910e172188f28631bc0c314223ab27",
+      "kind": "asset_update",
+      "previous_hash_proof": "2d9b96ff53992ca9066d128675d25ed23be6a43be13b83a6bcc22fc7c206a96d",
+      "version": 2
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-ABD0707EB376430CBC2952C9D0A72A3B",
+  "version": 2
+}

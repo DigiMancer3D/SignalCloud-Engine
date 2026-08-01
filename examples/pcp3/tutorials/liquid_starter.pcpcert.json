@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Create liquid surface and volume geometry with flow guides, tint, opacity, waves, and bounded Streaming behavior.",
+    "tags": [
+      "branch12",
+      "liquid",
+      "pcp3",
+      "tutorial"
+    ],
+    "title": "Liquid Maker Tutorial Starter",
+    "type": "liquid"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "529dbc3f447b5b2ea660bf82d904ed2d0f68f744f6a7e3543a3015ce6b79d126",
+  "initial_hash_proof": "c6f29cebf733543dbae3af5f118708168dfae28b44f07086787c12e5ea84f24a",
+  "project_id": "2c74c6d1-0b68-482a-8c6d-3062928d9864",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Create liquid surface and volume geometry with flow guides, tint, opacity, waves, and bounded Streaming behavior.",
+        "tags": [
+          "branch12",
+          "liquid",
+          "pcp3",
+          "tutorial"
+        ],
+        "title": "Liquid Maker Tutorial Starter",
+        "type": "liquid"
+      },
+      "checksum": "529dbc3f447b5b2ea660bf82d904ed2d0f68f744f6a7e3543a3015ce6b79d126",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "c6f29cebf733543dbae3af5f118708168dfae28b44f07086787c12e5ea84f24a",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-0D25FAC7204044F99962E4E31201AC3F"
+}

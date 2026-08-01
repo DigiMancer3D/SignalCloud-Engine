@@ -1,0 +1,113 @@
+@udata 1
+
+[header]
+data_type: {"value":"pcp3_asset"};
+schema: {"value":"pcp3_project_v0"};
+asset_id: {"value":"a3_preview_marker"};
+display_name: {"value":"Reception WELCOME Sign"};
+asset_kind: {"value":"environment_object"};
+project_id: {"value":"6339cf2d-3cef-4192-bcf1-591c2b7142f5"};
+
+[body]
+representation: {"value":"pcp3_layered_point_cloud"};
+cloud_file: {"value":"a3_preview_marker.pcp3cloud"};
+project_file: {"value":"a3_preview_marker.pcp3"};
+certificate_file: {"value":"a3_preview_marker.pcpcert.json"};
+point_count: {"value":382};
+point_record_size: {"value":64};
+cloud_sha256: {"value":"e90d3a70144cb253d5d7f538d488e5935130864a4b886102c68288f792a9edf0"};
+bounds_min: {"value":[-3.8999999999999995,-0.8400000000000001,-0.015]};
+bounds_max: {"value":[3.8999999999999995,0.8400000000000001,0.0]};
+layers: {"value":[{"id":1,"name":"Base Points","group":"Geometry","semantic":"generic","visible":true,"locked":false,"opacity":1.0,"blend_mode":"normal","tags":[],"future_attributes":{}}]};
+
+[runtime]
+enabled: {"value":true};
+auto_preview_in_game: {"value":true};
+preview_zone: {"value":"Reception Tape"};
+preview_position: {"value":[0.0,1.82,-4.5]};
+preview_scale: {"value":0.48};
+stress_spawn_policy: {"value":"persistent_safe_room_indicator"};
+loader_policy: {"value":"forgiving_preserve_unknown"};
+unsupported_attribute_policy: {"value":"retain_for_future_engine_versions"};
+
+[canvas]
+width: {"value":12.0};
+height: {"value":12.0};
+depth: {"value":12.0};
+ambient_light: {"value":0.35};
+point_scale: {"value":1.0};
+density_scale: {"value":1.0};
+grid_spacing: {"value":0.5};
+background: {"value":[0.025,0.03,0.04,1.0]};
+future_attributes: {"value":{}};
+
+[authoring]
+sidecar_file: {"value":""};
+schema: {"value":""};
+preserve_until_runtime_support: {"value":true};
+
+[runtime_preview]
+sidecar_file: {"value":""};
+schema: {"value":""};
+execution_policy: {"value":"safe_non_destructive_preview_only"};
+game_factory_status: {"value":"bridged_by_branch6_when_explicitly_enabled"};
+
+[runtime_factory]
+json_sidecar_file: {"value":""};
+udata_sidecar_file: {"value":""};
+schema: {"value":""};
+execution_policy: {"value":"guarded_explicit_opt_in_no_arbitrary_code"};
+max_nesting_depth: {"value":1};
+
+[runtime_interaction]
+json_sidecar_file: {"value":""};
+udata_sidecar_file: {"value":""};
+schema: {"value":""};
+execution_policy: {"value":"bounded_reversible_visual_state_no_gameplay_mutation"};
+blocked_gameplay_mutation: {"value":true};
+
+[runtime_entity]
+json_sidecar_file: {"value":""};
+udata_sidecar_file: {"value":""};
+schema: {"value":""};
+execution_policy: {"value":"guarded_entity_visual_runtime_no_damage_or_save_mutation"};
+bone_weight_encoding: {"value":"attribute0_weight_attribute1_1000_plus_channel"};
+
+[runtime_world]
+json_sidecar_file: {"value":""};
+udata_sidecar_file: {"value":""};
+reference_audit_file: {"value":""};
+schema: {"value":""};
+execution_policy: {"value":"guarded_world_assembly_one_level_no_arbitrary_code"};
+portal_policy: {"value":"explicit_distance_bounded_cooldown_handoff"};
+liquid_policy: {"value":"visual_wave_tint_flow_evidence_no_physics_force"};
+
+[runtime_encounter]
+json_sidecar_file: {"value":""};
+udata_sidecar_file: {"value":""};
+schema: {"value":""};
+execution_policy: {"value":"guarded_bounded_wave_scheduler_no_damage_economy_or_save_mutation"};
+reward_policy: {"value":"telemetry_hook_until_explicit_game_approval"};
+max_reference_depth: {"value":1};
+
+[runtime_streaming]
+json_sidecar_file: {"value":""};
+udata_sidecar_file: {"value":""};
+chunk_manifest_file: {"value":""};
+schema: {"value":""};
+execution_policy: {"value":"bounded_distance_lod_semantic_reserve_no_source_mutation"};
+resident_environment_baseline: {"value":"adaptive_8m_preserved"};
+
+[certificate]
+creator_name: {"value":"SignalCloud Engine"};
+title: {"value":"Reception WELCOME Sign"};
+description: {"value":"Persistent floating WELCOME sign for the Reception Tape safe-room integrity indicator."};
+tags: {"value":["alpha-a5","hot-reload","preview-proof","reception","welcome"]};
+serial_id: {"value":"PCP3-BC97182FD29042EBAE759F98F261DE5F"};
+created_epoch_octal: {"value":"0o15231725030"};
+hash_proof: {"value":"fb6f4cb479d70ecee47bdec850a874a8df1b442a45b5b3670db2ee5344b3c5c6"};
+checksum: {"value":"a5e44727912e1a8482210b7fb78e6c072cf43ebb8ff8f692aec99922bb381191"};
+version: {"value":3};
+
+[future]
+preserved_project_metadata: {"value":{"cloud_sha256":"e90d3a70144cb253d5d7f538d488e5935130864a4b886102c68288f792a9edf0","editor_branch":"ISL_plus_branch2","last_project_path":"content/pcp3_assets/environment_object/a3_preview_marker/a3_preview_marker.pcp3","preserve_unknown_fields":true,"recommended_point_budget":250000,"tool_profile":"object","welcome_sign":"persistent_reception_integrity_indicator"}};

@@ -1,0 +1,216 @@
+{
+  "active_layer_id": 9,
+  "asset_id": "tutorial_room_starter",
+  "author": {
+    "asset_type": "room",
+    "creator_name": "SignalCloud Documentation",
+    "description": "Build a complete room shell with portals, lighting, objects, triggers, liquids, host-zone metadata, and streaming limits.",
+    "tags": [
+      "pcp3",
+      "tutorial",
+      "room",
+      "branch12"
+    ],
+    "title": "Room Tutorial Starter"
+  },
+  "certificate_file": "room_starter.pcpcert.json",
+  "cloud_file": "room_starter.pcp3cloud",
+  "cloud_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "display_name": "Room Tutorial Starter",
+  "environment_type": "room",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Architecture",
+      "id": 1,
+      "locked": false,
+      "name": "Walls",
+      "opacity": 1.0,
+      "semantic": "wall",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Architecture",
+      "id": 2,
+      "locked": false,
+      "name": "Floor",
+      "opacity": 1.0,
+      "semantic": "floor",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Architecture",
+      "id": 3,
+      "locked": false,
+      "name": "Ceiling",
+      "opacity": 1.0,
+      "semantic": "ceiling",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Connectivity",
+      "id": 4,
+      "locked": false,
+      "name": "Portals",
+      "opacity": 1.0,
+      "semantic": "portal",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Lighting",
+      "id": 5,
+      "locked": false,
+      "name": "Lights",
+      "opacity": 1.0,
+      "semantic": "light",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Contents",
+      "id": 6,
+      "locked": false,
+      "name": "Objects",
+      "opacity": 1.0,
+      "semantic": "generic",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Gameplay",
+      "id": 7,
+      "locked": false,
+      "name": "Triggers",
+      "opacity": 1.0,
+      "semantic": "trigger",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Liquid",
+      "id": 8,
+      "locked": false,
+      "name": "Water Surface",
+      "opacity": 1.0,
+      "semantic": "water_surface",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Liquid",
+      "id": 9,
+      "locked": false,
+      "name": "Water Volume",
+      "opacity": 1.0,
+      "semantic": "water_volume",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "authoring_help_schema": "pcp3_authoring_help_v1",
+    "editor_branch": "ISL_plus_branch12",
+    "future_mode_data": {},
+    "mode_profile": "room",
+    "mode_profile_version": 1,
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 4000000,
+    "runtime_policy": "disabled_until_user_authoring",
+    "tool_profile": "room_builder",
+    "tutorial_mode": "room",
+    "tutorial_starter": true,
+    "tutorial_workflow_file": "docs/tutorials/PCP3_MODE_ROOM_WORKFLOW.md"
+  },
+  "point_count": 0,
+  "point_record_size": 64,
+  "project_id": "593200da-cca6-498b-a0b3-4935b88b8a23",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": false,
+    "preview_position": [
+      2.0,
+      1.0,
+      -3.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 48.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 12.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 36.0
+  },
+  "unknown_fields_policy": "preserve"
+}

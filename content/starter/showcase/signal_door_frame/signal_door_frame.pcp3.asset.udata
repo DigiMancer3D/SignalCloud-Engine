@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.signal_door_frame";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "839395626a6142f47d9fb484c43a55b15a873993aad3aa02408a4d50d6abf086";
+data_only: true;
+unknown_fields_policy: "preserve";

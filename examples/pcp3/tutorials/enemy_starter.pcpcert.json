@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Build a formed or formless hostile, then connect its rig, state clips, guarded entity runtime, and optional encounter placement.",
+    "tags": [
+      "branch12",
+      "enemy",
+      "pcp3",
+      "tutorial"
+    ],
+    "title": "Enemy Tutorial Starter",
+    "type": "enemy"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "80664b09192a631fc680ba6cb1c0e67ee84b1348a3107b60d55d234518fa8606",
+  "initial_hash_proof": "6fc8c58d8d0df67502a030926fdbb5e58ed903e9a09ea3a00c87834b1fb54a6e",
+  "project_id": "0db6d4cd-859a-40e0-a5e7-da49819c4efc",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Build a formed or formless hostile, then connect its rig, state clips, guarded entity runtime, and optional encounter placement.",
+        "tags": [
+          "branch12",
+          "enemy",
+          "pcp3",
+          "tutorial"
+        ],
+        "title": "Enemy Tutorial Starter",
+        "type": "enemy"
+      },
+      "checksum": "80664b09192a631fc680ba6cb1c0e67ee84b1348a3107b60d55d234518fa8606",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "6fc8c58d8d0df67502a030926fdbb5e58ed903e9a09ea3a00c87834b1fb54a6e",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-89162A8F2E704E748111D65879BF764D"
+}

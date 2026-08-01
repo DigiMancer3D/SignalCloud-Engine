@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "PCP3 Branch 8 Example",
+    "description": "Weighted two-bone enemy demonstrating guarded state clips, hover movement, and attack/effect anchors.",
+    "tags": [
+      "animation",
+      "bone_weight",
+      "entity",
+      "example"
+    ],
+    "title": "Entity Runtime Demo",
+    "type": "enemy"
+  },
+  "created_epoch_octal": "0o15231042164",
+  "initial_checksum": "e7a483792cc2df18581876d7186c39dcf4068f8e32a77c7eebc76399ff76d72d",
+  "initial_hash_proof": "5fdf4ca50aa9ff9dacb9c43a0e3a752f21d71afbbf77eff39662a6fb486c4654",
+  "project_id": "a90274b4-4378-44d3-8da5-635a9767ea17",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "PCP3 Branch 8 Example",
+        "description": "Weighted two-bone enemy demonstrating guarded state clips, hover movement, and attack/effect anchors.",
+        "tags": [
+          "animation",
+          "bone_weight",
+          "entity",
+          "example"
+        ],
+        "title": "Entity Runtime Demo",
+        "type": "enemy"
+      },
+      "checksum": "e7a483792cc2df18581876d7186c39dcf4068f8e32a77c7eebc76399ff76d72d",
+      "epoch_octal": "0o15231042164",
+      "hash_proof": "5fdf4ca50aa9ff9dacb9c43a0e3a752f21d71afbbf77eff39662a6fb486c4654",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-0BF265C6411D45B7BED450C6341057A3"
+}

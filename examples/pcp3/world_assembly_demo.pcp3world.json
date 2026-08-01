@@ -1,0 +1,148 @@
+{
+  "asset_id": "world_assembly_demo",
+  "enabled": true,
+  "environment_type": "room",
+  "future_attributes": {},
+  "limits": {
+    "max_liquid_points": 150000,
+    "max_placements": 64,
+    "max_portals": 32,
+    "max_reference_depth": 1
+  },
+  "liquid": {
+    "color": "#2F6F8F",
+    "enabled": true,
+    "flow_nodes": [
+      {
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.25,
+          0.0
+        ],
+        "strength": 1.5,
+        "viscosity": 0.7
+      }
+    ],
+    "flow_scale": 1.0,
+    "opacity": 0.72,
+    "surface_points": 330,
+    "type": "water",
+    "volume_points": 0,
+    "wave_amplitude": 0.08,
+    "wave_frequency": 0.7
+  },
+  "placements": [],
+  "policy": "guarded_world_assembly_one_level_no_arbitrary_code",
+  "portal_policy": {
+    "cooldown": 0.8,
+    "default_interaction_required": true,
+    "execute": false,
+    "show_bounds_debug": true,
+    "show_debug": true
+  },
+  "portals": [
+    {
+      "arrival_offset": [
+        0.0,
+        0.0,
+        1.4
+      ],
+      "arrival_yaw_degrees": 0.0,
+      "destination_asset_id": "",
+      "destination_portal_id": "",
+      "enabled": true,
+      "id": "demo_door",
+      "interaction_required": true,
+      "kind": "door",
+      "one_way": false,
+      "position": [
+        0.0,
+        1.2,
+        -3.82
+      ],
+      "size": [
+        1.8,
+        2.4,
+        0.5
+      ]
+    }
+  ],
+  "references": {
+    "known_asset_count": 0,
+    "missing_asset_ids": [],
+    "referenced_asset_ids": [],
+    "resolved_asset_ids": []
+  },
+  "schema": "pcp3_world_assembly_v1",
+  "spawn_points": [
+    {
+      "enabled": true,
+      "id": "default_spawn",
+      "position": [
+        0.0,
+        0.2,
+        2.5
+      ],
+      "role": "default",
+      "yaw_degrees": 180.0
+    }
+  ],
+  "support": {
+    "collision_mesh_generation": "deferred",
+    "deep_world_nesting": "blocked",
+    "dynamic_navigation_rebuild": "deferred",
+    "liquid_physics_force": "deferred",
+    "liquid_wave_and_tint": "game_and_stress_visual",
+    "one_level_asset_placements": "bounded_existing_factory_loader",
+    "portal_debug": "game_scanner_and_stress",
+    "portal_handoff": "game_interaction_guarded",
+    "room_bundle": "game_and_stress_rendering",
+    "semantic_theme": "game_and_stress"
+  },
+  "targets": {
+    "game": false,
+    "stress": true
+  },
+  "theme": {
+    "apply": true,
+    "slots": [
+      {
+        "brush": "Square Solid",
+        "color": "#C2B47A",
+        "preset": "plaster_wall",
+        "semantic": "wall"
+      },
+      {
+        "brush": "Square Solid",
+        "color": "#5A5140",
+        "preset": "flat_floor",
+        "semantic": "floor"
+      }
+    ],
+    "theme_asset_id": ""
+  },
+  "world": {
+    "bounds_max": [
+      4.15,
+      4.300000000000001,
+      4.15
+    ],
+    "bounds_min": [
+      -4.15,
+      -0.3,
+      -4.15
+    ],
+    "host_zone": "Reception Tape",
+    "logical_level": 0,
+    "reset_policy": "zone_exit",
+    "room_id": "world_assembly_demo",
+    "room_name": "World Assembly Demo Room",
+    "safe_room": false,
+    "world_id": "branch9_demo_world"
+  }
+}

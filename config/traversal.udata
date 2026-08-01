@@ -1,0 +1,41 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":2};
+data_type: {"name":"signalcloud_traversal_water"};
+profile_id: {"value":"pivot6_save_jump_depth_water"};
+
+[body]
+walk_speed: {"value":3.7};
+sprint_speed: {"value":6.3};
+normal_jump_velocity: {"value":6.70};
+save_jump_velocity: {"value":6.45};
+gravity: {"value":16.8};
+coyote_window_seconds: {"value":0.085};
+save_jump_forward_boost: {"value":2.45};
+save_jump_boost_seconds: {"value":0.22};
+water_bomb_from_save_jump: {"value":true};
+bomb_splash_audio: {"value":true};
+bomb_ai_audibility_hook: {"value":true};
+air_dive_acceleration: {"value":11.0};
+standing_eye_height: {"value":1.72};
+crouched_eye_height: {"value":1.18};
+step_height: {"value":0.60};
+course_heights: {"values":[0.25,0.55,0.90,1.35]};
+collision_recovery: {"value":"iterative_minimum_axis_depenetration"};
+collision_recovery_iterations: {"value":8};
+collision_skin: {"value":0.018};
+movement_substep: {"value":0.11};
+shallow_water_bottom: {"value":-0.78};
+deep_water_bottom: {"value":-2.85};
+flood_shaft_bottom: {"value":-14.0};
+open_cavity_bottom: {"value":-22.0};
+water_surface: {"value":0.10};
+swim_up_key: {"value":"SPACE"};
+crouch_dive_key: {"value":"LEFT CTRL"};
+traversal_lab_key: {"value":"L"};
+depth_lab_key: {"value":"K"};
+reflection_mode: {"value":"point_proxy_with_wave_and_splash_rings"};
+
+[footer]
+notes: {"value":"Save-jump water entries generate loud bomb events. Future minor enemies may intentionally create the same event to lure players."};

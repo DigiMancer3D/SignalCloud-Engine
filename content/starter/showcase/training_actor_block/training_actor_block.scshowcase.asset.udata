@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.visualization.starter.training_actor_block";
+asset_type: "showcase_visualization";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.training_actor_block", "showcase.physics.starter.training_actor_block"];
+hot_reload: "authoring-only";
+source_sha256: "089696c73227e87c6767c479f15d478958b3cc7e58fbb507e32714defe7e0573";
+data_only: true;
+unknown_fields_policy: "preserve";

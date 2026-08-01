@@ -1,0 +1,18 @@
+{
+  "canvas_extent": [
+    8.0,
+    6.0,
+    8.0
+  ],
+  "display_name": "Enemy Starter",
+  "environment_type": "enemy",
+  "future_fields_policy": "preserve_unknown",
+  "recommended_point_budget": 120000,
+  "schema": "pcp3_template_v0",
+  "suggested_layers": [
+    "Body",
+    "Bones / Motion Guides",
+    "Attacks / Effects"
+  ],
+  "tool_profile": "formed_or_formless"
+}

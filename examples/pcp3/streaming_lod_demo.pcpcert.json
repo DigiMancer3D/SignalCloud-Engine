@@ -1,0 +1,31 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Branch 11",
+    "description": "A multi-semantic room used to inspect deterministic chunk manifests and distance LOD.",
+    "tags": [],
+    "title": "Streaming LOD Demo Room",
+    "type": "room"
+  },
+  "created_epoch_octal": "0o15231467123",
+  "initial_checksum": "026b12d4255aaf70e05958e90227063f4ddadb08927dde6b2bfe5eef4200a05c",
+  "initial_hash_proof": "c70973fb3571c031e383717c533d922d7380108096ed7353cfe3553d5e0d9db6",
+  "project_id": "95cf756e-ddee-49b1-bbcb-7af71f9710a3",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Branch 11",
+        "description": "A multi-semantic room used to inspect deterministic chunk manifests and distance LOD.",
+        "tags": [],
+        "title": "Streaming LOD Demo Room",
+        "type": "room"
+      },
+      "checksum": "026b12d4255aaf70e05958e90227063f4ddadb08927dde6b2bfe5eef4200a05c",
+      "epoch_octal": "0o15231467123",
+      "hash_proof": "c70973fb3571c031e383717c533d922d7380108096ed7353cfe3553d5e0d9db6",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-075C653ED0E14DABA0E29851E3D67348"
+}

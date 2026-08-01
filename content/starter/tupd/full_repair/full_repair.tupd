@@ -1,0 +1,67 @@
+{
+  "base_item_id": "weapon.service-pistol",
+  "connections": [
+    "weapon.service-pistol.duplicate>weapon.service-pistol@body"
+  ],
+  "consumed_inputs": [
+    "weapon.service-pistol.duplicate",
+    "consumable.tupd-tape"
+  ],
+  "cost_xar": 0,
+  "forced_connections": [],
+  "inputs": [
+    "weapon.service-pistol",
+    "weapon.service-pistol.duplicate",
+    "consumable.tupd-tape"
+  ],
+  "label": "Matching Duplicate Full Repair",
+  "malfunction_policy": "none",
+  "mode": "repair_full",
+  "optional_interfaces": [],
+  "point_budget": 1200,
+  "preview_color": "#45c824",
+  "preview_shape": "weapon",
+  "receipt_policy": "deterministic",
+  "recipe_id": "starter.full-repair",
+  "recipe_revision": 1,
+  "repair_percent": 100.0,
+  "required_interfaces": [
+    "weapon.base",
+    "weapon.duplicate.match",
+    "tupd.tape",
+    "safe-room",
+    "sandbox"
+  ],
+  "result_id": "weapon.service-pistol.repaired-full",
+  "result_interfaces": [
+    "weapon.repaired",
+    "condition.full"
+  ],
+  "result_kind": "repair",
+  "result_name": "Service Pistol Full Repair",
+  "result_sockets": [
+    "grip",
+    "body"
+  ],
+  "result_tags": [
+    "weapon",
+    "fully-repaired"
+  ],
+  "schema": "signalcloud.tupd-recipe",
+  "schema_major": 1,
+  "schema_minor": 1,
+  "stability_penalty": 0.0,
+  "test_actions": [
+    "inspect",
+    "handle",
+    "primary",
+    "collision",
+    "break"
+  ],
+  "validation_rules": [
+    "matching_definition_id",
+    "safe_room",
+    "sandbox_only"
+  ],
+  "weight_penalty": 0.0
+}

@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.office_shipping_crate";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.office_shipping_crate"];
+hot_reload: "disabled";
+source_sha256: "b37b782c7ae98f64d5ca261bacae84a0fd48d3c32903c59628e27f0c8b87c44f";
+data_only: true;
+unknown_fields_policy: "preserve";

@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.universal_mount_bracket";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.universal_mount_bracket"];
+hot_reload: "disabled";
+source_sha256: "26404d962547e2514c365a1067a4b12fc787a414382d7c97fe64a4c6fe59e759";
+data_only: true;
+unknown_fields_policy: "preserve";

@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.rolling_file_cabinet";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "e88329407cc63f05a5b24c7919da238c3c0079160da2d74f3437135753bfd35f";
+data_only: true;
+unknown_fields_policy: "preserve";

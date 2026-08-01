@@ -1,0 +1,19 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":0};
+data_type: {"name":"signalcloud_siren_disruption"};
+profile_id: {"value":"pivot5_dual_siren"};
+
+[body]
+global_siren_key: {"value":"Y"};
+global_siren_behavior: {"value":"whole_active_room_fill_scatter"};
+local_siren_key: {"value":"U"};
+local_siren_behavior: {"value":"moving_radial_shader_dropout"};
+local_radius: {"value":8.5};
+local_pulse_period_seconds: {"value":3.2};
+local_pulse_active_seconds: {"value":1.15};
+future_sources: {"values":["siren_entity","high_decibel_enemy","moving_alarm","boss_release","miniboss_detection"]};
+
+[footer]
+notes: {"value":"Global and local sirens are separate mechanics and may overlap."};

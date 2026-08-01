@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.office-barrier";
+asset_type: "tupd_recipe";
+family: "items";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "362b314744dc0515b6aa0a00bb70ac2d5ab86c8afb41a05c117cd75da2803b37";
+data_only: true;
+unknown_fields_policy: "preserve";

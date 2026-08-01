@@ -1,0 +1,765 @@
+{
+  "active_layer_id": 1,
+  "asset_id": "entity_runtime_demo",
+  "author": {
+    "asset_type": "enemy",
+    "creator_name": "PCP3 Branch 8 Example",
+    "description": "Weighted two-bone enemy demonstrating guarded state clips, hover movement, and attack/effect anchors.",
+    "tags": [
+      "example",
+      "entity",
+      "bone_weight",
+      "animation"
+    ],
+    "title": "Entity Runtime Demo"
+  },
+  "certificate_file": "entity_runtime_demo.pcpcert.json",
+  "cloud_file": "entity_runtime_demo.pcp3cloud",
+  "cloud_sha256": "ec1e533568e3b03cae8a6ba7f4f5af521719740ddae61acfcc50590a0c42c28d",
+  "display_name": "Entity Runtime Demo",
+  "environment_type": "enemy",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Entity",
+      "id": 1,
+      "locked": false,
+      "name": "Body",
+      "opacity": 1.0,
+      "semantic": "enemy_body",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Rig",
+      "id": 2,
+      "locked": false,
+      "name": "Rig Markers",
+      "opacity": 1.0,
+      "semantic": "bone",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "advanced_authoring": {
+      "flow": {
+        "nodes": []
+      },
+      "future_attributes": {},
+      "placements": [],
+      "raid": {
+        "waves": []
+      },
+      "rig": {
+        "anchors": [
+          {
+            "future_attributes": {},
+            "id": "anchor_1",
+            "name": "attack_origin",
+            "position": [
+              1.45,
+              1.15,
+              0.0
+            ],
+            "role": "attack"
+          },
+          {
+            "future_attributes": {},
+            "id": "anchor_2",
+            "name": "signal_effect",
+            "position": [
+              0.0,
+              1.75,
+              0.0
+            ],
+            "role": "effect"
+          }
+        ],
+        "bones": [
+          {
+            "end": [
+              0.0,
+              1.4,
+              0.0
+            ],
+            "future_attributes": {},
+            "id": "bone_1",
+            "name": "root",
+            "parent": "",
+            "start": [
+              0.0,
+              0.15,
+              0.0
+            ],
+            "weight_channel": 0
+          },
+          {
+            "end": [
+              1.45,
+              1.15,
+              0.0
+            ],
+            "future_attributes": {},
+            "id": "bone_2",
+            "name": "arm",
+            "parent": "root",
+            "start": [
+              0.2,
+              1.15,
+              0.0
+            ],
+            "weight_channel": 1
+          }
+        ]
+      },
+      "schema": "pcp3_advanced_authoring_v1",
+      "theme": {
+        "slots": []
+      },
+      "timelines": [
+        {
+          "duration": 1.3,
+          "events": [],
+          "fps": 30,
+          "future_attributes": {},
+          "keyframes": [
+            {
+              "future_attributes": {},
+              "id": "key_4",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                -2.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_1",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_5",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                8.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 0.65
+            },
+            {
+              "future_attributes": {},
+              "id": "key_2",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.04,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                4.0,
+                0.0
+              ],
+              "scale": [
+                1.02,
+                0.98,
+                1.02
+              ],
+              "target": "root",
+              "time": 0.65
+            },
+            {
+              "future_attributes": {},
+              "id": "key_6",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                -2.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 1.3
+            },
+            {
+              "future_attributes": {},
+              "id": "key_3",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 1.3
+            }
+          ],
+          "loop": true,
+          "name": "Idle"
+        },
+        {
+          "duration": 1.3,
+          "events": [],
+          "fps": 30,
+          "future_attributes": {},
+          "keyframes": [
+            {
+              "future_attributes": {},
+              "id": "key_4",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                -4.5
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_1",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_5",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                18.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 0.65
+            },
+            {
+              "future_attributes": {},
+              "id": "key_2",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.04,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                4.0,
+                0.0
+              ],
+              "scale": [
+                1.02,
+                0.98,
+                1.02
+              ],
+              "target": "root",
+              "time": 0.65
+            },
+            {
+              "future_attributes": {},
+              "id": "key_6",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                -4.5
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 1.3
+            },
+            {
+              "future_attributes": {},
+              "id": "key_3",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 1.3
+            }
+          ],
+          "loop": true,
+          "name": "Move"
+        },
+        {
+          "duration": 1.3,
+          "events": [],
+          "fps": 30,
+          "future_attributes": {},
+          "keyframes": [
+            {
+              "future_attributes": {},
+              "id": "key_4",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                -8.75
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_1",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_5",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                35.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 0.65
+            },
+            {
+              "future_attributes": {},
+              "id": "key_2",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.04,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                4.0,
+                0.0
+              ],
+              "scale": [
+                1.02,
+                0.98,
+                1.02
+              ],
+              "target": "root",
+              "time": 0.65
+            },
+            {
+              "future_attributes": {},
+              "id": "key_6",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                -8.75
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 1.3
+            },
+            {
+              "future_attributes": {},
+              "id": "key_3",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 1.3
+            }
+          ],
+          "loop": true,
+          "name": "Alert"
+        },
+        {
+          "duration": 1.3,
+          "events": [],
+          "fps": 30,
+          "future_attributes": {},
+          "keyframes": [
+            {
+              "future_attributes": {},
+              "id": "key_4",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                -18.75
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_1",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 0.0
+            },
+            {
+              "future_attributes": {},
+              "id": "key_5",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                75.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 0.65
+            },
+            {
+              "future_attributes": {},
+              "id": "key_2",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.04,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                4.0,
+                0.0
+              ],
+              "scale": [
+                1.02,
+                0.98,
+                1.02
+              ],
+              "target": "root",
+              "time": 0.65
+            },
+            {
+              "future_attributes": {},
+              "id": "key_6",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                -18.75
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "arm",
+              "time": 1.3
+            },
+            {
+              "future_attributes": {},
+              "id": "key_3",
+              "interpolation": "linear",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_degrees": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "target": "root",
+              "time": 1.3
+            }
+          ],
+          "loop": true,
+          "name": "Attack"
+        }
+      ],
+      "triggers": []
+    },
+    "editor_branch": "ISL_plus_branch2",
+    "entity_runtime": {
+      "attack_anchor": "attack_origin",
+      "attack_cooldown": 1.3,
+      "attack_radius": 2.5,
+      "bone_deformation": true,
+      "detection_radius": 10.0,
+      "effect_anchor": "signal_effect",
+      "enabled": true,
+      "entity_kind": "enemy",
+      "future_attributes": {},
+      "game_enabled": false,
+      "hover_height": 0.2,
+      "hover_period": 2.6,
+      "max_deformed_points": 250000,
+      "movement_profile": "hover",
+      "movement_radius": 6.0,
+      "movement_speed": 1.5,
+      "schema": "pcp3_entity_runtime_v1",
+      "show_anchor_debug": true,
+      "show_rig_debug": true,
+      "show_state_debug": true,
+      "state_clips": {
+        "alert": "Alert",
+        "attack": "Attack",
+        "idle": "Idle",
+        "move": "Move"
+      },
+      "stress_enabled": true,
+      "transition_seconds": 0.18
+    },
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 120000,
+    "tool_profile": "formed_or_formless"
+  },
+  "point_count": 318,
+  "point_record_size": 64,
+  "project_id": "a90274b4-4378-44d3-8da5-635a9767ea17",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": true,
+    "preview_position": [
+      3.0,
+      1.0,
+      -4.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 8.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 6.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 8.0
+  },
+  "unknown_fields_policy": "preserve"
+}

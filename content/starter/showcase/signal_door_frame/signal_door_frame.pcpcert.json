@@ -1,0 +1,45 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "DigiMancer3D / SignalCloud Engine",
+    "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+    "tags": [
+      "architecture",
+      "doorway",
+      "modular",
+      "showcase",
+      "starter",
+      "threshold"
+    ],
+    "title": "Signal Door Frame",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15232460062",
+  "initial_checksum": "86d081ec006a3c3fbb057ea70260d9435c8d1d3da763a4624a5a43587e6f6b0f",
+  "initial_hash_proof": "78c3700029b083570da2effbacbbfa36760fac30e901a75b2f12b12eca473a00",
+  "project_id": "fb981902-6154-43f4-a565-38d881ba4715",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "architecture",
+          "doorway",
+          "modular",
+          "showcase",
+          "starter",
+          "threshold"
+        ],
+        "title": "Signal Door Frame",
+        "type": "environment_object"
+      },
+      "checksum": "86d081ec006a3c3fbb057ea70260d9435c8d1d3da763a4624a5a43587e6f6b0f",
+      "epoch_octal": "0o15232460062",
+      "hash_proof": "78c3700029b083570da2effbacbbfa36760fac30e901a75b2f12b12eca473a00",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-3E0C48687F8C41AE91B25CC206E2EAD9"
+}

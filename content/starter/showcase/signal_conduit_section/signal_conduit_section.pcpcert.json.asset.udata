@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.certificate.starter.signal_conduit_section";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.signal_conduit_section"];
+hot_reload: "disabled";
+source_sha256: "02167513942621e677dafefa27b62e183ccc70631f132475772431f76be6ff61";
+data_only: true;
+unknown_fields_policy: "preserve";

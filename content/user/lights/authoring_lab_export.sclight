@@ -1,0 +1,196 @@
+{
+  "aperture": {
+    "bottom_y": 0.4,
+    "color": [
+      0.9,
+      0.85,
+      0.7
+    ],
+    "distance": 2.5,
+    "half_width": 1.2,
+    "position": [
+      0.0,
+      1.6,
+      0.0
+    ],
+    "top_y": 2.8
+  },
+  "canonical_export": {
+    "compatibility": [
+      "slight-v1",
+      "slight-v2",
+      "sclight-v3"
+    ],
+    "content_sha256": "5c5ef57c7d8242be26b3fc60ef75ea2ddbd610b08fa8fd7753cb31e5af0a597a",
+    "data_only": true,
+    "format": "sclight",
+    "source_document": "content/core/lights/authoring_lab_default.slight"
+  },
+  "day_night": {
+    "day_color": [
+      1.0,
+      0.95,
+      0.85
+    ],
+    "day_illuminosity_percent": 95.0,
+    "day_to_night_seconds": 45.0,
+    "night_color": [
+      0.15,
+      0.18,
+      0.35
+    ],
+    "night_illuminosity_percent": 18.0,
+    "night_to_day_seconds": 60.0,
+    "paused": false,
+    "playing": false,
+    "protected_global": true,
+    "time_of_day": 0.35
+  },
+  "lights": [
+    {
+      "aperture_distance": 2.5,
+      "bounce_cost": 0.34,
+      "bounce_count_limit": 1,
+      "budget_priority": 900,
+      "color": [
+        1.0,
+        0.62,
+        0.24
+      ],
+      "cone_or_degree_burst": 96.0,
+      "day_night_binding": "multiply",
+      "dynamic": false,
+      "enabled": true,
+      "id": "reception-authoring-key",
+      "illuminosity_percent": 96.0,
+      "name": "Authoring Key Light",
+      "point_budget_cost": 640,
+      "position": [
+        0.0,
+        4.6,
+        3.8
+      ],
+      "radius": 12.0,
+      "scope": "room",
+      "seed": 401,
+      "shadow_policy": "analytic",
+      "target": [
+        0.0,
+        1.2,
+        0.8
+      ],
+      "zone": "Reception Tape"
+    },
+    {
+      "aperture_distance": 1.4,
+      "bounce_cost": 0.42,
+      "bounce_count_limit": 1,
+      "budget_priority": 700,
+      "color": [
+        0.18,
+        0.72,
+        1.0
+      ],
+      "cone_or_degree_burst": 72.0,
+      "day_night_binding": "multiply",
+      "dynamic": false,
+      "enabled": true,
+      "id": "reception-local-console",
+      "illuminosity_percent": 58.0,
+      "name": "Local Console Light",
+      "point_budget_cost": 320,
+      "position": [
+        -2.8,
+        2.25,
+        0.6
+      ],
+      "radius": 6.0,
+      "scope": "local",
+      "seed": 402,
+      "shadow_policy": "analytic",
+      "target": [
+        -1.2,
+        1.2,
+        -0.4
+      ],
+      "zone": "Reception Tape"
+    },
+    {
+      "aperture_distance": 2.0,
+      "bounce_cost": 0.38,
+      "bounce_count_limit": 2,
+      "budget_priority": 600,
+      "color": [
+        0.42,
+        1.0,
+        0.56
+      ],
+      "cone_or_degree_burst": 110.0,
+      "day_night_binding": "multiply",
+      "dynamic": false,
+      "enabled": true,
+      "id": "reception-area-fill",
+      "illuminosity_percent": 46.0,
+      "name": "Area Fill Light",
+      "point_budget_cost": 384,
+      "position": [
+        3.6,
+        3.1,
+        -1.2
+      ],
+      "radius": 7.5,
+      "scope": "area",
+      "seed": 403,
+      "shadow_policy": "portal-aware",
+      "target": [
+        0.8,
+        1.4,
+        -0.8
+      ],
+      "zone": "Reception Tape"
+    },
+    {
+      "aperture_distance": 0.0,
+      "bounce_cost": 0.0,
+      "bounce_count_limit": 0,
+      "budget_priority": 500,
+      "color": [
+        0.38,
+        0.28,
+        0.76
+      ],
+      "cone_or_degree_burst": 360.0,
+      "day_night_binding": "global",
+      "dynamic": false,
+      "enabled": true,
+      "id": "tape-global-haze",
+      "illuminosity_percent": 22.0,
+      "name": "Global Tape Haze",
+      "point_budget_cost": 192,
+      "position": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "radius": 80.0,
+      "scope": "global",
+      "seed": 404,
+      "shadow_policy": "none",
+      "target": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "zone": "Reception Tape"
+    }
+  ],
+  "linked_document": null,
+  "runtime_budget": {
+    "max_active_lights": 4,
+    "max_diagnostic_rays": 32,
+    "max_point_budget": 2048,
+    "rays_per_light": 8,
+    "stress_scale": 1.0
+  },
+  "schema": "signalcloud_light_set_v3"
+}

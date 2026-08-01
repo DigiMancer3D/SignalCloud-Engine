@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.office_shipping_crate";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "1737a8fae5edae3e534ca290f9474492421349203848f976ed60147d3322bd49";
+data_only: true;
+unknown_fields_policy: "preserve";

@@ -1,0 +1,33 @@
+@udata 1
+
+[header]
+data_type: {"name":"tactical_memory_map_config"};
+version: {"value":"0.12.0-a5"};
+
+[body]
+mode: {"value":"jam_topology_atlas"};
+toggle: {"value":"F3"};
+static_point_budget: {"value":16000};
+environment_ranges_while_open: {"value":0};
+layout_basis: {"value":"logical_peer_topology_not_world_coordinates"};
+room_node: {"value":"fixed_octagon"};
+side_order: {"values":["north","northeast_up","east","southeast_down","south","southwest_down","west","northwest_up"]};
+cardinal_rule: {"value":"same_logical_level"};
+diagonal_rule: {"value":"north_diagonals_up_south_diagonals_down"};
+threshold_slots: {"value":"independent_multiple_slots_per_octagon_side"};
+connection_render: {"value":"side_owned_gaps_and_jambs_no_center_lines"};
+player_marker: {"value":"directional_arrow_with_faced_threshold_pulse"};
+room_inset: {"values":["normalized_footprint","known_internal_walls","known_obstacles"]};
+level_shading: {"value":"up_lighter_down_darker"};
+memory_format: {"value":"atomic_seed_layout_tmap"};
+memory_path: {"value":"user_data/tactical_maps/<seed>_<layout>.tmap"};
+rebuild_policy: {"values":["room_entered","scan_discovers_room","layout_reset"]};
+visited_room_memory: {"value":"persistent_for_matching_tape_layout"};
+scanned_room_memory: {"value":"persistent_dim_octagon"};
+enemy_memory: {"value":"current_room_only"};
+landmarks: {"values":["safe_room","exchange","water","current_hostile","current_loot"]};
+map_target_fps: {"value":60};
+map_minimum_fps: {"value":55};
+
+[footer]
+notes: {"value":"Pivot 12 a5 preserves a4's zero-environment event cache while replacing world-coordinate room lines with the user-designed JAM octagonal topology language."};

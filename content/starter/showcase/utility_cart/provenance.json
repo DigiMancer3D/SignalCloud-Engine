@@ -1,0 +1,18 @@
+{
+  "asset_id": "utility_cart",
+  "execution_policy": "no_external_source",
+  "importer": "SignalCloud Showcase A7a2 starter generator",
+  "license_id": "CC0-1.0",
+  "managed_pack": "starter",
+  "pcp3_cloud": "utility_cart.pcp3cloud",
+  "pcp3_project": "utility_cart.pcp3",
+  "physics_profile": "utility_cart.scphysics",
+  "point_count": 2458,
+  "schema": "signalcloud.showcase-provenance",
+  "schema_major": 1,
+  "showcase_visualization": "utility_cart.scshowcase",
+  "source_kind": "procedural-signalcloud",
+  "source_name": "utility_cart.source.udata",
+  "source_sha256": "generated-at-export",
+  "warnings": []
+}

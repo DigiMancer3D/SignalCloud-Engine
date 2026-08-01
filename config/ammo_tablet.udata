@@ -1,0 +1,22 @@
+@udata 1
+
+[header]
+data_type: {"name":"ammo_tablet_config"};
+version: {"value":"0.13.0-a3"};
+
+[body]
+tablet_name: {"value":"Ammo Tablet"};
+protected_zone: {"value":"Scavenger Exchange"};
+round_transfer: {"value":18};
+transfer_cost_xar: {"value":5};
+direct_to_weapon_reserve: {"value":true};
+uses_inventory_weight: {"value":false};
+blocked_by_inventory_capacity: {"value":false};
+tablet_identity_color: {"value":"red"};
+tablet_rgb: {"values":[0.96,0.12,0.08]};
+current_products: {"values":["SERVICE PISTOL AMMO"]};
+future_products: {"values":["WEAPONS","AMMO PACKS","WEAPON UPGRADES","TUPD TAPE"]};
+future_tupd_recipes: {"values":["weapon+object+tupd=mod","weapon+upgrade+tupd=upgrade","same_weapon+tupd=full_repair","tupd=small_repair"]};
+
+[footer]
+notes: {"value":"Pivot 13 a3 gives the Ammo Tablet a permanent red visual identity while retaining the direct-ammunition safety valve only. Weapon purchasing, modifications, upgrades, and Tupd Tape repair recipes remain reserved for a dedicated weapon/equipment phase."};

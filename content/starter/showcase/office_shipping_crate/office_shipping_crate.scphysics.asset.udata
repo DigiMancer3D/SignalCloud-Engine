@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.physics.starter.office_shipping_crate";
+asset_type: "physics_profile";
+family: "physics";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.office_shipping_crate"];
+hot_reload: "authoring-only";
+source_sha256: "a581bc5f65be7d0cd8148dd3d1db0a703f04a71f8802974a0de8e9627e8c79e0";
+data_only: true;
+unknown_fields_policy: "preserve";

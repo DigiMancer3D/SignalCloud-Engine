@@ -1,0 +1,83 @@
+{
+  "asset_id": "streaming_lod_demo",
+  "chunk_count": 95,
+  "chunking": {
+    "background_loading": true,
+    "edge": 6.0,
+    "max_resident_chunks": 64,
+    "point_target": 65536,
+    "preload_adjacent": true
+  },
+  "distances": {
+    "far": 120.0,
+    "mid": 50.0,
+    "near": 18.0
+  },
+  "enabled": true,
+  "findings": [
+    {
+      "message": "Streaming configuration is bounded and can be compiled without modifying source geometry.",
+      "severity": "pass"
+    }
+  ],
+  "future_attributes": {},
+  "important_point_count": 30284,
+  "limits": {
+    "frame_upload_budget_points": 100000,
+    "maximum_points": 250000,
+    "minimum_points": 768
+  },
+  "lod_policy": "distance_semantic",
+  "lod_samples": [
+    {
+      "distance": 0.0,
+      "planned_points": 36556,
+      "ratio": 1.0,
+      "tier": "near"
+    },
+    {
+      "distance": 18.001,
+      "planned_points": 20106,
+      "ratio": 0.55,
+      "tier": "mid"
+    },
+    {
+      "distance": 50.001,
+      "planned_points": 8043,
+      "ratio": 0.22,
+      "tier": "far"
+    },
+    {
+      "distance": 120.001,
+      "planned_points": 2194,
+      "ratio": 0.06,
+      "tier": "very_far"
+    }
+  ],
+  "profile": "adaptive_8m",
+  "project_id": "95cf756e-ddee-49b1-bbcb-7af71f9710a3",
+  "ratios": {
+    "far": 0.22,
+    "mid": 0.55,
+    "near": 1.0,
+    "very_far": 0.06
+  },
+  "runtime_policy": {
+    "background_loader_status": "bounded_intent_and_manifest",
+    "current_execution": "distance_lod_and_semantic_reserve",
+    "save_mutation": false,
+    "source_geometry_mutation": false
+  },
+  "schema": "pcp3_streaming_runtime_v1",
+  "semantic_priority": {
+    "enabled": true,
+    "reserve_ratio": 0.18
+  },
+  "show_debug": true,
+  "source_point_count": 36556,
+  "stability_hysteresis": 0.12,
+  "targets": {
+    "game": false,
+    "stress": true
+  }
+}

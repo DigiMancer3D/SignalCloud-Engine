@@ -1,0 +1,29 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":0};
+data_type: {"name":"signalcloud_room_continuity"};
+profile_id: {"value":"pivot6_a2_room_continuity"};
+
+[body]
+two_sided_wall_collision: {"value":true};
+explicit_opening_metadata: {"value":true};
+connected_room_preview: {"value":true};
+preview_start_distance: {"value":5.5};
+preview_full_distance: {"value":2.0};
+preview_floor_priority: {"value":1};
+preview_light_priority: {"value":2};
+preview_wall_priority: {"value":3};
+preview_ceiling_priority: {"value":4};
+local_light_distance_bonus: {"value":18.0};
+local_light_surface_whitening: {"value":true};
+sound_ripple_color: {"value":"warm_white_yellow"};
+sound_ripple_spatial: {"value":true};
+tactical_player_marker: {"value":true};
+view_directed_swim_dive: {"value":true};
+water_exit_low_mantle: {"value":true};
+audio_shutdown_before_sdl_quit: {"value":true};
+legacy_csv_schema_rotation: {"value":true};
+
+[footer]
+notes: {"value":"Pivot 7 retains Pivot 6 a2 alignment and adds aperture clipping; Pivot 6 a2 aligned point visibility, analytical collision, room openings, light influence, and safe shutdown."};

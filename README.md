@@ -1,5 +1,9 @@
 # SignalCloud Engine + ALMOND SIGNAL: LIVE TAPE
 
+**Public alpha:** `v0.1.0-alpha.1`  
+**Runtime line:** Pivot 13 `v0.13.0-a3`  
+**Status:** experimental, source-first Linux alpha
+
 SignalCloud Engine is a point-cloud game and authoring environment built around
 **ALMOND SIGNAL: LIVE TAPE**. This release exposes the working engine, the game,
 the engine-native stress and machine-profile system, Point Cloud Paint++, the
@@ -87,6 +91,16 @@ release notes, an audit report, and SHA-256 checksums. Generated builds, reports
 machine profiles, saves, caches, private paths, and conversation exports are not
 included.
 
+## Documentation
+
+- `INSTALL.md` — setup, first launch, and troubleshooting
+- `docs/public/GITHUB_PUBLICATION_GUIDE.md` — browser and GitHub CLI publication
+- `docs/public/PUBLIC_SOURCE_RELEASE_CHECKLIST.md` — release acceptance boundary
+- `docs/user/` — tool and gameplay guides
+- `CONTRIBUTING.md` — contribution workflow
+- `SECURITY.md` — private vulnerability reporting guidance
+- `THIRD_PARTY_NOTICES.md` — dependency and asset licensing notes
+
 ## Known alpha limitations
 
 - Linux is the only supported public target in this release.
@@ -120,4 +134,4 @@ upstream licenses.
 
 ## Project owner
 
-Created and directed by **DigiMancer3D** || **Z0M8I3D** || **3D**.
+Created and directed by **DigiMancer3D**.

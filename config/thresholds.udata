@@ -1,0 +1,18 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":0};
+data_type: {"name":"signalcloud_threshold_profile"};
+profile_id: {"value":"pivot7_aperture_material_lab"};
+
+[body]
+preview_clip: {"enabled":true,"mode":"viewer_to_point_aperture"};
+source_anchor: {"enabled":true,"description":"retain nearest source band while preview is active"};
+shared_boundary_points: {"enabled":true,"description":"walls shared by adjacent rooms are owned by both streamed zones"};
+preview_cone: {"base_margin":1.25,"growth_per_meter":0.62};
+window_sill_m: {"value":0.90};
+window_top_m: {"value":2.82};
+quick_access_key: {"value":"H"};
+
+[footer]
+notes: {"value":"Pivot 7 prevents destination previews from replacing entire source walls and adds a threshold taxonomy lab."};

@@ -1,0 +1,45 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "DigiMancer3D / SignalCloud Engine",
+    "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+    "tags": [
+      "architecture",
+      "cart",
+      "furniture",
+      "office",
+      "showcase",
+      "starter"
+    ],
+    "title": "Office Utility Cart",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15232460062",
+  "initial_checksum": "621462d6d9c63789a285f31594d2da8159ffedd1b59da726a74f4bb94c73082f",
+  "initial_hash_proof": "501a291ee646987b8e95515ed3bc9c53be21f84c41cbee790e29303834b0a1d3",
+  "project_id": "3f386ec3-5958-4faf-9a47-c03d65946a89",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "DigiMancer3D / SignalCloud Engine",
+        "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+        "tags": [
+          "architecture",
+          "cart",
+          "furniture",
+          "office",
+          "showcase",
+          "starter"
+        ],
+        "title": "Office Utility Cart",
+        "type": "environment_object"
+      },
+      "checksum": "621462d6d9c63789a285f31594d2da8159ffedd1b59da726a74f4bb94c73082f",
+      "epoch_octal": "0o15232460062",
+      "hash_proof": "501a291ee646987b8e95515ed3bc9c53be21f84c41cbee790e29303834b0a1d3",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-9CBFC508095C45679BF93D5DF133252A"
+}

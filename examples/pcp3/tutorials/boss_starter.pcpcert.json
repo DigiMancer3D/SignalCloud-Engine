@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Author a multi-phase hostile with a persistent core, phase geometry, attack anchors, encounter thresholds, and bounded LOD.",
+    "tags": [
+      "boss",
+      "branch12",
+      "pcp3",
+      "tutorial"
+    ],
+    "title": "Boss Tutorial Starter",
+    "type": "boss"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "63373943aa3ad1efb94f328487a7e078704058b1b38c2081dbde61327abf1252",
+  "initial_hash_proof": "6fb4e2c9040deb25bf78acc6021d21c07b539637f34a1a4a3d4c983c2edf199c",
+  "project_id": "2b8bb0e3-2748-4f6b-b8cd-73b3b96cf830",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Author a multi-phase hostile with a persistent core, phase geometry, attack anchors, encounter thresholds, and bounded LOD.",
+        "tags": [
+          "boss",
+          "branch12",
+          "pcp3",
+          "tutorial"
+        ],
+        "title": "Boss Tutorial Starter",
+        "type": "boss"
+      },
+      "checksum": "63373943aa3ad1efb94f328487a7e078704058b1b38c2081dbde61327abf1252",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "6fb4e2c9040deb25bf78acc6021d21c07b539637f34a1a4a3d4c983c2edf199c",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-54D4D02FD1C1417797B752322B854FD5"
+}

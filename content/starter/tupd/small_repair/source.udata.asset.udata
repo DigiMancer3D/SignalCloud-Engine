@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.small-repair.source";
+asset_type: "udata";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["starter.tupd.small-repair"];
+hot_reload: "disabled";
+source_sha256: "d2afc7154ee5d51690153396227d1a1679edad6c7a6ec17754ef8febe42e38b3";
+data_only: true;
+unknown_fields_policy: "preserve";

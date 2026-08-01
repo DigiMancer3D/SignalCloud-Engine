@@ -1,0 +1,42 @@
+@udata 1
+
+[factory]
+schema: {"value":"pcp3_runtime_factory_v1"};
+enabled: {"value":true};
+game_enabled: {"value":false};
+stress_enabled: {"value":true};
+scanner_required: {"value":false};
+proximity_required: {"value":false};
+proximity_radius: {"value":16.0};
+clip: {"value":"Idle Alert"};
+duration: {"value":2.0};
+loop: {"value":true};
+event_policy: {"value":"telemetry_only"};
+max_nested_points: {"value":50000};
+max_nesting_depth: {"value":1};
+
+[keyframe.0]
+time: {"value":0.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[keyframe.1]
+time: {"value":1.0};
+position: {"value":[0.0,0.05,0.0]};
+rotation: {"value":[0.0,8.0,0.0]};
+scale: {"value":[1.02,0.98,1.02]};
+
+[keyframe.2]
+time: {"value":2.0};
+position: {"value":[0.0,0.0,0.0]};
+rotation: {"value":[0.0,0.0,0.0]};
+scale: {"value":[1.0,1.0,1.0]};
+
+[trigger.0]
+type: {"value":"proximity"};
+position: {"value":[0.0,1.0,0.0]};
+radius: {"value":4.0};
+action: {"value":"none"};
+target: {"value":"root"};
+runtime_status: {"value":"telemetry_only"};

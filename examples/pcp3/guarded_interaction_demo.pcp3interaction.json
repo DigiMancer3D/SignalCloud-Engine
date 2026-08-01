@@ -1,0 +1,101 @@
+{
+  "approved_actions": [
+    "alert",
+    "hide",
+    "pulse_light",
+    "reveal",
+    "set_theme",
+    "show",
+    "spawn_proxy"
+  ],
+  "asset_id": "guarded_interaction_demo",
+  "blocked_actions": [
+    "script",
+    "damage",
+    "economy",
+    "inventory",
+    "save",
+    "teleport",
+    "external_program",
+    "unrestricted_ai"
+  ],
+  "console_event_log": true,
+  "enabled": true,
+  "environment_type": "enemy",
+  "future_attributes": {},
+  "limits": {
+    "max_active_proxies": 16,
+    "max_event_ledger": 256,
+    "max_state_entries": 256
+  },
+  "policy": "bounded_reversible_visual_state_no_gameplay_mutation",
+  "reset_policy": "zone_exit",
+  "schema": "pcp3_guarded_interaction_v1",
+  "show_runtime_evidence": true,
+  "targets": {
+    "game": true,
+    "stress": true
+  },
+  "timing": {
+    "alert_duration": 3.0,
+    "default_cooldown": 1.3,
+    "proxy_lifetime": 5.0,
+    "pulse_duration": 1.25
+  },
+  "triggers": [
+    {
+      "action": "reveal",
+      "cooldown": 1.3,
+      "delay": 0.0,
+      "id": "trigger_1",
+      "index": 0,
+      "original_action": "reveal",
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 4.0,
+      "repeat": false,
+      "runtime_status": "approved",
+      "target": "",
+      "type": "scanner"
+    },
+    {
+      "action": "pulse_light",
+      "cooldown": 1.3,
+      "delay": 0.0,
+      "id": "trigger_2",
+      "index": 1,
+      "original_action": "pulse_light",
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 3.0,
+      "repeat": true,
+      "runtime_status": "approved",
+      "target": "",
+      "type": "interaction"
+    },
+    {
+      "action": "alert",
+      "cooldown": 1.3,
+      "delay": 2.0,
+      "id": "trigger_3",
+      "index": 2,
+      "original_action": "alert",
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 1.0,
+      "repeat": false,
+      "runtime_status": "approved",
+      "target": "",
+      "type": "timer"
+    }
+  ]
+}

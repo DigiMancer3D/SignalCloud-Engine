@@ -1,0 +1,35 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":2};
+data_type: {"name":"signalcloud_streaming"};
+profile_id: {"value":"pivot6_room_and_distance_stream"};
+
+[body]
+active_room_only: {"value":true};
+large_room_spatial_bands: {"value":true};
+band_target_length_meters: {"value":18.0};
+long_hall_distance_limit: {"value":38.0};
+underwater_tunnel_distance_limit: {"value":30.0};
+open_cavity_distance_limit: {"value":34.0};
+scanner_distance_bonus: {"value":16.0};
+viscosity_reduces_distance: {"value":true};
+tactical_full_graph: {"value":true};
+resident_tape_points: {"value":"selected_fill_tier"};
+submitted_points: {"value":"active_zone_spatial_ranges_scaled_by_signal"};
+intel_default_points: {"value":3000000};
+manual_fill_controls: {"values":["pageup","pagedown"]};
+automatic_point_lab_sweep: {"value":false};
+night_fill_range: {"minimum":100000,"maximum":750000};
+chase_fill_behavior: {"value":"selected_tier_to_next_lower_tier"};
+global_siren_scatter_seconds: {"value":4.0};
+local_siren_radial_shader: {"value":true};
+stream_trace: {"value":"reports/room_stream_trace.csv"};
+depth_trace: {"value":"reports/depth_trace.csv"};
+connected_preview_enabled: {"value":true};
+connected_preview_range_meters: {"value":5.5};
+progressive_fill_order: {"values":["ground_and_water","lights","walls_and_fixtures","ceiling","dust"]};
+light_distance_bonus_meters: {"value":18.0};
+
+[footer]
+notes: {"value":"Pivot 6 adds point-range submission inside long halls, tunnels, and the open cavity while keeping the full tape resident."};

@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.forced-office-bracket.source";
+asset_type: "udata";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["starter.tupd.forced-office-bracket"];
+hot_reload: "disabled";
+source_sha256: "e8005d5100062f5b636ec65baa32a12a87f7a488042133875bc6803df465ccb0";
+data_only: true;
+unknown_fields_policy: "preserve";

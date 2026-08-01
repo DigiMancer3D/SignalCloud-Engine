@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.certificate.starter.tupd_tool_body";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.tupd_tool_body"];
+hot_reload: "disabled";
+source_sha256: "131540ad6067901ea1fa590d26ab838b5d90b5e7f55dc6e013b4f80bd0f46f5b";
+data_only: true;
+unknown_fields_policy: "preserve";

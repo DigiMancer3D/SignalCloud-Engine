@@ -1,0 +1,199 @@
+{
+  "asset_id": "advanced_enemy_demo",
+  "capabilities": [
+    "rig",
+    "timeline",
+    "gameplay"
+  ],
+  "data": {
+    "flow": {
+      "nodes": []
+    },
+    "future_attributes": {},
+    "placements": [],
+    "raid": {
+      "waves": []
+    },
+    "rig": {
+      "anchors": [
+        {
+          "future_attributes": {},
+          "id": "anchor_1",
+          "name": "attack_origin",
+          "position": [
+            0.45,
+            1.3,
+            0.0
+          ],
+          "role": "attack"
+        }
+      ],
+      "bones": [
+        {
+          "end": [
+            0.0,
+            1.4,
+            0.0
+          ],
+          "future_attributes": {},
+          "id": "bone_1",
+          "name": "root",
+          "parent": "",
+          "start": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weight_channel": 0
+        },
+        {
+          "end": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "future_attributes": {},
+          "id": "bone_2",
+          "name": "head",
+          "parent": "root",
+          "start": [
+            0.0,
+            1.4,
+            0.0
+          ],
+          "weight_channel": 0
+        }
+      ]
+    },
+    "schema": "pcp3_advanced_authoring_v1",
+    "theme": {
+      "slots": []
+    },
+    "timelines": [
+      {
+        "duration": 2.0,
+        "events": [
+          {
+            "action": "alert_bark",
+            "id": "event_1",
+            "payload": {},
+            "time": 1.0,
+            "type": "sound"
+          }
+        ],
+        "fps": 30,
+        "keyframes": [
+          {
+            "future_attributes": {},
+            "id": "key_1",
+            "interpolation": "linear",
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "target": "root",
+            "time": 0.0
+          },
+          {
+            "future_attributes": {},
+            "id": "key_2",
+            "interpolation": "linear",
+            "position": [
+              0.0,
+              0.05,
+              0.0
+            ],
+            "rotation_degrees": [
+              0.0,
+              8.0,
+              0.0
+            ],
+            "scale": [
+              1.02,
+              0.98,
+              1.02
+            ],
+            "target": "root",
+            "time": 1.0
+          },
+          {
+            "future_attributes": {},
+            "id": "key_3",
+            "interpolation": "linear",
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation_degrees": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "target": "root",
+            "time": 2.0
+          }
+        ],
+        "loop": true,
+        "name": "Idle Alert"
+      }
+    ],
+    "triggers": [
+      {
+        "action": "enter_alert",
+        "conditions": [],
+        "delay": 0.0,
+        "future_attributes": {},
+        "id": "trigger_1",
+        "position": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "radius": 4.0,
+        "repeat": true,
+        "target": "root",
+        "type": "proximity"
+      }
+    ]
+  },
+  "environment_type": "enemy",
+  "issues": [
+    {
+      "code": "authoring_ready",
+      "hint": "",
+      "message": "Advanced authoring data passed validation.",
+      "severity": "pass"
+    }
+  ],
+  "policy": "forgiving_preserve_unknown_until_pce_runtime_support",
+  "schema": "pcp3_advanced_authoring_v1",
+  "summary": {
+    "anchors": 1,
+    "bones": 2,
+    "clips": 1,
+    "events": 1,
+    "flow_nodes": 0,
+    "keyframes": 3,
+    "placements": 0,
+    "raid_waves": 0,
+    "theme_slots": 0,
+    "triggers": 1
+  }
+}

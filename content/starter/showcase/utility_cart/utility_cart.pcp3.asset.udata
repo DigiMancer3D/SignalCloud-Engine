@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.utility_cart";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "8d1847351fb130698550b505d9b93ce95d0f081128434c2ebc03f9d0eb557ded";
+data_only: true;
+unknown_fields_policy: "preserve";

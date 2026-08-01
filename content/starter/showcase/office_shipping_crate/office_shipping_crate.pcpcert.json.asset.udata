@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.certificate.starter.office_shipping_crate";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.office_shipping_crate"];
+hot_reload: "disabled";
+source_sha256: "c20bd0ec0af4a637b3ae5f5eacc0ec69be59af28073268f3cf21f878c7600cdf";
+data_only: true;
+unknown_fields_policy: "preserve";

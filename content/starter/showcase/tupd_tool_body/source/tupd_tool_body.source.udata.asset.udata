@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.tupd_tool_body";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.tupd_tool_body"];
+hot_reload: "disabled";
+source_sha256: "30a8dc894a63e85f1ffda59172146d7e5cd9c434dc33ecd071eba47037027d0e";
+data_only: true;
+unknown_fields_policy: "preserve";

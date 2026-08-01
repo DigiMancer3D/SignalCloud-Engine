@@ -1,0 +1,25 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":0};
+data_type: {"name":"signalcloud_portal_graph"};
+profile_id: {"value":"pivot3_non_euclidean"};
+
+[pre-body]
+layout_source: {"value":"deterministic_seeded_room_graph"};
+portal_authority: {"value":"local_simulation"};
+
+[body]
+room_count: {"value":12};
+base_route_gates: {"value":12};
+matrix_extra_gates: {"value":3};
+portal_kinds: {"values":["door","window","drop"]};
+transit_cooldown_seconds: {"value":0.80};
+destination_velocity_reset: {"value":true};
+destination_camera_yaw: {"value":true};
+portal_trace: {"value":"reports/portal_trace.log"};
+layout_report: {"value":"reports/pivot3_layout.txt"};
+regenerate_key: {"value":"N"};
+
+[footer]
+notes: {"value":"Rooms remain locally Euclidean while signed portal edges connect locations that are not spatially adjacent."};

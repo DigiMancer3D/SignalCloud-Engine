@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.universal_mount_bracket";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "0bcbf25b133e1133b3f7e1349ea0a64aa696b5b6506e1f204cbacd90d8cb8533";
+data_only: true;
+unknown_fields_policy: "preserve";

@@ -1,0 +1,19 @@
+{
+  "canvas_extent": [
+    30.0,
+    24.0,
+    30.0
+  ],
+  "display_name": "Boss Starter",
+  "environment_type": "boss",
+  "future_fields_policy": "preserve_unknown",
+  "recommended_point_budget": 1500000,
+  "schema": "pcp3_template_v0",
+  "suggested_layers": [
+    "Primary Form",
+    "Secondary Limbs",
+    "Phase Effects",
+    "Attack Guides"
+  ],
+  "tool_profile": "multi_phase"
+}

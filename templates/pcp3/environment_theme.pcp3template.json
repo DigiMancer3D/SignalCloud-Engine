@@ -1,0 +1,20 @@
+{
+  "canvas_extent": [
+    40.0,
+    16.0,
+    40.0
+  ],
+  "display_name": "Environment Theme Starter",
+  "environment_type": "environment_theme",
+  "future_fields_policy": "preserve_unknown",
+  "recommended_point_budget": 2000000,
+  "schema": "pcp3_template_v0",
+  "suggested_layers": [
+    "Walls",
+    "Floors",
+    "Ceilings",
+    "Doors / Windows",
+    "Lights / Props"
+  ],
+  "tool_profile": "theme_set"
+}

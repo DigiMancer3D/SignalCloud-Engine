@@ -1,0 +1,13 @@
+changelog:
+  exclude:
+    labels:
+      - skip-changelog
+  categories:
+    - title: Engine and runtime
+      labels: [engine]
+    - title: Authoring tools
+      labels: [tools]
+    - title: Fixes
+      labels: [bug]
+    - title: Other changes
+      labels: ["*"]

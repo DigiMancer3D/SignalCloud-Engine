@@ -1,0 +1,18 @@
+{
+  "canvas_extent": [
+    16.0,
+    12.0,
+    16.0
+  ],
+  "display_name": "Mini-Boss Starter",
+  "environment_type": "mini_boss",
+  "future_fields_policy": "preserve_unknown",
+  "recommended_point_budget": 500000,
+  "schema": "pcp3_template_v0",
+  "suggested_layers": [
+    "Body",
+    "Bones / Motion Guides",
+    "Special Effects"
+  ],
+  "tool_profile": "formed_or_formless"
+}

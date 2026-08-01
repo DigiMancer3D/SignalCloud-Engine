@@ -1,0 +1,110 @@
+{
+  "amendments": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Engine",
+        "description": "Persistent floating WELCOME sign for the Reception Tape safe-room integrity indicator.",
+        "tags": [
+          "alpha-a5",
+          "hot-reload",
+          "preview-proof",
+          "reception",
+          "welcome"
+        ],
+        "title": "Reception WELCOME Sign",
+        "type": "environment_object"
+      },
+      "checksum": "29513a41771523e5c670fca8ce6a99a8ebd6c728084ca24977b1a43b63d43d79",
+      "edited_user_name": "SignalCloud A5a3r1",
+      "epoch_octal": "0o15232127573",
+      "hash_proof": "8fc3d0ff3386021fdd668451055198f96af6015529a686b3f4ceb98372565937",
+      "kind": "author_form_update",
+      "previous_hash_proof": "2e2cee9325897926957951f9fb5a6c06a073a34781d2f9933e54c0541c928e6e",
+      "version": 2
+    }
+  ],
+  "author": {
+    "creator_name": "SignalCloud Engine",
+    "description": "Persistent floating WELCOME sign for the Reception Tape safe-room integrity indicator.",
+    "tags": [
+      "alpha-a5",
+      "hot-reload",
+      "preview-proof",
+      "reception",
+      "welcome"
+    ],
+    "title": "Reception WELCOME Sign",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15231725030",
+  "initial_checksum": "f5890f18a9a2d146b5e397c6b1f38f3392531de5c3e73e8f7e8aa645d1987878",
+  "initial_hash_proof": "2e2cee9325897926957951f9fb5a6c06a073a34781d2f9933e54c0541c928e6e",
+  "latest_checksum": "a5e44727912e1a8482210b7fb78e6c072cf43ebb8ff8f692aec99922bb381191",
+  "latest_hash_proof": "fb6f4cb479d70ecee47bdec850a874a8df1b442a45b5b3670db2ee5344b3c5c6",
+  "project_id": "6339cf2d-3cef-4192-bcf1-591c2b7142f5",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Engine",
+        "description": "Small deterministic point marker used to verify protected PCP3 hot reload.",
+        "tags": [
+          "alpha-a3",
+          "hot-reload",
+          "preview-proof"
+        ],
+        "title": "A3 Protected Preview Marker",
+        "type": "environment_object"
+      },
+      "checksum": "f5890f18a9a2d146b5e397c6b1f38f3392531de5c3e73e8f7e8aa645d1987878",
+      "epoch_octal": "0o15231725030",
+      "hash_proof": "2e2cee9325897926957951f9fb5a6c06a073a34781d2f9933e54c0541c928e6e",
+      "kind": "initial_save"
+    },
+    {
+      "author": {
+        "creator_name": "SignalCloud Engine",
+        "description": "Persistent floating WELCOME sign for the Reception Tape safe-room integrity indicator.",
+        "tags": [
+          "alpha-a5",
+          "hot-reload",
+          "preview-proof",
+          "reception",
+          "welcome"
+        ],
+        "title": "Reception WELCOME Sign",
+        "type": "environment_object"
+      },
+      "checksum": "29513a41771523e5c670fca8ce6a99a8ebd6c728084ca24977b1a43b63d43d79",
+      "edited_user_name": "SignalCloud A5a3r1",
+      "epoch_octal": "0o15232127573",
+      "hash_proof": "8fc3d0ff3386021fdd668451055198f96af6015529a686b3f4ceb98372565937",
+      "kind": "author_form_update",
+      "previous_hash_proof": "2e2cee9325897926957951f9fb5a6c06a073a34781d2f9933e54c0541c928e6e",
+      "version": 2
+    },
+    {
+      "author": {
+        "creator_name": "SignalCloud Engine",
+        "description": "Persistent floating WELCOME sign for the Reception Tape safe-room integrity indicator.",
+        "tags": [
+          "alpha-a5",
+          "hot-reload",
+          "preview-proof",
+          "reception",
+          "welcome"
+        ],
+        "title": "Reception WELCOME Sign",
+        "type": "environment_object"
+      },
+      "checksum": "a5e44727912e1a8482210b7fb78e6c072cf43ebb8ff8f692aec99922bb381191",
+      "epoch_octal": "0o15232130635",
+      "hash_proof": "fb6f4cb479d70ecee47bdec850a874a8df1b442a45b5b3670db2ee5344b3c5c6",
+      "kind": "asset_update",
+      "previous_hash_proof": "8fc3d0ff3386021fdd668451055198f96af6015529a686b3f4ceb98372565937",
+      "version": 3
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-BC97182FD29042EBAE759F98F261DE5F",
+  "version": 3
+}

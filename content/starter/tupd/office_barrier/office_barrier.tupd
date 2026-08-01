@@ -1,0 +1,73 @@
+{
+  "base_item_id": "part.wall-panel",
+  "connections": [
+    "part.mount-bracket>part.wall-panel@body"
+  ],
+  "consumed_inputs": [
+    "part.wall-panel",
+    "part.mount-bracket",
+    "consumable.tupd-tape"
+  ],
+  "cost_xar": 0,
+  "forced_connections": [],
+  "inputs": [
+    "part.wall-panel",
+    "part.mount-bracket",
+    "consumable.tupd-tape"
+  ],
+  "label": "Office Panel Barrier Assembly",
+  "malfunction_policy": "none",
+  "mode": "assembly",
+  "optional_interfaces": [
+    "interactable.anchor"
+  ],
+  "point_budget": 4200,
+  "preview_color": "#45d8ef",
+  "preview_shape": "barrier",
+  "receipt_policy": "deterministic",
+  "recipe_id": "starter.office-barrier",
+  "recipe_revision": 1,
+  "repair_percent": 0.0,
+  "required_interfaces": [
+    "object.office",
+    "object.barrier",
+    "socket.body",
+    "tupd.tape",
+    "safe-room",
+    "sandbox"
+  ],
+  "result_id": "object.office-panel-barrier",
+  "result_interfaces": [
+    "object.barrier",
+    "interactable.anchor"
+  ],
+  "result_kind": "barrier",
+  "result_name": "Tupd Office Panel Barrier",
+  "result_sockets": [
+    "anchor",
+    "mount"
+  ],
+  "result_tags": [
+    "object",
+    "barrier",
+    "assembly",
+    "office"
+  ],
+  "schema": "signalcloud.tupd-recipe",
+  "schema_major": 1,
+  "schema_minor": 1,
+  "stability_penalty": 8.0,
+  "test_actions": [
+    "inspect",
+    "handle",
+    "collision",
+    "break",
+    "interact"
+  ],
+  "validation_rules": [
+    "bounded_collision",
+    "safe_room",
+    "sandbox_only"
+  ],
+  "weight_penalty": 3.85
+}

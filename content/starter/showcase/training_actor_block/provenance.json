@@ -1,0 +1,18 @@
+{
+  "asset_id": "training_actor_block",
+  "execution_policy": "no_external_source",
+  "importer": "SignalCloud Showcase A7a2 starter generator",
+  "license_id": "CC0-1.0",
+  "managed_pack": "starter",
+  "pcp3_cloud": "training_actor_block.pcp3cloud",
+  "pcp3_project": "training_actor_block.pcp3",
+  "physics_profile": "training_actor_block.scphysics",
+  "point_count": 2380,
+  "schema": "signalcloud.showcase-provenance",
+  "schema_major": 1,
+  "showcase_visualization": "training_actor_block.scshowcase",
+  "source_kind": "procedural-signalcloud",
+  "source_name": "training_actor_block.source.udata",
+  "source_sha256": "generated-at-export",
+  "warnings": []
+}

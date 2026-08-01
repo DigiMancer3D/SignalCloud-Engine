@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.signal_conduit_section";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.signal_conduit_section"];
+hot_reload: "disabled";
+source_sha256: "9a6960be77960d12bbc6163f05cd5ba1933979fb8cf29cb9bb8aedfc4511a294";
+data_only: true;
+unknown_fields_policy: "preserve";

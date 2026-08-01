@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.signal_door_frame";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.signal_door_frame"];
+hot_reload: "disabled";
+source_sha256: "084571bbcc47a36945031fbe1f0bb2ae93fc4469df53942a2392e9baae027a4a";
+data_only: true;
+unknown_fields_policy: "preserve";

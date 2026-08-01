@@ -1,0 +1,22 @@
+{
+  "canvas_extent": [
+    36.0,
+    12.0,
+    48.0
+  ],
+  "display_name": "Room Starter",
+  "environment_type": "room",
+  "future_fields_policy": "preserve_unknown",
+  "recommended_point_budget": 4000000,
+  "schema": "pcp3_template_v0",
+  "suggested_layers": [
+    "Structure",
+    "Doors / Windows",
+    "Lights",
+    "Objects",
+    "Entities",
+    "Triggers",
+    "Liquids"
+  ],
+  "tool_profile": "room_builder"
+}

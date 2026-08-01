@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Build a complete room shell with portals, lighting, objects, triggers, liquids, host-zone metadata, and streaming limits.",
+    "tags": [
+      "branch12",
+      "pcp3",
+      "room",
+      "tutorial"
+    ],
+    "title": "Room Tutorial Starter",
+    "type": "room"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "bdafbd016a6abfa6473b6a4ca7e2570669a43ae629261bbaaeb47d100e0b56b5",
+  "initial_hash_proof": "f195d7c7418f7246d08f71149cb6b6313b27057c766f10c1d72c4c73239dee58",
+  "project_id": "593200da-cca6-498b-a0b3-4935b88b8a23",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Build a complete room shell with portals, lighting, objects, triggers, liquids, host-zone metadata, and streaming limits.",
+        "tags": [
+          "branch12",
+          "pcp3",
+          "room",
+          "tutorial"
+        ],
+        "title": "Room Tutorial Starter",
+        "type": "room"
+      },
+      "checksum": "bdafbd016a6abfa6473b6a4ca7e2570669a43ae629261bbaaeb47d100e0b56b5",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "f195d7c7418f7246d08f71149cb6b6313b27057c766f10c1d72c4c73239dee58",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-7CC78D383A534CDBAFD323AB13C0B129"
+}

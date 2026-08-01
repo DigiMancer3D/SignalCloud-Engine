@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.modular_office_wall_panel";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "3802a39914d0dc5c8f1613de68eae177696f6f5410addbc9a95fe83ac7d2a443";
+data_only: true;
+unknown_fields_policy: "preserve";

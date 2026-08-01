@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.small-repair";
+asset_type: "tupd_recipe";
+family: "items";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "33c50619857da172238e108a4dd25bec79949021f244f15a7cf73173ecdf5135";
+data_only: true;
+unknown_fields_policy: "preserve";

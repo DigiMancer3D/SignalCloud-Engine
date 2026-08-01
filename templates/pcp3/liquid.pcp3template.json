@@ -1,0 +1,19 @@
+{
+  "canvas_extent": [
+    30.0,
+    18.0,
+    30.0
+  ],
+  "display_name": "Liquid Maker Starter",
+  "environment_type": "liquid",
+  "future_fields_policy": "preserve_unknown",
+  "recommended_point_budget": 1200000,
+  "schema": "pcp3_template_v0",
+  "suggested_layers": [
+    "Surface",
+    "Volume",
+    "Flow Guides",
+    "Interaction / Damage Fields"
+  ],
+  "tool_profile": "liquid_volume"
+}

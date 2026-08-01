@@ -1,0 +1,136 @@
+{
+  "active_layer_id": 4,
+  "asset_id": "tutorial_enemy_starter",
+  "author": {
+    "asset_type": "enemy",
+    "creator_name": "SignalCloud Documentation",
+    "description": "Build a formed or formless hostile, then connect its rig, state clips, guarded entity runtime, and optional encounter placement.",
+    "tags": [
+      "pcp3",
+      "tutorial",
+      "enemy",
+      "branch12"
+    ],
+    "title": "Enemy Tutorial Starter"
+  },
+  "certificate_file": "enemy_starter.pcpcert.json",
+  "cloud_file": "enemy_starter.pcp3cloud",
+  "cloud_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "display_name": "Enemy Tutorial Starter",
+  "environment_type": "enemy",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "Primary visible hostile form.",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Entity",
+      "id": 1,
+      "locked": false,
+      "name": "Body",
+      "opacity": 1.0,
+      "semantic": "enemy_body",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "Future skeletal and deformation anchors.",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Rig",
+      "id": 2,
+      "locked": false,
+      "name": "Bone Guides",
+      "opacity": 1.0,
+      "semantic": "bone",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "Attack origins, cones, and effect anchors.",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Gameplay",
+      "id": 3,
+      "locked": false,
+      "name": "Attack Anchors",
+      "opacity": 1.0,
+      "semantic": "trigger",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "Glow, trails, and alert-state points.",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Effects",
+      "id": 4,
+      "locked": false,
+      "name": "Signal Effects",
+      "opacity": 1.0,
+      "semantic": "light",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "authoring_help_schema": "pcp3_authoring_help_v1",
+    "editor_branch": "ISL_plus_branch12",
+    "future_mode_data": {},
+    "mode_profile": "enemy",
+    "mode_profile_version": 1,
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 120000,
+    "runtime_policy": "disabled_until_user_authoring",
+    "tool_profile": "formed_or_formless",
+    "tutorial_mode": "enemy",
+    "tutorial_starter": true,
+    "tutorial_workflow_file": "docs/tutorials/PCP3_MODE_ENEMY_WORKFLOW.md"
+  },
+  "point_count": 0,
+  "point_record_size": 64,
+  "project_id": "0db6d4cd-859a-40e0-a5e7-da49819c4efc",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": false,
+    "preview_position": [
+      2.0,
+      1.0,
+      -3.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 8.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 6.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 8.0
+  },
+  "unknown_fields_policy": "preserve"
+}

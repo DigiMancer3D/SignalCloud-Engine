@@ -1,0 +1,126 @@
+{
+  "asset_id": "advanced_enemy_demo",
+  "enabled": true,
+  "environment_type": "enemy",
+  "flow_nodes": [],
+  "future_attributes": {},
+  "gates": {
+    "proximity_radius": 16.0,
+    "proximity_required": false,
+    "scanner_required": false
+  },
+  "limits": {
+    "max_keyframes": 64,
+    "max_nested_points": 50000,
+    "max_nesting_depth": 1,
+    "max_placements": 64
+  },
+  "nested_placements": [],
+  "policy": "guarded_explicit_opt_in_no_arbitrary_code",
+  "schema": "pcp3_runtime_factory_v1",
+  "support": {
+    "arbitrary_scripts": "blocked",
+    "flow_fields": "debug_evidence_only",
+    "nested_pcp3_placements": "one_level_bounded",
+    "proximity_gate": "game_and_stress",
+    "raid_waves": "deferred",
+    "root_motion": "game_and_stress",
+    "scanner_gate": "game_and_stress",
+    "skeletal_deformation": "deferred",
+    "timeline_events": "telemetry_only",
+    "trigger_actions": "approved_visual_and_alert_subset"
+  },
+  "targets": {
+    "game": false,
+    "stress": true
+  },
+  "theme_slots": [],
+  "timeline": {
+    "clip": "Idle Alert",
+    "duration": 2.0,
+    "event_policy": "telemetry_only",
+    "events": [
+      {
+        "action": "alert_bark",
+        "id": "event_1",
+        "payload": {},
+        "time": 1.0,
+        "type": "sound"
+      }
+    ],
+    "keyframes": [
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "time": 0.0
+      },
+      {
+        "position": [
+          0.0,
+          0.05,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          8.0,
+          0.0
+        ],
+        "scale": [
+          1.02,
+          0.98,
+          1.02
+        ],
+        "time": 1.0
+      },
+      {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "time": 2.0
+      }
+    ],
+    "loop": true
+  },
+  "triggers": [
+    {
+      "action": "none",
+      "delay": 0.0,
+      "original_action": "enter_alert",
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "radius": 4.0,
+      "repeat": true,
+      "runtime_status": "telemetry_only",
+      "target": "root",
+      "type": "proximity"
+    }
+  ]
+}

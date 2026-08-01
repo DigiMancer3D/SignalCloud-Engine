@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "user.lights.authoring_lab_export.sclight";
+asset_type: "light_set";
+family: "lighting";
+pack: "user";
+license_id: "LicenseRef-SignalCloud-User-Authored";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "ea95e6c62f0156f1f9ac086d4f5255613aec9112b74973c403642eb9f37f48d7";
+data_only: true;
+unknown_fields_policy: "preserve";

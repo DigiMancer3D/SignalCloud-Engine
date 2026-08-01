@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "starter.tupd.forced-office-bracket";
+asset_type: "tupd_recipe";
+family: "items";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "a27a7dd2df5873bdb6f689045e21d46ef0b08d1b2fdfc781ea5c9ac96481d6a9";
+data_only: true;
+unknown_fields_policy: "preserve";

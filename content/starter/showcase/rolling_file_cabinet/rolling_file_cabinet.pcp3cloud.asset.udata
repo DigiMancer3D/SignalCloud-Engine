@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.rolling_file_cabinet";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.rolling_file_cabinet"];
+hot_reload: "disabled";
+source_sha256: "a4aa809a2b370a4d01c80df80ff8c4ff6b0e37ab3990dc38082bfaec7519f6d0";
+data_only: true;
+unknown_fields_policy: "preserve";

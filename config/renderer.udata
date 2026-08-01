@@ -1,0 +1,42 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":5};
+data_type: {"name":"signalcloud_renderer"};
+profile_id: {"value":"pivot6_depth_distance_stream"};
+
+[pre-body]
+primary_api: {"value":"OpenGL"};
+minimum_context: {"major":3,"minor":3};
+preferred_context: {"major":4,"minor":3};
+visual_primitive: {"value":"soft_points"};
+hidden_collision_representation: {"value":"analytical_room_rectangles"};
+
+[body]
+initial_point_count: {"value":"adaptive"};
+adaptive_gameplay_budget: {"software":100000,"unknown":500000,"intel_mesa":3000000,"discrete":2000000};
+quality_ceiling: {"intel_mesa":4000000,"showcase_absolute":8000000};
+benchmark_presets: {"values":[100000,500000,1000000,2000000,3000000,4000000,8000000]};
+point_stride_bytes: {"value":48};
+point_size_scale: {"default":1.0,"minimum":0.35,"maximum":3.0,"step":0.10};
+density_scale: {"default":1.0,"minimum":0.20,"maximum":2.0,"step":0.10};
+near_wall_splat_boost: {"enabled":true,"maximum":2.55,"distance_end":2.15};
+camera_near_plane: {"value":0.12};
+portal_frame_point_share: {"value":0.03};
+room_range_submission: {"value":"active_room_plus_distance_bands"};
+resident_vs_submitted_metrics: {"value":true};
+signal_fill_modulation: {"value":true};
+water_point_waves: {"value":true};
+water_splash_rings: {"value":true};
+water_viscosity_color: {"value":true};
+local_siren_shader_radius: {"value":true};
+found_footage_grain: {"value":true};
+scanline_modulation: {"value":true};
+scanner_sweep: {"value":true};
+compatibility_path: {"value":"GL_POINTS"};
+gpu_timer_query: {"value":true,"fallback":"cpu_fps"};
+compute_path_enabled: {"value":false};
+persistent_mapping_enabled: {"value":false};
+
+[footer]
+notes: {"value":"Pivot 6 keeps the 3M streamed default, adds large-room distance bands, variable water color, and expanding splash rings."};

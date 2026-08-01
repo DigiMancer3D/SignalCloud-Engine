@@ -1,0 +1,6 @@
+@udata 1
+
+[source]
+asset_id: {"value":"signal_door_frame"};
+generator: {"value":"SignalCloud Showcase A7a2 procedural generator"};
+license_id: {"value":"CC0-1.0"};

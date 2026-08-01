@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.physics.starter.portable_signal_beacon";
+asset_type: "physics_profile";
+family: "physics";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.portable_signal_beacon"];
+hot_reload: "authoring-only";
+source_sha256: "6d6fabc4fd269adddce915b5112659295d2d7f700deb6713dd43873d4851a4b8";
+data_only: true;
+unknown_fields_policy: "preserve";

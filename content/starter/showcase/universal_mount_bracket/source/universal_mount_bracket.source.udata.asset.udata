@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.universal_mount_bracket";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.universal_mount_bracket"];
+hot_reload: "disabled";
+source_sha256: "5a7260fc2471ba114e1e44006e5d133247de8ca59a93347be2d0d4c74ef1093e";
+data_only: true;
+unknown_fields_policy: "preserve";

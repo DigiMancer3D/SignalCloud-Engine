@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "PCP3 Branch 4 Example",
+    "description": "Example asset demonstrating rig, timeline, and gameplay metadata.",
+    "tags": [
+      "example",
+      "rig",
+      "timeline",
+      "trigger"
+    ],
+    "title": "Guarded Interaction Demo",
+    "type": "enemy"
+  },
+  "created_epoch_octal": "0o15231026045",
+  "initial_checksum": "82b64c5c62a5583f8b2c326c914cdd193009fd019a5e7a3a2f73a3b3bce51a63",
+  "initial_hash_proof": "d783291f9f9aca0ec1830acacaa0a361dbb9e5f6e721c1bfb3cb04b780546c18",
+  "project_id": "pcp3-guarded-interaction-demo",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "PCP3 Branch 4 Example",
+        "description": "Example asset demonstrating rig, timeline, and gameplay metadata.",
+        "tags": [
+          "example",
+          "rig",
+          "timeline",
+          "trigger"
+        ],
+        "title": "Guarded Interaction Demo",
+        "type": "enemy"
+      },
+      "checksum": "82b64c5c62a5583f8b2c326c914cdd193009fd019a5e7a3a2f73a3b3bce51a63",
+      "epoch_octal": "0o15231026045",
+      "hash_proof": "d783291f9f9aca0ec1830acacaa0a361dbb9e5f6e721c1bfb3cb04b780546c18",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-6FD062327ACB4613B3F1EFB096676F0E"
+}

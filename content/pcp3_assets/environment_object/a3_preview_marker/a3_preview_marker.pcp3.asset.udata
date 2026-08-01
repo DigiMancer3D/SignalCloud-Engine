@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "pcp3.environment_object.a3_preview_marker";
+asset_type: "pcp3_project";
+family: "point_cloud";
+pack: "legacy";
+license_id: "";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "81dc235e9f2030b83f434e6738a69ed6e1f218936fa5f9f98e66df1386443c82";
+data_only: true;
+unknown_fields_policy: "preserve";

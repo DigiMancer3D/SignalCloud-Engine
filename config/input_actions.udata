@@ -1,0 +1,29 @@
+@udata 1
+
+[header]
+abi_version: {"major":1,"minor":0};
+data_type: {"name":"signalcloud_input_profile"};
+profile_id: {"value":"solo_paw_g502_discovery"};
+
+[pre-body]
+raw_mouse_probe: {"enabled":true};
+relative_mouse_default: {"enabled":true};
+remappable: {"value":true};
+
+[body]
+primary: {"mouse":"left","keyboard":"J","controller":"right_trigger"};
+quick_action: {"mouse":"right","keyboard":"K","controller":"B"};
+next_weapon: {"mouse":"wheel_up","keyboard":"E","controller":"dpad_up"};
+next_belt: {"mouse":"wheel_down","keyboard":"Q","controller":"dpad_down"};
+interact: {"mouse":"discover_extra_1","keyboard":"F","controller":"X"};
+reload: {"mouse":"discover_extra_2","keyboard":"R","controller":"Y"};
+scanner: {"mouse":"discover_extra_3","keyboard":"C","controller":"left_bumper"};
+belt_activate: {"mouse":"discover_extra_4","keyboard":"V","controller":"right_bumper"};
+sabs: {"mouse":"discover_extra_5","keyboard":"Tab","controller":"back"};
+squad_ping: {"mouse":"discover_extra_6","keyboard":"G","controller":"left_stick_click"};
+
+[pre-footer]
+button_probe_log: {"value":"reports/input_probe.log"};
+
+[footer]
+notes: {"value":"Press G502 buttons while F2 probe mode is active, then map discovered SDL button numbers in a later profile editor."};

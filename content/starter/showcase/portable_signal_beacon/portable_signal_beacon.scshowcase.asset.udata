@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.visualization.starter.portable_signal_beacon";
+asset_type: "showcase_visualization";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.portable_signal_beacon", "showcase.physics.starter.portable_signal_beacon"];
+hot_reload: "authoring-only";
+source_sha256: "51b7268bac515199e6cf3e6ce7c190094463c7f84143da25317f882a78b2a054";
+data_only: true;
+unknown_fields_policy: "preserve";

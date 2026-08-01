@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.physics.starter.signal_door_frame";
+asset_type: "physics_profile";
+family: "physics";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.signal_door_frame"];
+hot_reload: "authoring-only";
+source_sha256: "7127d0245efe0c581b394ba479ce0d1094815b8972b8bc26d864f22649e6a65d";
+data_only: true;
+unknown_fields_policy: "preserve";

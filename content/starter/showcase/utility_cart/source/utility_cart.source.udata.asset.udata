@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.source.starter.utility_cart";
+asset_type: "udata";
+family: "source";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.utility_cart"];
+hot_reload: "disabled";
+source_sha256: "fdbc0c5bfa683071f85a9432147637a6bc83d5b3536848c2456e9979728b5a11";
+data_only: true;
+unknown_fields_policy: "preserve";

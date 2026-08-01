@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Create a prop, pickup, weapon, sign, light, proof, or usable object with optional collision guides and interaction anchors.",
+    "tags": [
+      "branch12",
+      "environment_object",
+      "pcp3",
+      "tutorial"
+    ],
+    "title": "Environment Object Tutorial Starter",
+    "type": "environment_object"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "d77a96e3599ab26f361b41c7304ff1f7d6d1ec45c338ff787063d9e774c8f664",
+  "initial_hash_proof": "bc4264c52139c8d31de1e7608d38dd4130d3b9cf7f520f6f916da589858047ee",
+  "project_id": "f55de6b3-a6d9-4600-9e66-4a1ec6bdc42a",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Create a prop, pickup, weapon, sign, light, proof, or usable object with optional collision guides and interaction anchors.",
+        "tags": [
+          "branch12",
+          "environment_object",
+          "pcp3",
+          "tutorial"
+        ],
+        "title": "Environment Object Tutorial Starter",
+        "type": "environment_object"
+      },
+      "checksum": "d77a96e3599ab26f361b41c7304ff1f7d6d1ec45c338ff787063d9e774c8f664",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "bc4264c52139c8d31de1e7608d38dd4130d3b9cf7f520f6f916da589858047ee",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-E092BD1F6F804BC990BEA36321509BE3"
+}

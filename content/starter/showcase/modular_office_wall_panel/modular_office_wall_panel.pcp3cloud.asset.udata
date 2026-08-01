@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.cloud.starter.modular_office_wall_panel";
+asset_type: "pcp3_cloud";
+family: "point_cloud";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.modular_office_wall_panel"];
+hot_reload: "disabled";
+source_sha256: "69e397a03bafa809fb32a84f8514f7a5af1cb76f95270070b1e42cfb379dd89d";
+data_only: true;
+unknown_fields_policy: "preserve";

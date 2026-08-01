@@ -1,0 +1,168 @@
+{
+  "active_layer_id": 6,
+  "asset_id": "tutorial_environment_theme_starter",
+  "author": {
+    "asset_type": "environment_theme",
+    "creator_name": "SignalCloud Documentation",
+    "description": "Create a reusable semantic palette and room-part set for walls, floors, ceilings, portals, lights, and props.",
+    "tags": [
+      "pcp3",
+      "tutorial",
+      "environment_theme",
+      "branch12"
+    ],
+    "title": "Environment Theme Tutorial Starter"
+  },
+  "certificate_file": "environment_theme_starter.pcpcert.json",
+  "cloud_file": "environment_theme_starter.pcp3cloud",
+  "cloud_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "display_name": "Environment Theme Tutorial Starter",
+  "environment_type": "environment_theme",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Architecture",
+      "id": 1,
+      "locked": false,
+      "name": "Walls",
+      "opacity": 1.0,
+      "semantic": "wall",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Architecture",
+      "id": 2,
+      "locked": false,
+      "name": "Floors",
+      "opacity": 1.0,
+      "semantic": "floor",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": true
+      },
+      "group": "Architecture",
+      "id": 3,
+      "locked": false,
+      "name": "Ceilings",
+      "opacity": 1.0,
+      "semantic": "ceiling",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Architecture",
+      "id": 4,
+      "locked": false,
+      "name": "Doors / Windows",
+      "opacity": 1.0,
+      "semantic": "portal",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Lighting",
+      "id": 5,
+      "locked": false,
+      "name": "Lights",
+      "opacity": 1.0,
+      "semantic": "light",
+      "tags": [],
+      "visible": true
+    },
+    {
+      "blend_mode": "normal",
+      "future_attributes": {
+        "description": "",
+        "pcp3_mode_template": true,
+        "required": false
+      },
+      "group": "Props",
+      "id": 6,
+      "locked": false,
+      "name": "Theme Props",
+      "opacity": 1.0,
+      "semantic": "generic",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "authoring_help_schema": "pcp3_authoring_help_v1",
+    "editor_branch": "ISL_plus_branch12",
+    "future_mode_data": {},
+    "mode_profile": "environment_theme",
+    "mode_profile_version": 1,
+    "preserve_unknown_fields": true,
+    "recommended_point_budget": 2000000,
+    "runtime_policy": "disabled_until_user_authoring",
+    "tool_profile": "theme_set",
+    "tutorial_mode": "environment_theme",
+    "tutorial_starter": true,
+    "tutorial_workflow_file": "docs/tutorials/PCP3_MODE_ENVIRONMENT_THEME_WORKFLOW.md"
+  },
+  "point_count": 0,
+  "point_record_size": 64,
+  "project_id": "c48ce659-07a4-4e81-addd-dacd10ada140",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": false,
+    "preview_position": [
+      2.0,
+      1.0,
+      -3.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 40.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 16.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 40.0
+  },
+  "unknown_fields_policy": "preserve"
+}

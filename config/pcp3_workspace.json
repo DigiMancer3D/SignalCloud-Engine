@@ -1,0 +1,54 @@
+{
+  "active_projection": "Top X/Z",
+  "current_brush": "user_data/pcp3/brushes/scatter_center_fill_01.3dbrush",
+  "geometry": "1860x1009+0+1080",
+  "layer_scroll_axis": "x",
+  "main_left_sash": 161,
+  "main_right_sash": 1066,
+  "main_right_width": 794,
+  "np_target": [
+    -0.0038559436798095703,
+    0.0445631742477417,
+    -0.5570409297943115
+  ],
+  "pane_states": {
+    "Front X/Y": {
+      "depth": -0.5570409297943115,
+      "pan_x": 0.133944381235501,
+      "pan_y": 1.5479963651332065,
+      "zoom": 34.73712075642038
+    },
+    "Perspective 3D": {
+      "depth": 0.0,
+      "pan_x": 0.0,
+      "pan_y": 0.0,
+      "zoom": 28.0
+    },
+    "Side Z/Y": {
+      "depth": -0.0038559436798095703,
+      "pan_x": 19.349998044533688,
+      "pan_y": 1.5479963651332065,
+      "zoom": 34.73712075642038
+    },
+    "Top X/Z": {
+      "depth": 0.0445631742477417,
+      "pan_x": 0.13497124007254876,
+      "pan_y": -19.498341082932225,
+      "zoom": 31.25305911755768
+    }
+  },
+  "perspective_distance": 21.16592803001404,
+  "projection": "All X/Y/Z/NP",
+  "roll_z": -33.599999999999994,
+  "rotate_x": 123.89999999999999,
+  "rotate_y": 0.0,
+  "schema": "pcp3_workspace_v3",
+  "sidebar_authoring_tab": "World",
+  "sidebar_main_tab": "Authoring",
+  "sidebar_scroll_axis": "x",
+  "sidebar_subtab_locked": false,
+  "view_type": "4-Square",
+  "viewport_quality": "Balanced",
+  "window_sync_delay_ms": 1300,
+  "window_sync_mode": "buffered_one_shot"
+}

@@ -1,0 +1,31 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "Point Cloud Paint++ Branch 9",
+    "description": "A bounded room, portal, semantic theme, spawn point, and liquid visual example.",
+    "tags": [],
+    "title": "World Assembly Demo Room",
+    "type": "room"
+  },
+  "created_epoch_octal": "0o15231301072",
+  "initial_checksum": "0d013726f41e775e5248a3e043739552003a7b9f7aec942522e02d167c0b57f6",
+  "initial_hash_proof": "78574975ce53914a2a161c1704a30249d4e0e3031dc782e745a5b70d408bd99f",
+  "project_id": "ea0751bc-e6e7-4925-84a1-8dcd4afd3958",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "Point Cloud Paint++ Branch 9",
+        "description": "A bounded room, portal, semantic theme, spawn point, and liquid visual example.",
+        "tags": [],
+        "title": "World Assembly Demo Room",
+        "type": "room"
+      },
+      "checksum": "0d013726f41e775e5248a3e043739552003a7b9f7aec942522e02d167c0b57f6",
+      "epoch_octal": "0o15231301072",
+      "hash_proof": "78574975ce53914a2a161c1704a30249d4e0e3031dc782e745a5b70d408bd99f",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-D6DACBC209B84FE0842B0880F1C598A8"
+}

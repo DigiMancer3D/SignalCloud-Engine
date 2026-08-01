@@ -1,0 +1,148 @@
+{
+  "asset_id": "encounter_runtime_demo",
+  "boss_phases": [
+    {
+      "clip": "Idle",
+      "effect_anchor": "effect",
+      "future_attributes": {},
+      "id": "opening_signal",
+      "movement_profile": "stationary",
+      "name": "Opening Signal",
+      "progress_threshold": 0.0,
+      "theme_target": "wall"
+    },
+    {
+      "clip": "Alert",
+      "effect_anchor": "attack",
+      "future_attributes": {},
+      "id": "pressure_rise",
+      "movement_profile": "face_viewer",
+      "name": "Pressure Rise",
+      "progress_threshold": 0.45,
+      "theme_target": "light"
+    },
+    {
+      "clip": "Attack",
+      "effect_anchor": "effect",
+      "future_attributes": {},
+      "id": "final_tape",
+      "movement_profile": "approach_viewer",
+      "name": "Final Tape",
+      "progress_threshold": 0.8,
+      "theme_target": "portal"
+    }
+  ],
+  "debug": {
+    "console_events": true,
+    "show": true
+  },
+  "enabled": true,
+  "encounter": {
+    "completion_delay": 1.0,
+    "completion_policy": "all_waves_cleared",
+    "completion_seconds": 30.0,
+    "entity_lifetime": 4.0,
+    "host_zone": "Reception Tape",
+    "id": "branch10_demo_encounter",
+    "inter_wave_delay": 1.3,
+    "reset_policy": "zone_exit",
+    "start_condition": "world_enter",
+    "start_delay": 0.75,
+    "start_position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "start_radius": 8.0
+  },
+  "environment_type": "raid",
+  "friendlies": [
+    {
+      "asset_id": "signal_orb_demo",
+      "enabled": true,
+      "group": "support",
+      "id": "placement_1",
+      "position": [
+        2.4,
+        0.5,
+        1.2
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": 0.85
+    }
+  ],
+  "future_attributes": {},
+  "issues": [
+    {
+      "code": "encounter_compilable",
+      "hint": "",
+      "message": "Encounter data is bounded and compilable. Rewards remain telemetry-only hooks until game approval.",
+      "severity": "info"
+    }
+  ],
+  "limits": {
+    "max_active_entities": 12,
+    "max_boss_phases": 4,
+    "max_friendlies": 4,
+    "max_reference_depth": 1,
+    "max_total_spawns": 32,
+    "max_waves": 8
+  },
+  "policy": "guarded_encounter_scheduler_no_damage_economy_or_save_mutation",
+  "reward": {
+    "execution": "telemetry_hook_no_save_mutation",
+    "policy": "combined_hook",
+    "proofs": 2,
+    "scrap": 3,
+    "xar": 12
+  },
+  "schema": "pcp3_encounter_runtime_v1",
+  "support": {
+    "boss_phases": "progress_visual_state_and_telemetry",
+    "completion": "wave_or_timer_state_machine",
+    "damage": "blocked",
+    "friendlies": "persistent_guarded_reference_placements",
+    "rewards": "proof_xar_scrap_telemetry_hooks_only",
+    "save_mutation": "blocked",
+    "unrestricted_ai": "blocked",
+    "waves": "bounded_lifetime_scheduler"
+  },
+  "targets": {
+    "game": false,
+    "stress": true
+  },
+  "waves": [
+    {
+      "active_seconds": 4.0,
+      "asset_ids": [
+        "entity_runtime_demo"
+      ],
+      "completion_policy": "lifetime",
+      "count": 2,
+      "delay": 0.5,
+      "future_attributes": {},
+      "id": "wave_1",
+      "index": 1,
+      "spawn_role": "encounter",
+      "spread_radius": 3.0
+    },
+    {
+      "active_seconds": 4.0,
+      "asset_ids": [
+        "entity_runtime_demo"
+      ],
+      "completion_policy": "lifetime",
+      "count": 3,
+      "delay": 0.75,
+      "future_attributes": {},
+      "id": "wave_2",
+      "index": 2,
+      "spawn_role": "encounter",
+      "spread_radius": 3.0
+    }
+  ]
+}

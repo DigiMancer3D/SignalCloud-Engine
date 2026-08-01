@@ -1,0 +1,88 @@
+{
+  "active_layer_id": 1,
+  "asset_id": "training_actor_block",
+  "author": {
+    "asset_type": "environment_object",
+    "creator_name": "DigiMancer3D / SignalCloud Engine",
+    "description": "Original procedural SignalCloud starter asset generated for the public Alpha Showcase.",
+    "tags": [
+      "starter",
+      "showcase",
+      "systems",
+      "actor",
+      "animation",
+      "playbook"
+    ],
+    "title": "Training Actor Block"
+  },
+  "certificate_file": "training_actor_block.pcpcert.json",
+  "cloud_file": "training_actor_block.pcp3cloud",
+  "cloud_sha256": "7493a425bfae0e4e16e21c67ec91d23a56172ef6e28b5c0a96d6b350eb324558",
+  "display_name": "Training Actor Block",
+  "environment_type": "environment_object",
+  "layers": [
+    {
+      "blend_mode": "normal",
+      "future_attributes": {},
+      "group": "Geometry",
+      "id": 1,
+      "locked": false,
+      "name": "Base Points",
+      "opacity": 1.0,
+      "semantic": "generic",
+      "tags": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "editor_branch": "ISL_plus_branch2",
+    "license_id": "CC0-1.0",
+    "physics_profile_file": "training_actor_block.scphysics",
+    "preserve_unknown_fields": true,
+    "provenance": "SignalCloud A7a2 procedural generator",
+    "provenance_file": "provenance.json",
+    "recommended_point_budget": 250000,
+    "showcase_import_policy": "original_generated_data",
+    "showcase_managed_pack": "starter",
+    "showcase_source_kind": "procedural-signalcloud",
+    "showcase_source_path": "source/training_actor_block.source.udata",
+    "showcase_visualization_file": "training_actor_block.scshowcase",
+    "starter_catalog": "systems",
+    "tool_profile": "object"
+  },
+  "point_count": 2380,
+  "point_record_size": 64,
+  "project_id": "5979bdd5-0117-48f9-b0e9-2ce00a655222",
+  "runtime": {
+    "auto_preview_in_game": false,
+    "enabled": true,
+    "preview_position": [
+      2.0,
+      1.0,
+      -3.0
+    ],
+    "preview_scale": 1.0,
+    "preview_zone": "Reception Tape",
+    "stress_spawn_policy": "pcp3_asset_showcase"
+  },
+  "schema": "pcp3_project_v0",
+  "settings": {
+    "ambient_light": 0.35,
+    "background": [
+      0.025,
+      0.03,
+      0.04,
+      1.0
+    ],
+    "density_scale": 1.0,
+    "depth": 12.0,
+    "future_attributes": {},
+    "grid_spacing": 0.5,
+    "height": 12.0,
+    "origin_mode": "center",
+    "point_scale": 1.0,
+    "units": "metres",
+    "width": 12.0
+  },
+  "unknown_fields_policy": "preserve"
+}

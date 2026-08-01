@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.physics.starter.signal_conduit_section";
+asset_type: "physics_profile";
+family: "physics";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.signal_conduit_section"];
+hot_reload: "authoring-only";
+source_sha256: "ccc59913968a9f155b01d8c9cb918a3e3cdb6b25228357738b85004d9c7392a1";
+data_only: true;
+unknown_fields_policy: "preserve";

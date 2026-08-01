@@ -1,0 +1,41 @@
+{
+  "amendments": [],
+  "author": {
+    "creator_name": "SignalCloud Documentation",
+    "description": "Build a friendly humanoid or helper with interaction anchors, movement clips, and persistent encounter placement.",
+    "tags": [
+      "branch12",
+      "friendly",
+      "pcp3",
+      "tutorial"
+    ],
+    "title": "User Friendly Tutorial Starter",
+    "type": "friendly"
+  },
+  "created_epoch_octal": "0o15231476772",
+  "initial_checksum": "0933b9a08615dab45dc9548c552247472b6106d90375355b0500cb6efdccb1a3",
+  "initial_hash_proof": "aa9c95565681312dffee63d78e401c3dff29c827d551371075daf734e2b0a8fd",
+  "project_id": "a539bdcb-cb43-458d-8abd-27ed8c70ab0a",
+  "proof_chain": [
+    {
+      "author": {
+        "creator_name": "SignalCloud Documentation",
+        "description": "Build a friendly humanoid or helper with interaction anchors, movement clips, and persistent encounter placement.",
+        "tags": [
+          "branch12",
+          "friendly",
+          "pcp3",
+          "tutorial"
+        ],
+        "title": "User Friendly Tutorial Starter",
+        "type": "friendly"
+      },
+      "checksum": "0933b9a08615dab45dc9548c552247472b6106d90375355b0500cb6efdccb1a3",
+      "epoch_octal": "0o15231476772",
+      "hash_proof": "aa9c95565681312dffee63d78e401c3dff29c827d551371075daf734e2b0a8fd",
+      "kind": "initial_save"
+    }
+  ],
+  "schema": "pcp3_creator_certificate_v1",
+  "serial_id": "PCP3-5CCAB41BDD634382B73DB69FCD57C5C0"
+}

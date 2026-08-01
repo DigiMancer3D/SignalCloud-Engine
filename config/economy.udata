@@ -1,0 +1,36 @@
+@udata 1
+
+[header]
+data_type: {"name":"economy_config"};
+version: {"value":"0.13.0-a3"};
+
+[body]
+economy_zone: {"value":"Scavenger Exchange"};
+carry_capacity_kg: {"value":24.0};
+encumbrance_threshold_ratio: {"value":0.75};
+minimum_movement_scale: {"value":0.72};
+starting_xar: {"value":10};
+scrap_value_xar: {"value":2};
+death_proof_value_xar: {"value":12};
+ammo_pack_cost_xar: {"value":5};
+almond_water_cost_xar: {"value":4};
+sabs_patch_cost_xar: {"value":6};
+ammo_pack_rounds: {"value":18};
+ammo_tablet_rounds: {"value":18};
+ammo_tablet_cost_xar: {"value":5};
+ammo_tablet_direct_to_reserve: {"value":true};
+ammo_tablet_ignores_carry_capacity: {"value":true};
+ammo_tablet_identity_color: {"value":"red"};
+almond_water_health: {"value":18.0};
+almond_water_oxygen_seconds: {"value":16.0};
+almond_water_sabs_seconds: {"value":32.0};
+sabs_patch_seconds: {"value":70.0};
+maximum_sabs_wetness_seconds: {"value":120.0};
+scanner_dry_strength: {"value":0.35};
+
+ar_vending_menu: {"value":true};
+terminal_style: {"value":"thin_front_facing"};
+interaction_feedback: {"value":"world_particles_plus_camera_ar"};
+
+[footer]
+notes: {"value":"XAR is local in-game currency with no real-world value. Pivot 13 a3 visually separates the XAR/EX Tablet, Almond Tablet, and direct-reserve Ammo Tablet roles."};

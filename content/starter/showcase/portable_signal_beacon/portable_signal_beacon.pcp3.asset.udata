@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.portable_signal_beacon";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "f5a3abd8cacbd9f6bd87eaed3107f997bce8a4892338c87f0282c8eacfc0334d";
+data_only: true;
+unknown_fields_policy: "preserve";

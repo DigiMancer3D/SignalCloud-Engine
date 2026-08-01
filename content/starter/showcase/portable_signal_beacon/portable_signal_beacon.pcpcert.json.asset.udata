@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.certificate.starter.portable_signal_beacon";
+asset_type: "json_sidecar";
+family: "metadata";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: ["showcase.starter.portable_signal_beacon"];
+hot_reload: "disabled";
+source_sha256: "a23a86819115efa1300605567ae49052416d6bacc24c035b8c826cf34bc1f9ea";
+data_only: true;
+unknown_fields_policy: "preserve";

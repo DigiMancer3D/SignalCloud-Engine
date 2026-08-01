@@ -1,0 +1,17 @@
+{
+  "schema": "signalcloud_native_stress_watchdog_policy",
+  "schema_version": 1,
+  "parent_watchdog": true,
+  "heartbeat_timeout_seconds": 8,
+  "startup_timeout_seconds": 45,
+  "clean_stop_grace_seconds": 8,
+  "poll_seconds": 0.25,
+  "stage_journal": "STAGE_JOURNAL.csv",
+  "run_state": "RUN_STATE.json",
+  "heartbeat": "WATCHDOG_HEARTBEAT.json",
+  "recovery_receipt": "INTERRUPTED_RUN_RECOVERY.json",
+  "partial_report": true,
+  "profile_promotion_on_interrupted_run": false,
+  "next_phase": "alpha.a9a3r2",
+  "generation_timeout_seconds": 90
+}

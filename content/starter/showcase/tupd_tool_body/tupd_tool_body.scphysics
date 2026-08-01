@@ -1,0 +1,56 @@
+{
+  "break_threshold": 118.0,
+  "collision_half_x": 1.3599999999999999,
+  "collision_half_y": 0.8025000000000001,
+  "collision_half_z": 0.225,
+  "collision_radius": 1.5950646538620308,
+  "drag": 0.04,
+  "extensions": {},
+  "friction": 0.64,
+  "gravity_scale": 1.0,
+  "hold_points": [
+    [
+      -0.82,
+      -0.58,
+      0.0
+    ]
+  ],
+  "impact_multiplier": 1.0,
+  "mass": 5.8,
+  "profile_id": "showcase.tupd_tool_body",
+  "restitution": 0.13,
+  "schema": "signalcloud.physics-profile",
+  "schema_major": 1,
+  "schema_minor": 1,
+  "shape": "compound",
+  "sleep_policy": "after_settle",
+  "sockets": [
+    {
+      "id": "tool_front",
+      "kind": "tool-head",
+      "position": [
+        1.48,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "tool_top",
+      "kind": "accessory",
+      "position": [
+        0.0,
+        0.24,
+        0.0
+      ]
+    },
+    {
+      "id": "tool_power",
+      "kind": "power",
+      "position": [
+        -1.18,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

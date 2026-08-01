@@ -1,0 +1,13 @@
+@udata 1
+
+[asset]
+asset_id: "showcase.starter.training_actor_block";
+asset_type: "pcp3_project";
+family: "showcase";
+pack: "starter";
+license_id: "CC0-1.0";
+dependencies: [];
+hot_reload: "authoring-only";
+source_sha256: "99c84e70e2ea998e39e8f683b9a3ad45ee290843b56e589b19b06620c7beceea";
+data_only: true;
+unknown_fields_policy: "preserve";
