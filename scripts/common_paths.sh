@@ -25,6 +25,14 @@ else
 fi
 SC_PYTHON_ENV="$SC_SHARED_ENVS/tools-py3"
 
+# Avoid unbounded Ninja fan-out on high-thread-count systems and CI containers.
+if [[ -z "${SC_BUILD_JOBS:-}" ]]; then
+  SC_BUILD_JOBS="$(nproc 2>/dev/null || printf '4')"
+  if ((SC_BUILD_JOBS > 8)); then SC_BUILD_JOBS=8; fi
+  if ((SC_BUILD_JOBS < 1)); then SC_BUILD_JOBS=1; fi
+fi
+export SC_BUILD_JOBS
+
 # Python's venv rejects ':' because it is the Unix PATH separator.
 if [[ "$SC_PYTHON_ENV" == *:* ]]; then
   SC_DATA_HOME="${XDG_DATA_HOME:-${HOME:?HOME is not set}/.local/share}"
@@ -107,4 +115,13 @@ sc_prepare_cmake_build_dir() {
     echo "Discarding incomplete CMake build directory without a cache: $build_dir"
     rm -rf -- "$build_dir"
   fi
+}
+
+sc_ensure_portable_core() {
+  local builder="$SC_PROJECT_ROOT/scripts/build_core.sh"
+  if [[ ! -f "$builder" ]]; then
+    echo "SignalCloud portable core builder is missing: $builder" >&2
+    return 2
+  fi
+  bash "$builder"
 }

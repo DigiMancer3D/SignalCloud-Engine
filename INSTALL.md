@@ -87,3 +87,8 @@ Include the public release version, Linux distribution, X11/Wayland session,
 GPU/driver, the command used, and the smallest relevant terminal excerpt. Do not
 upload `user_data/`, machine-profile bundles, private paths, keys, tokens, or
 personal save data.
+
+
+## Portable core builder
+
+A public clone generates its privacy-safe `content/core` locally. Run `./scripts/build_core.sh`, or use the normal setup/launch scripts, which invoke it automatically. See `docs/PORTABLE_CORE_BUILDER.md`.

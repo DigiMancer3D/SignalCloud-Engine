@@ -3,6 +3,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=common_paths.sh
 source "$SCRIPT_DIR/common_paths.sh"
+sc_ensure_portable_core
 ROOT="$SC_PROJECT_ROOT"
 ASSET="${1:-$ROOT/content/starter/showcase/office_shipping_crate/office_shipping_crate.pcp3cloud}"
 PHYSICS="${2:-$ROOT/content/starter/showcase/office_shipping_crate/office_shipping_crate.scphysics}"

@@ -33,6 +33,7 @@ build.ninja
 .signalcloud_envs/
 content/manifest_cache.json
 content/quarantine/
+/content/core/
 exports/packs/
 release_build/
 reports/
@@ -67,18 +68,16 @@ workload_registry.udata
 *.log
 *.out
 *.trace
-core
-core.*
+/core
+/core.*
 .DS_Store
 Thumbs.db
 
 # Internal SignalCloud phase and development history
-/ALPHA_*_INSTALLED.txt
 /ALPHA_*_TEST_REPORT.md
 /ISL_PLUS_BRANCH.txt
 /new ideas.md
 /3D Showcase Tool.md
-/docs/alpha/
 /phase reports/
 /legacy/
 
@@ -87,4 +86,3 @@ Thumbs.db
 /PUBLIC_SOURCE_AUDIT.md
 /PUBLIC_SOURCE_MANIFEST.sha256
 /SignalCloud-Engine_*_VALIDATION_REPORT.md
-/RELEASE_NOTES_v*.md

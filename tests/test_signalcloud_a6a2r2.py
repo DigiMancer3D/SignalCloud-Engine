@@ -45,7 +45,7 @@ class SignalCloudA6A2R2Tests(unittest.TestCase):
 
     def test_phase_marker_and_report_exist(self) -> None:
         self.assertTrue((ROOT / "ALPHA_A6A2R2_INSTALLED.txt").is_file())
-        report = ROOT / "phase reports/ALMOND_SIGNAL_ALPHA_A6a2r2_SCUI_AR_BILLBOARD_VISUAL_ALIGNMENT.md"
+        report = ROOT / "docs/alpha/A6A2R2_SCUI_AR_BILLBOARD_VISUAL_ALIGNMENT.md"
         self.assertTrue(report.is_file())
         self.assertGreater(len(report.read_text()), 2500)
 

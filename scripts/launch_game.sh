@@ -13,6 +13,8 @@ if [[ -n "$POINTS" && ! "$POINTS" =~ ^[0-9]+$ ]]; then
   exit 2
 fi
 
+sc_ensure_portable_core
+
 if ! "$ROOT/scripts/compile_illuminosity_runtime.sh"; then
   echo "Illuminosity light compilation failed; the native game was not launched." >&2
   exit 3

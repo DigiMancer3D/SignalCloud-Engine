@@ -15,31 +15,6 @@ This is a real alpha, not a finished game. Expect rough edges, evolving file
 formats, Linux-focused setup, and internal names inherited from the development
 track.
 
-
-## Real Engine-Native Stress Test [CLIP]
-
-[![SignalCloud Engine running a real engine-native stress test inside the game-engine environment](https://img.youtube.com/vi/Jx4jBY5dJS4/hqdefault.jpg)](https://youtu.be/Jx4jBY5dJS4)
-
-**[Watch the SignalCloud Engine stress-test clip on YouTube](https://youtu.be/Jx4jBY5dJS4)**
-
-This clip shows SignalCloud Engine undergoing a real engine-native stress test inside the actual game-engine runtime environment rather than a separate simulated benchmark.
-
-The stress-test system exercises live point-cloud rendering, engine workloads, performance telemetry, and machine-profile validation while the engine is running.
-
-> **Public alpha footage:** Visuals, performance behavior, tools, and interfaces may change during continued development.
-
----
-
-## Full Video Stress Test Demonstration
-
-See SignalCloud Engine running in a real development and testing session:
-
-[![Watch the SignalCloud Engine demonstration](https://img.youtube.com/vi/0ndjIrWWWG0/hqdefault.jpg)](https://www.youtube.com/watch?v=0ndjIrWWWG0&t=84s)
-
-**[Watch the SignalCloud Engine demonstration starting at 1:24](https://www.youtube.com/watch?v=0ndjIrWWWG0&t=84s)**
-
-> This[Watch the SignalCloud Engine demonstration starting at  video shows a development build. Interfaces, performance, assets, and behavior may change during the public-alpha period.
-
 ## What is included
 
 - C++20 point-cloud runtime and SDL3/OpenGL applications
@@ -160,3 +135,8 @@ upstream licenses.
 ## Project owner
 
 Created and directed by **DigiMancer3D**.
+
+
+## Portable core builder
+
+A public clone generates its privacy-safe `content/core` locally. Run `./scripts/build_core.sh`, or use the normal setup/launch scripts, which invoke it automatically. See `docs/PORTABLE_CORE_BUILDER.md`.

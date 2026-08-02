@@ -1,8 +1,5 @@
 {
-  "schema_version": 1,
-  "phase": "A10a2",
-  "public_version": "v0.1.0-alpha.1",
-  "public_root_name": "SignalCloud-Engine",
+  "advisory_paths": [],
   "excluded_directories": [
     ".git",
     ".hg",
@@ -39,6 +36,7 @@
     "save",
     "profiles",
     "content/quarantine",
+    "content/core",
     "exports/packs",
     "release_build",
     "arch",
@@ -96,6 +94,9 @@
     ".DS_Store",
     "Thumbs.db"
   ],
+  "phase": "A10a2",
+  "public_root_name": "SignalCloud-Engine",
+  "public_version": "v0.1.0-alpha.1",
   "required_public_documents": [
     "README.md",
     "INSTALL.md",
@@ -111,10 +112,9 @@
     "KNOWN_LIMITATIONS.md",
     "RELEASE_INTEGRITY.md"
   ],
+  "schema_version": 1,
   "strict_required_documents": [
     "LICENSE",
-    "LICENSES/CC0-1.0.txt",
-    "content/starter/LICENSE.md"
-  ],
-  "advisory_paths": []
+    "LICENSES/CC0-1.0.txt"
+  ]
 }

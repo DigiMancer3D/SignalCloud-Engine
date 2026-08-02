@@ -43,7 +43,8 @@ SUPPORTED_EXTENSIONS: dict[str, tuple[str, str]] = {
     ".tupd": ("tupd_recipe", "items"),
     ".tupdinstance": ("tupd_instance", "items"),
 }
-IGNORED_NAMES = {"manifest.csv", "manifest_cache.json", "manifest_v2.json", "VALIDATION_REPORT.md"}
+IGNORED_NAMES = {
+    "LICENSE.md","manifest.csv", "manifest_cache.json", "manifest_v2.json", "VALIDATION_REPORT.md"}
 TEXT_LIMIT = 8 * 1024 * 1024
 QUOTED_POSIX_ABSOLUTE = re.compile(r'(?P<quote>["\'])(?P<path>/(?:home|Users)/.*?)(?P=quote)')
 QUOTED_WINDOWS_ABSOLUTE = re.compile(r'(?P<quote>["\'])(?P<path>[A-Za-z]:\\.*?)(?P=quote)')

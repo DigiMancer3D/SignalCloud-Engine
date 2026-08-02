@@ -22,6 +22,7 @@ class SignalCloudA10ReleaseTests(unittest.TestCase):
         for name in (
             "README.md", "INSTALL.md", "CHANGELOG.md", "RELEASE_NOTES_v0.1.0-alpha.1.md",
             "CONTRIBUTING.md", "SECURITY.md", "CODE_OF_CONDUCT.md", "THIRD_PARTY_NOTICES.md",
+            "CONTENT_LICENSES.md", "SUPPORT.md", "KNOWN_LIMITATIONS.md", "RELEASE_INTEGRITY.md",
             "PUBLIC_RELEASE_LICENSE_DECISION.md",
         ):
             (source / name).write_text(f"# {name}\n", encoding="utf-8")
@@ -90,7 +91,7 @@ class SignalCloudA10ReleaseTests(unittest.TestCase):
             )
             private_root = str(source.resolve())
             (source / "tools/example.py").write_text(
-                f"ROOT = {private_root!r}\nHOME = '${HOME}/work'\n",
+                f"ROOT = {private_root!r}\nHOME = '${{HOME}}/work'\n",
                 encoding="utf-8",
             )
             (source / "reports/private.log").write_text("private\n", encoding="utf-8")
@@ -102,7 +103,6 @@ class SignalCloudA10ReleaseTests(unittest.TestCase):
             stage = Path(output_name) / "SignalCloud-Engine"
             text = (stage / "tools/example.py").read_text(encoding="utf-8")
             self.assertNotIn(private_root, text)
-            self.assertNotIn("${HOME}", text)
             self.assertIn("<PROJECT_ROOT>", text)
             self.assertIn("${HOME}", text)
             self.assertFalse((stage / "reports").exists())
