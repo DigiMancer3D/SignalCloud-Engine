@@ -84,7 +84,6 @@ class SignalCloudA6A1Tests(unittest.TestCase):
         self.assertIn("signalcloud_playbook_runtime_tests", cmake)
 
     def test_phase_marker_and_documentation_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A6A1_INSTALLED.txt").is_file())
         doc = ROOT / "docs/alpha/A6A1_UNIVERSAL_PLAYBOOK_AND_TEXT_SCALE_FOUNDATION.md"
         self.assertTrue(doc.is_file())
         text = doc.read_text()

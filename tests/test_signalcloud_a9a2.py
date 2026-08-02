@@ -27,7 +27,6 @@ ROOT = Path(__file__).resolve().parents[1]
 class SignalCloudA9A2Tests(unittest.TestCase):
     def test_phase_marker_rule_policy_and_document_exist(self) -> None:
         paths = (
-            ROOT / "ALPHA_A9A2_INSTALLED.txt",
             ROOT / "docs/alpha/A9A2_WATCHDOG_AND_INTERRUPTED_RUN_RECOVERY.md",
             ROOT / "config/native_stress_watchdog.json",
             ROOT / "content/core/rules/a9a2_watchdog_interrupted_recovery.udata",

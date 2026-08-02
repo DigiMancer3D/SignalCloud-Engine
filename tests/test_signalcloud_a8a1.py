@@ -159,7 +159,6 @@ class SignalCloudA8A1Tests(unittest.TestCase):
         self.assertIn("narrow overlay geometry contract", warning_test)
         starter_gate = (ROOT / "scripts/validate_showcase_starters.sh").read_text(encoding="utf-8")
         self.assertIn("(80, 80, 0, 0)", starter_gate)
-        self.assertTrue((ROOT / "ALPHA_A8A1_INSTALLED.txt").is_file())
         doc = ROOT / "docs/alpha/A8A1_TUPD_AUTHORING_KERNEL_FOUNDATION.md"
         self.assertTrue(doc.is_file())
         text = doc.read_text(encoding="utf-8").lower()

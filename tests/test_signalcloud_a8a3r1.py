@@ -42,14 +42,12 @@ class SignalCloudA8A3R1Tests(unittest.TestCase):
         self.assertIn("camera-overlay placement remains", source.lower())
 
     def test_revision_marker_and_handoff_exist(self) -> None:
-        marker = ROOT / "ALPHA_A8A3R1_INSTALLED.txt"
         handoff = ROOT / "docs/alpha/A8A3R1_TUPD_VISUAL_USABILITY_REPAIR.md"
         rule = ROOT / "content/core/rules/a8a3r1_tupd_visual_usability_repair.udata"
-        self.assertTrue(marker.is_file())
         self.assertTrue(handoff.is_file())
         self.assertTrue(rule.is_file())
         self.assertTrue(Path(str(rule) + ".asset.udata").is_file())
-        text = (marker.read_text(encoding="utf-8") + handoff.read_text(encoding="utf-8") + rule.read_text(encoding="utf-8")).lower()
+        text = (handoff.read_text(encoding="utf-8") + rule.read_text(encoding="utf-8")).lower()
         for phrase in ("responsive", "world-space", "graph", "normal save", "a9"):
             self.assertIn(phrase, text)
 

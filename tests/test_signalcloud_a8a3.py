@@ -126,13 +126,12 @@ class SignalCloudA8A3Tests(unittest.TestCase):
             self.assertIn(token, header.lower())
 
     def test_a8_closure_docs_rule_and_native_gate_exist(self) -> None:
-        marker = ROOT / "ALPHA_A8A3_INSTALLED.txt"
         alpha = ROOT / "docs/alpha/A8A3_TUPD_GRAPH_AUTHORING_CLOSURE.md"
         guide = ROOT / "docs/help/TUPD_A8_AUTHORING_GUIDE.md"
         rule = ROOT / "content/core/rules/a8a3_tupd_graph_authoring_closure.udata"
-        for path in (marker, alpha, guide, rule, Path(str(rule) + ".asset.udata")):
+        for path in (alpha, guide, rule, Path(str(rule) + ".asset.udata")):
             self.assertTrue(path.is_file(), path)
-        text = (marker.read_text() + alpha.read_text() + guide.read_text()).lower()
+        text = (alpha.read_text() + guide.read_text()).lower()
         for phrase in (
             "a8 authoring track", "graph", "exploded", "normal save",
             "machine stress tester", "automatic profile promotion",

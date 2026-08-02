@@ -74,6 +74,7 @@ workload_registry.udata
 Thumbs.db
 
 # Internal SignalCloud phase and development history
+/ALPHA_*_INSTALLED.txt
 /ALPHA_*_TEST_REPORT.md
 /ISL_PLUS_BRANCH.txt
 /new ideas.md

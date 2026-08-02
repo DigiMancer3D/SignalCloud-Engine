@@ -15,11 +15,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class SignalCloudA9A1R2Tests(unittest.TestCase):
     def test_phase_marker_and_results_path_repair_document_exist(self) -> None:
-        marker = ROOT / "ALPHA_A9A1R2_INSTALLED.txt"
         document = ROOT / "docs/alpha/A9A1R2_STRESS_RESULTS_PATH_AND_RECEIPT_REPAIR.md"
-        self.assertTrue(marker.is_file())
         self.assertTrue(document.is_file())
-        combined = (marker.read_text(encoding="utf-8") + document.read_text(encoding="utf-8")).lower()
+        combined = document.read_text(encoding="utf-8").lower()
         for phrase in (
             "quoted path", "latest-result pointer", "result folder", "promotion receipt", "a9a2",
         ):

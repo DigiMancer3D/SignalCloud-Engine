@@ -115,7 +115,6 @@ class SignalCloudA7A2R1Tests(unittest.TestCase):
         self.assertIn('tools/asset_doctor/asset_doctor.py "$ROOT" --repair-paths', source)
 
     def test_phase_marker_and_completion_document_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A7A2R1_INSTALLED.txt").is_file())
         document = ROOT / "docs/alpha/A7A2R1_SHOWCASE_MOTION_COMPLETION.md"
         self.assertTrue(document.is_file())
         text = document.read_text(encoding="utf-8").lower()

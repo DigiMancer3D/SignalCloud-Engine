@@ -11,11 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class SignalCloudA9A1R1Tests(unittest.TestCase):
     def test_phase_marker_and_repair_document_exist(self) -> None:
-        marker = ROOT / "ALPHA_A9A1R1_INSTALLED.txt"
         document = ROOT / "docs/alpha/A9A1R1_STRESS_FONT_AND_PROFILE_PROMOTION_REPAIR.md"
-        self.assertTrue(marker.is_file())
         self.assertTrue(document.is_file())
-        combined = (marker.read_text(encoding="utf-8") + document.read_text(encoding="utf-8")).lower()
+        combined = document.read_text(encoding="utf-8").lower()
         for phrase in (
             "stress scfont", "recovered signal void", "official + promote",
             "target-specific", "active profile target", "a9a2",

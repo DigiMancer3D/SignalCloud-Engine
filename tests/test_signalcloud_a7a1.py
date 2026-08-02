@@ -190,7 +190,6 @@ class SignalCloudA7A1Tests(unittest.TestCase):
         self.assertIn("validate_showcase_starters.sh", selftests)
 
     def test_phase_marker_and_documentation_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A7A1_INSTALLED.txt").is_file())
         document = ROOT / "docs/alpha/A7A1_3D_ENVIRONMENT_PHYSICS_SHOWCASE_FOUNDATION.md"
         self.assertTrue(document.is_file())
         text = document.read_text(encoding="utf-8")
