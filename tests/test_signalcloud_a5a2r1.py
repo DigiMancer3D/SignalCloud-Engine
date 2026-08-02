@@ -39,6 +39,7 @@ class SignalCloudA5A2R1Tests(unittest.TestCase):
             scripts.mkdir(parents=True)
             shutil.copy2(ROOT / "scripts/setup_dev_environment.sh", scripts)
             shutil.copy2(ROOT / "scripts/common_paths.sh", scripts)
+            shutil.copy2(ROOT / "scripts/build_core.sh", scripts)
 
             for name in (
                 "compile_illuminosity_runtime.sh",

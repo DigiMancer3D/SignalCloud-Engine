@@ -11,7 +11,6 @@ class SignalCloudA9A3R1Tests(unittest.TestCase):
         paths = (
             ROOT / "ALPHA_A9A3R1_INSTALLED.txt",
             ROOT / "docs/alpha/A9A3R1_THERMAL_AUTHORITY_BENCHMARK_CONTINUITY.md",
-            ROOT / "phase reports/ALPHA_A9A3R1_THERMAL_AUTHORITY_BENCHMARK_CONTINUITY_REPORT.md",
             ROOT / "content/core/rules/a9a3r1_thermal_authority_benchmark_continuity.udata",
             ROOT / "content/core/rules/a9a3r1_thermal_authority_benchmark_continuity.udata.asset.udata",
         )

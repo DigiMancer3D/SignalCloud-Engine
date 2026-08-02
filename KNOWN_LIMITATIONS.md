@@ -20,5 +20,10 @@ being integrated.
   asset's license before publishing a pack or fork.
 - Public source checksums provide integrity evidence, not identity signing. See
   `RELEASE_INTEGRITY.md`.
+- The recovered public editable legacy SCFONT does not contain every layer from
+  the original custom multi-layer font. The portable core builder generates a
+  valid runtime fallback, but the original custom glyph artwork must be rebuilt
+  or restored separately. User-authored replacement fonts should be stored 
+  outside generated `content/core`.
 
 Reproducible defects are welcome through the repository issue templates.

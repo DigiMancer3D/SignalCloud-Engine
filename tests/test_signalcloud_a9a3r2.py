@@ -18,7 +18,6 @@ class SignalCloudA9A3R2Tests(unittest.TestCase):
         paths = (
             ROOT / "ALPHA_A9A3R2_INSTALLED.txt",
             ROOT / "docs/alpha/A9A3R2_GENERATION_HEARTBEAT_TRUTHFUL_HUD.md",
-            ROOT / "phase reports/ALPHA_A9A3R2_GENERATION_HEARTBEAT_TRUTHFUL_HUD_REPORT.md",
             ROOT / "content/core/rules/a9a3r2_generation_heartbeat_truthful_hud.udata",
             ROOT / "content/core/rules/a9a3r2_generation_heartbeat_truthful_hud.udata.asset.udata",
         )

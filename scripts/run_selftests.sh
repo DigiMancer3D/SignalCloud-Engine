@@ -18,6 +18,8 @@ find "$ROOT" -type f \( -name "*.pyc" -o -name "*.pyo" \) -delete
 PYTHON="$SC_PYTHON"
 [[ -x "$PYTHON" ]] || PYTHON="$(command -v python3)"
 
+sc_ensure_portable_core
+
 "$ROOT/scripts/compile_illuminosity_runtime.sh"
 "$ROOT/scripts/compile_material_runtime.sh"
 "$ROOT/scripts/compile_audio_interference_runtime.sh"
@@ -38,8 +40,8 @@ rm -f "$ROOT/user_data/studio/a4a3_selftest_export.sclight"
 "$PYTHON" tools/stress_workload_registry.py "$ROOT"
 sc_prepare_cmake_build_dir "$ROOT" "$ROOT/build-core" Ninja
 cmake -S . -B build-core -G Ninja -DCMAKE_BUILD_TYPE=Debug -DSC_BUILD_GUI=OFF
-cmake --build build-core --parallel
-ctest --test-dir build-core --output-on-failure
+cmake --build build-core --parallel "$SC_BUILD_JOBS"
+ctest --test-dir build-core --output-on-failure -j "$SC_BUILD_JOBS"
 "$ROOT/build-core/signalcloud_illuminosity_bake" "$ROOT"
 "$PYTHON" tools/machine_profile_manager.py "$ROOT" --json > reports/machine_profile_status.json
 "$ROOT/scripts/validate_showcase_starters.sh"

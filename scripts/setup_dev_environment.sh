@@ -51,6 +51,8 @@ if [[ ! -x "$PYTHON" ]]; then
   PYTHON="$(command -v python3)"
 fi
 
+sc_ensure_portable_core
+
 find_sdl_config() {
   find "$1" -type f -name SDL3Config.cmake -print -quit 2>/dev/null || true
 }
@@ -93,7 +95,7 @@ else
   cmake_args+=("-DFETCHCONTENT_BASE_DIR=$SHARED_DEPS/fetch" -DSC_FETCH_SDL3=ON)
 fi
 cmake "${cmake_args[@]}"
-cmake --build build --parallel
+cmake --build build --parallel "$SC_BUILD_JOBS"
 
 if [[ ! -x "$ROOT/build/almond_signal_live_tape" ]]; then
   echo "The native ALMOND SIGNAL executable was not produced."
