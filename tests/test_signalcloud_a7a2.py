@@ -139,7 +139,6 @@ class SignalCloudA7A2Tests(unittest.TestCase):
         self.assertIn("A7a2", source)
 
     def test_phase_marker_and_documentation_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A7A2_INSTALLED.txt").is_file())
         document = ROOT / "docs/alpha/A7A2_SHOWCASE_VISUALIZATION_CATALOG.md"
         self.assertTrue(document.is_file())
         text = document.read_text(encoding="utf-8")

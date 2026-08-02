@@ -12,7 +12,6 @@ ROOT = Path(__file__).resolve().parents[1]
 class SignalCloudA9A2R2Tests(unittest.TestCase):
     def test_phase_marker_document_rule_and_next_boundary_exist(self) -> None:
         paths = (
-            ROOT / "ALPHA_A9A2R2_INSTALLED.txt",
             ROOT / "docs/alpha/A9A2R2_MANIFEST_SIGNATURE_PARITY_REPAIR.md",
             ROOT / "content/core/rules/a9a2r2_manifest_signature_parity_repair.udata",
             ROOT / "content/core/rules/a9a2r2_manifest_signature_parity_repair.udata.asset.udata",

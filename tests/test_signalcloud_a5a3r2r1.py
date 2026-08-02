@@ -14,7 +14,6 @@ RENDERER = ROOT / "engine" / "render" / "point_renderer.cpp"
 
 class SignalCloudA5A3R2R1Tests(unittest.TestCase):
     def test_phase_marker_and_documentation_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A5A3R2R1_INSTALLED.txt").is_file())
         self.assertTrue(
             (ROOT / "docs" / "alpha" / "A5A3R2R1_AUTOMATIC_GLSL_PREFLIGHT_REPAIR.md").is_file()
         )

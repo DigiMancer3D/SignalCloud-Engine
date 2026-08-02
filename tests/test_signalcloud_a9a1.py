@@ -16,7 +16,6 @@ ROOT = Path(__file__).resolve().parents[1]
 class SignalCloudA9A1Tests(unittest.TestCase):
     def test_phase_marker_policy_defaults_docs_and_envelopes_exist(self) -> None:
         paths = (
-            ROOT / "ALPHA_A9A1_INSTALLED.txt",
             ROOT / "docs/alpha/A9A1_MACHINE_PROFILE_FOUNDATION.md",
             ROOT / "config/machine_profile_policy.udata",
             ROOT / "config/stress_tiers.udata",

@@ -44,7 +44,6 @@ class SignalCloudA6A2R2Tests(unittest.TestCase):
         self.assertIn("distance_eased_billboard_placement", game)
 
     def test_phase_marker_and_report_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A6A2R2_INSTALLED.txt").is_file())
         report = ROOT / "docs/alpha/A6A2R2_SCUI_AR_BILLBOARD_VISUAL_ALIGNMENT.md"
         self.assertTrue(report.is_file())
         self.assertGreater(len(report.read_text()), 2500)

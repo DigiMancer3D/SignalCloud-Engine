@@ -33,8 +33,6 @@ class SignalCloudA10ReleaseTests(unittest.TestCase):
 
     def test_phase_markers_policy_documents_and_scripts_exist(self) -> None:
         paths = (
-            ROOT / "ALPHA_A10A1_INSTALLED.txt",
-            ROOT / "ALPHA_A10A2_INSTALLED.txt",
             ROOT / "docs/alpha/A10A1_PUBLIC_SOURCE_AUDIT_RELEASE_STAGING.md",
             ROOT / "docs/alpha/A10A2_PUBLIC_ALPHA_RELEASE_CLOSURE.md",
             ROOT / "docs/developer/PUBLIC_RELEASE_AUDIT_TOOL.md",

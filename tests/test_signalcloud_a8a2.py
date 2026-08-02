@@ -156,7 +156,6 @@ class SignalCloudA8A2Tests(unittest.TestCase):
             self.assertIn(token, game)
 
     def test_phase_marker_quick_start_and_native_gate_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A8A2_INSTALLED.txt").is_file())
         alpha_doc = ROOT / "docs/alpha/A8A2_TUPD_RESULT_INSTANCE_TESTING.md"
         quick = ROOT / "docs/help/TUPD_A8_QUICK_START.md"
         self.assertTrue(alpha_doc.is_file())

@@ -90,7 +90,6 @@ class SignalCloudA5A3R2Tests(unittest.TestCase):
         self.assertIn("font_generation", game)
 
     def test_phase_marker_documentation_and_build_gates_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A5A3R2_INSTALLED.txt").is_file())
         doc = (ROOT / "docs/alpha/A5A3R2_SCFONT_OBLIQUE_PREVIEW_BACKPLATE_CORRECTION.md").read_text(encoding="utf-8")
         for phrase in ("Terminal_00.scfont", "oblique", "prefix", "backplate", "legacy fallback"):
             self.assertIn(phrase, doc)

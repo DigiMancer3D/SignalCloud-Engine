@@ -46,7 +46,6 @@ class SignalCloudA5A3R1Tests(unittest.TestCase):
         self.assertIn("WELCOME", project["author"]["title"])
 
     def test_phase_marker_and_documentation_exist(self) -> None:
-        self.assertTrue((ROOT / "ALPHA_A5A3R1_INSTALLED.txt").is_file())
         doc = (ROOT / "docs/alpha/A5A3R1_PREVIEW_AUDIO_NOTIFICATION_CORRECTION.md").read_text(encoding="utf-8")
         for phrase in ("threshold envelope", "multi-ring", "WELCOME", "Blackhole Portal"):
             self.assertIn(phrase, doc)

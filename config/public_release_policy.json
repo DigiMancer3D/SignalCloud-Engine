@@ -92,7 +92,8 @@
     "core",
     "core.*",
     ".DS_Store",
-    "Thumbs.db"
+    "Thumbs.db",
+    "ALPHA_*_INSTALLED.txt"
   ],
   "phase": "A10a2",
   "public_root_name": "SignalCloud-Engine",

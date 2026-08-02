@@ -14,7 +14,6 @@ ROOT = Path(__file__).resolve().parents[1]
 class SignalCloudA9A3Tests(unittest.TestCase):
     def test_phase_marker_rule_and_closure_document_exist(self) -> None:
         paths = (
-            ROOT / "ALPHA_A9A3_INSTALLED.txt",
             ROOT / "docs/alpha/A9A3_WORKLOAD_MEMORY_THERMAL_CLOSURE.md",
             ROOT / "content/core/rules/a9a3_workload_memory_thermal_closure.udata",
             ROOT / "content/core/rules/a9a3_workload_memory_thermal_closure.udata.asset.udata",
